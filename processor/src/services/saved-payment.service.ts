@@ -128,25 +128,11 @@ export class SavedPaymentService {
   private tokenDetails(consent: Consent, data: any): SavedPayment {
     const token = String(data.token);
     const id = hash(consent.scope + ":" + token);
-    const digits = String(
+    const label = String(
       consent.type === "CREDITCARD"
         ? (data.card_number ?? "")
         : (data.iban ?? ""),
-    )
-      .replace(/[^a-zA-Z0-9]/g, "")
-      .slice(-4);
-    const label =
-      consent.type === "CREDITCARD"
-        ? [
-            String(data.card_brand ?? "Credit/Debit Cards").slice(0, 40),
-            `•••• ${digits}`,
-            data.card_expiry_month && data.card_expiry_year
-              ? `${data.card_expiry_month}/${data.card_expiry_year}`
-              : "",
-          ]
-            .filter(Boolean)
-            .join(" ")
-        : `IBAN •••• ${digits}`;
+    );
     return { id, token, label, createdAt: new Date().toISOString() };
   }
   async rememberRedirect(
