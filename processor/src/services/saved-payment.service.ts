@@ -47,7 +47,6 @@ const hash = (value: string) =>
   createHash("sha256").update(value).digest("hex");
 const statusCode = (error: any) => error?.statusCode ?? error?.status;
 
-/** Provider tokens stay in private Custom Objects; the shopper receives only IDs and masked labels. */
 export class SavedPaymentService {
   constructor(private api: any = projectApiRoot) {}
   private scope(customerId: string, type: string): string {
@@ -150,8 +149,6 @@ export class SavedPaymentService {
         : `IBAN •••• ${digits}`;
     return { id, token, label, createdAt: new Date().toISOString() };
   }
-  // Some 3DS responses return the token only before authentication. Keep it private
-  // until a verified final response for the same TID confirms the payment.
   async rememberRedirect(
     paymentId: string,
     pspReference: string,
@@ -172,11 +169,6 @@ export class SavedPaymentService {
       !consent ||
       consent.pspReference !== pspReference ||
       consent.scope !== this.scope(consent.customerId, consent.type)
-    )
-      return;
-    if (
-      (Number(response.transaction.test_mode) === 1) !==
-      (String((getConfig() as any).novalnet_CREDITCARD_TestMode) === "1")
     )
       return;
     await this.api
@@ -229,12 +221,6 @@ export class SavedPaymentService {
         : !["DIRECT_DEBIT_SEPA", "GUARANTEED_DIRECT_DEBIT_SEPA"].includes(
             actualType,
           )
-    )
-      return;
-    if (
-      (Number(response.transaction.test_mode) === 1) !==
-      (String((getConfig() as any)[`novalnet_${consent.type}_TestMode`]) ===
-        "1")
     )
       return;
     const data = response?.transaction?.payment_data;
