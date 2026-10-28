@@ -64,7 +64,7 @@
     "cancelComment": "Die Transaktion wurde am {{date}} um {{time}} Uhr storniert.",
     "refundComment": "Die Rückerstattung für die TID: {{eventTID}} mit dem Betrag {{formattedAmount}} wurde veranlasst.",
     "refundTidSuffix": " Die neue TID für den erstatteten Betrag lautet: {{refundTID}}.",
-    "creditComment": "Die Gutschrift für die TID ist erfolgreich eingegangen: {{parentTID}} mit dem Betrag {{formattedAmount}} am {{date}} {{time}} erhalten. Bitte prüfen Sie die als BEZAHLT markierten Bestelldetails im Novalnet Admin Portal für die TID: {{transactionID}}.",
+    "creditComment": "Die Gutschrift für die TID: {{parentTID}} in Höhe von {{formattedAmount}} wurde am {{date}} {{time}} erfolgreich verbucht. Neue TID: {{transactionID}} für die Gutschrift.",
     "paymentRemainderComment": "Zahlungserinnerung {{reminderIndex}} wurde an den Kunden gesendet.",
     "collectionSubmissionComment": "Die Transaktion wurde an das Inkassobüro übergeben. Inkasso-Referenz: {{collectionReference}}",
     "chargebackComment": "Chargeback erfolgreich ausgeführt für die TID: {{parentTID}} Betrag: {{formattedAmount}} am {{date}} {{time}}. TID der Folgebuchung: {{eventTID}}.",
