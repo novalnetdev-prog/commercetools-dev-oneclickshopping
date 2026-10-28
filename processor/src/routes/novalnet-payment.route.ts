@@ -50,6 +50,36 @@ export const paymentRoutes = async (
     },
   );
 
+  fastify.post<{ Body: { paymentMethod: string; savedPaymentId: string } }>(
+    "/deleteSavedPayment",
+    {
+      preHandler: [opts.sessionHeaderAuthHook.authenticate()],
+      schema: {
+        body: {
+          type: "object",
+          required: ["paymentMethod", "savedPaymentId"],
+          properties: {
+            paymentMethod: { type: "string", enum: ["CREDITCARD", "DIRECT_DEBIT_SEPA", "GUARANTEED_DIRECT_DEBIT_SEPA"] },
+            savedPaymentId: { type: "string", pattern: "^[a-f0-9]{64}$" },
+          },
+          additionalProperties: false,
+        },
+      },
+    },
+    async (request, reply) => {
+      reply.header("Cache-Control", "no-store");
+      try {
+        await opts.paymentService.deleteSavedPayment(request.body.paymentMethod, request.body.savedPaymentId);
+        return reply.code(204).send();
+      } catch (error) {
+        if (error instanceof CheckoutPaymentError) {
+          return reply.code(400).send({ message: error.message });
+        }
+        throw error;
+      }
+    },
+  );
+
   fastify.post<{
     Body: PaymentRequestSchemaDTO;
     Reply: PaymentResponseSchemaDTO;
