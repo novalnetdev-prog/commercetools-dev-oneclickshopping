@@ -42,6 +42,7 @@ type Consent = {
   pspReference: string;
   pending?: SavedPayment & { tid: string };
   savedId?: string;
+  createdAt?: string;
 };
 const hash = (value: string) =>
   createHash("sha256").update(value).digest("hex");
@@ -106,6 +107,32 @@ export class SavedPaymentService {
     if (!payment) throw new Error("Saved payment is not available.");
     return payment.token;
   }
+  async remove(customerId: string | undefined, type: string, id: string): Promise<void> {
+    if (!customerId || !oneClickEnabled(type)) {
+      throw new Error("Saved payment is not available.");
+    }
+    const key = this.scope(customerId, type);
+    for (let attempt = 0; attempt < 5; attempt++) {
+      const current = await this.get("nn-saved-payments", key);
+      const payments: SavedPayment[] = current?.value?.payments ?? [];
+      if (!payments.some((item) => item.id === id)) return;
+      try {
+        await this.api.customObjects().post({
+          body: {
+            container: "nn-saved-payments", key, version: current.version,
+            value: {
+              ...current.value,
+              payments: payments.filter((item) => item.id !== id),
+              removedIds: { ...current.value.removedIds, [id]: new Date().toISOString() },
+            },
+          },
+        }).execute();
+        return;
+      } catch (error) {
+        if (statusCode(error) !== 409 || attempt === 4) throw error;
+      }
+    }
+  }
   async consent(
     paymentId: string,
     pspReference: string,
@@ -119,6 +146,7 @@ export class SavedPaymentService {
       type,
       scope: this.scope(customerId, type),
       pspReference,
+      createdAt: new Date().toISOString(),
     };
     await this.api
       .customObjects()
@@ -253,6 +281,8 @@ export class SavedPaymentService {
     for (let attempt = 0; attempt < 5; attempt++) {
       const current = await this.get("nn-saved-payments", consent.scope);
       const payments: SavedPayment[] = current?.value?.payments ?? [];
+      const removedAt = current?.value?.removedIds?.[id];
+      if (removedAt && (!consent.createdAt || consent.createdAt <= removedAt)) return;
       if (payments.some((item) => item.id === id)) {
         await markSaved();
         return;
@@ -266,6 +296,7 @@ export class SavedPaymentService {
               key: consent.scope,
               version: current?.version ?? 0,
               value: {
+                ...current?.value,
                 payments: [{ id, token, label, createdAt }, ...payments].slice(
                   0,
                   3,
