@@ -68,7 +68,7 @@
     "paymentRemainderComment": "Zahlungserinnerung {{reminderIndex}} wurde an den Kunden gesendet.",
     "collectionSubmissionComment": "Die Transaktion wurde an das Inkassobüro übergeben. Inkasso-Referenz: {{collectionReference}}",
     "chargebackComment": "Chargeback erfolgreich ausgeführt für die TID: {{parentTID}} Betrag: {{formattedAmount}} am {{date}} {{time}}. TID der Folgebuchung: {{eventTID}}.",
-    "amountUpdateComment": "Transaktion mit TID: {{eventTID}} und Betrag {{formattedAmount}} am {{date}} um {{time}} erfolgreich aktualisiert.",
+    "amountUpdateComment": "Transaktion mit TID: {{eventTID}} und Betrag {{formattedAmount}} wurde am {{date}} um {{time}} erfolgreich aktualisiert.",
     "amountAndDueDateUpdateComment": "Die Transaktion wurde mit dem Betrag {{formattedAmount}} am {{date}} um {{time}} und dem Fälligkeitsdatum aktualisiert {{dueDate}}",
     "dueDateUpdateComment": "Die Transaktion wurde aktualisiert. Neues Fälligkeitsdatum: {{dueDate}}."
   }
