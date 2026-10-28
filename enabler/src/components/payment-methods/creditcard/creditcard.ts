@@ -271,22 +271,7 @@ export class Creditcard extends BaseComponent {
           this.environment,
       });
 
-      if (this.paymentFeatures.savedPaymentId) {
-        const response = await fetch(this.processorUrl + "/directPayment", {
-          method: "POST", headers: {"Content-Type": "application/json", "X-Session-Id": this.sessionId},
-          body: JSON.stringify({paymentMethod: {type: "CREDITCARD", ...this.paymentFeatures.paymentFields},
-            paymentOutcome: PaymentOutcome.AUTHORIZED, lang: this.getLanguage(), path: window.location.origin}),
-        });
-        const data = await response.json();
-        if (!response.ok || String(data?.transactionStatus).toUpperCase() === "FAILURE") {
-          this.onError(data?.transactionStatusText || (this.getLanguage() === "de" ? "Die Zahlung ist fehlgeschlagen." : "Payment failed."), {paymentReference: data?.paymentReference});
-          return;
-        }
-        if (data.txnSecret) { window.location.assign(data.txnSecret); return; }
-        if (data.paymentReference) this.onComplete({isSuccess: true, paymentReference: data.paymentReference});
-        else this.onError(this.getLanguage() === "de" ? "Die Zahlung ist fehlgeschlagen." : "Payment failed.");
-        return;
-      }
+      const savedPaymentId = this.paymentFeatures.savedPaymentId;
 
       const pathLocale =
         window.location.pathname
@@ -300,73 +285,80 @@ export class Creditcard extends BaseComponent {
       const baseSiteUrl =
         url.origin;
 
-      const panhashInput =
-        document.getElementById(
-          "pan_hash",
-        ) as HTMLInputElement | null;
+      let panhash = "";
+      let uniqueId = "";
+      let doRedirect = "";
 
-      const uniqueIdInput =
-        document.getElementById(
-          "unique_id",
-        ) as HTMLInputElement | null;
+      if (!savedPaymentId) {
+        const panhashInput =
+          document.getElementById(
+            "pan_hash",
+          ) as HTMLInputElement | null;
 
-      const doRedirectInput =
-        document.getElementById(
-          "do_redirect",
-        ) as HTMLInputElement | null;
+        const uniqueIdInput =
+          document.getElementById(
+            "unique_id",
+          ) as HTMLInputElement | null;
 
-      let panhash =
-        panhashInput?.value.trim() ??
-        "";
-
-      let uniqueId =
-        uniqueIdInput?.value.trim() ??
-        "";
-
-      let doRedirect =
-        doRedirectInput?.value.trim() ??
-        "";
-
-      if (!panhash || !uniqueId) {
-        const cardData =
-          await this._getPanHash();
+        const doRedirectInput =
+          document.getElementById(
+            "do_redirect",
+          ) as HTMLInputElement | null;
 
         panhash =
-          cardData.hash;
+          panhashInput?.value.trim() ??
+          "";
 
         uniqueId =
-          cardData.unique_id;
+          uniqueIdInput?.value.trim() ??
+          "";
 
         doRedirect =
-          String(
-            cardData.do_redirect ??
-              "",
+          doRedirectInput?.value.trim() ??
+          "";
+
+        if (!panhash || !uniqueId) {
+          const cardData =
+            await this._getPanHash();
+
+          panhash =
+            cardData.hash;
+
+          uniqueId =
+            cardData.unique_id;
+
+          doRedirect =
+            String(
+              cardData.do_redirect ??
+                "",
+            );
+
+          if (panhashInput) {
+            panhashInput.value =
+              panhash;
+          }
+
+          if (uniqueIdInput) {
+            uniqueIdInput.value =
+              uniqueId;
+          }
+
+          if (doRedirectInput) {
+            doRedirectInput.value =
+              doRedirect;
+          }
+        }
+
+        if (!panhash || !uniqueId) {
+          throw new Error(
+            "Credit card tokenization failed. pan_hash or unique_id is missing.",
           );
-
-        if (panhashInput) {
-          panhashInput.value =
-            panhash;
         }
 
-        if (uniqueIdInput) {
-          uniqueIdInput.value =
-            uniqueId;
-        }
-
-        if (doRedirectInput) {
-          doRedirectInput.value =
-            doRedirect;
-        }
-      }
-
-      if (!panhash || !uniqueId) {
-        throw new Error(
-          "Credit card tokenization failed. pan_hash or unique_id is missing.",
-        );
       }
 
       const redirectRequired =
-        this._isRedirectRequired(
+        !savedPaymentId && this._isRedirectRequired(
           doRedirect,
         );
 
@@ -375,17 +367,16 @@ export class Creditcard extends BaseComponent {
         paymentMethod: {
           ...this.paymentFeatures.paymentFields,
           type: "CREDITCARD",
-          panHash:
-            panhash,
-          uniqueId:
+          ...(!savedPaymentId && {
+            panHash: panhash,
             uniqueId,
-          doRedirect:
             doRedirect,
+          }),
         },
         paymentOutcome:
           PaymentOutcome.AUTHORIZED,
         lang:
-          pathLocale ?? "de",
+          savedPaymentId ? this.getLanguage() : pathLocale ?? "de",
         path:
           baseSiteUrl,
       };
