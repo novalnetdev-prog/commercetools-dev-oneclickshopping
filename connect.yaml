@@ -42,7 +42,7 @@ deployAs:
           description: Enter a Tariff ID to match the preferred tariff plan you created at the Novalnet Admin Portal for this project.
           required: true
         - key: NOVALNET_CLIENT_KEY
-          description: Novalnet client key
+          description: The client key is a unique identifier linked to your Novalnet merchant account, required to authenticate client requests, render the secure payment form, and temporarily tokenize sensitive information.
           required: true
         - key: NOVALNET_WEBHOOK_TEST_MODE
           description: Use test mode to test Novalnet webhook. Switch to live mode before setting your shop live to block unauthorized calls from external parties. (1 = Test, 0 = Live)
