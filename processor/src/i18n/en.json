@@ -65,7 +65,7 @@
     "cancelComment": "The transaction has been canceled on {{date}} at {{time}}.",
     "refundComment": "Refund has been initiated for the TID: {{eventTID}} with the amount {{formattedAmount}}.",
     "refundTidSuffix": " New TID: {{refundTID}} for the refunded amount.",
-    "creditComment": "Credit has been successfully received for the TID: {{parentTID}} with amount {{formattedAmount}} on {{date}} {{time}}. Please refer PAID order details in our Novalnet Admin Portal for the TID: {{transactionID}}.",
+    "creditComment": "Credit has been successfully received for the TID: {{parentTID}} with amount of {{formattedAmount}} on {{date}} {{time}} . New TID:{{transactionID}} for the credit.",
     "paymentRemainderComment": "Payment Reminder {{reminderIndex}} has been sent to the customer.",
     "collectionSubmissionComment": "The transaction has been submitted to the collection agency. Collection Reference: {{collectionReference}}",
     "chargebackComment": "Chargeback executed successfully for the TID: {{parentTID}} amount: {{formattedAmount}} on {{date}} {{time}}. The subsequent TID: {{eventTID}}.",
