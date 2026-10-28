@@ -8,11 +8,15 @@ const text = {
     save: "Save for future purchase",
     card: "Add new card details",
     account: "Add new account details",
+    delete: "Delete saved payment",
+    deleteError: "Unable to delete saved payment. Please try again.",
   },
   de: {
     save: "Speichern für zukünftige Einkäufe",
     card: "Neue Kreditkarte hinzufügen",
     account: "Neue Kontodaten hinzufügen",
+    delete: "Gespeicherte Zahlungsdaten löschen",
+    deleteError: "Die gespeicherten Zahlungsdaten konnten nicht gelöscht werden. Bitte versuchen Sie es erneut.",
   },
 };
 export class PaymentFeatures {
@@ -20,6 +24,7 @@ export class PaymentFeatures {
   private checkbox?: HTMLInputElement;
   private newFields: Array<{ element: HTMLElement; display: string }> = [];
   private saveLabel?: HTMLLabelElement;
+  private deleteError?: HTMLElement;
   public business = false;
   get savedPaymentId(): string | undefined {
     return (
@@ -98,7 +103,53 @@ export class PaymentFeatures {
         radio.checked = index === 0;
         radio.addEventListener("change", () => this.toggle());
         label.append(radio, document.createTextNode(` ${payment.label}`));
-        this.radios!.appendChild(label);
+        if (!payment.id) {
+          this.radios!.appendChild(label);
+          return;
+        }
+        const row = document.createElement("div");
+        row.style.display = "flex";
+        row.style.alignItems = "center";
+        row.style.gap = "8px";
+        label.style.flex = "1";
+        const remove = document.createElement("button");
+        remove.type = "button";
+        remove.title = dictionary.delete;
+        remove.setAttribute("aria-label", `${dictionary.delete}: ${payment.label}`);
+        remove.style.cssText = "border:0;background:transparent;cursor:pointer;padding:4px;color:inherit;";
+        remove.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 6h18M9 6V3h6v3M5 6l1 15h12l1-15M10 10v7M14 10v7"/></svg>';
+        remove.addEventListener("click", async (event) => {
+          event.preventDefault();
+          event.stopPropagation();
+          if (remove.disabled) return;
+          remove.disabled = true;
+          this.deleteError?.remove();
+          this.deleteError = undefined;
+          try {
+            const result = await fetch(`${options.processorUrl}/deleteSavedPayment`, {
+              method: "POST",
+              headers: { "Content-Type": "application/json", "X-Session-Id": options.sessionId },
+              body: JSON.stringify({ paymentMethod: options.type, savedPaymentId: payment.id }),
+            });
+            if (!result.ok) throw new Error("Saved payment deletion failed.");
+            const wasSelected = radio.checked;
+            radio.checked = false;
+            row.remove();
+            if (wasSelected) {
+              const next = this.radios!.querySelector<HTMLInputElement>('input[type="radio"]');
+              if (next) next.checked = true;
+            }
+            this.toggle();
+          } catch {
+            remove.disabled = false;
+            this.deleteError = document.createElement("p");
+            this.deleteError.setAttribute("role", "alert");
+            this.deleteError.textContent = dictionary.deleteError;
+            this.radios!.appendChild(this.deleteError);
+          }
+        });
+        row.append(label, remove);
+        this.radios!.appendChild(row);
       });
       options.container.prepend(this.radios);
     }
