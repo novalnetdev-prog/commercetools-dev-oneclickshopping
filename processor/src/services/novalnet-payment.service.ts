@@ -559,6 +559,17 @@ export class NovalnetPaymentService extends AbstractPaymentService {
     };
   }
 
+  public async deleteSavedPayment(type: string, savedPaymentId: string): Promise<void> {
+    if (!["CREDITCARD", "DIRECT_DEBIT_SEPA", "GUARANTEED_DIRECT_DEBIT_SEPA"].includes(type)) {
+      throw new CheckoutPaymentError("Unsupported payment method.");
+    }
+    const cart = await this.ctCartService.getCart({ id: getCartIdFromContext() });
+    if (!cart.customerId || !oneClickEnabled(type)) {
+      throw new CheckoutPaymentError("Saved payment is not available.");
+    }
+    await savedPaymentService.remove(cart.customerId, type, savedPaymentId);
+  }
+
   public async createDirectPayment(
     request: CreatePaymentRequest,
   ): Promise<PaymentResponseSchemaDTO> {
@@ -592,6 +603,7 @@ export class NovalnetPaymentService extends AbstractPaymentService {
       }
     }
 
+    const enforceNewCard3d = !savedToken && String(enforce3d) === "1";
     const dueDateValue = getPaymentDueDate(type, dueDate);
     const lang = String(request.data?.lang ?? "en") as SupportedLocale;
     const orderNumber = getFutureOrderNumberFromContext() ?? "";
@@ -759,7 +771,7 @@ export class NovalnetPaymentService extends AbstractPaymentService {
         ),
       };
 
-      if (String(enforce3d) === "1" || savedToken) {
+      if (enforceNewCard3d) {
         const {
           returnUrl,
           errorReturnUrl
@@ -777,7 +789,7 @@ export class NovalnetPaymentService extends AbstractPaymentService {
             ),
           });
 
-        if (String(enforce3d) === "1") transaction.enforce_3d = 1;
+        if (enforceNewCard3d) transaction.enforce_3d = 1;
 
         transaction.return_url =
           returnUrl;
@@ -893,7 +905,7 @@ export class NovalnetPaymentService extends AbstractPaymentService {
     try { await savedPaymentService.rememberRedirect(ctPayment.id, pspReference, parsedResponse); }
     catch { log.warn("[ONE_CLICK] Pending saved card could not be recorded", {paymentId: ctPayment.id}); }
 
-    if (String(request.data.paymentMethod.type).toUpperCase() === "CREDITCARD" && (String(enforce3d) === "1" || savedToken) && parsedResponse?.result?.redirect_url ) {
+    if (String(request.data.paymentMethod.type).toUpperCase() === "CREDITCARD" && enforceNewCard3d && parsedResponse?.result?.redirect_url ) {
       log.info("enfore 3D", {
         status: parsedResponse?.result?.status,
         statusText: parsedResponse?.result?.status_text,
