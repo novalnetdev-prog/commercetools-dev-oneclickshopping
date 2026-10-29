@@ -1,20 +1,20 @@
 (function(){"use strict";(function(e,r){try{if(typeof document<"u"){var o=document.createElement("style");o.setAttribute("data-ctc-connector-styles","");for(const t in r.attributes)o.setAttribute(t,r.attributes[t]);o.appendChild(document.createTextNode(e)),document.head.appendChild(o)}}catch(t){console.error("vite-plugin-css-injected-by-js",t)}})('._paymentForm_1jvri_36{margin-top:1rem}._row_1jvri_46{display:flex;flex-direction:row;gap:1rem;position:relative}._wrapper_1jvri_40 *{font-family:Roboto,sans-serif;box-sizing:border-box}._twoColumnLayout_1jvri_65{display:flex;flex-flow:row wrap;column-gap:1rem}._twoColumnLayout_1jvri_65>*{flex:1 0 150px}._container_1jvri_74{margin-top:1rem}._container_1jvri_74 iframe{height:3.317rem!important;border:1px solid #949494!important;border-radius:.25rem;padding-left:1rem;width:100%;float:none!important}._container_1jvri_74 ._input_1jvri_85{display:inline-block;position:relative;width:100%;margin-bottom:1rem}._container_1jvri_74 ._error_1jvri_91{color:#d32f2f;font-size:.75rem;padding:0 .75rem .25rem 1rem;position:rela2tive}.is-valid iframe{border:1px solid #949494!important}.is-onfocus iframe{border:2px solid #186ec3!important}.is-onfocus~._error_1jvri_91{display:none}.is-invalid iframe,._inputError_1jvri_111 :not(.is-onfocus) iframe,._inputErrorEmptyText_1jvri_112 iframe{border:2px solid #d32f2f!important}._floatingLabel_1jvri_117{position:absolute;pointer-events:none;left:.8rem;top:1rem;transition:.2s ease all;background-color:#fff;padding:0 .25rem;width:80%}._wrapper_1jvri_40{position:relative;width:100%;margin-bottom:1rem}._cardIcons_1jvri_134{display:none}.is-empty~._cardIcons_1jvri_134{display:block}.is-empty~._floatingCard_1jvri_142{display:none}.is-onfocus~._floatingLabel_1jvri_117,.is-valid~._floatingLabel_1jvri_117,.is-invalid:not(._inputEmpty_1jvri_148)~._floatingLabel_1jvri_117{top:-.5rem;font-size:.75rem;width:auto}.is-valid~._floatingLabel_1jvri_117{color:#949494}.is-onfocus~._floatingLabel_1jvri_117{color:#186ec3}.is-invalid:not(._inputEmpty_1jvri_148)~._floatingLabel_1jvri_117{color:#d32f2f}._inputErrorEmptyText_1jvri_112~._floatingLabel_1jvri_117{color:#000}._floatingCard_1jvri_142{position:absolute!important;pointer-events:none;right:0;top:0;transition:.2s ease all;background-color:#fff;padding:0 .25rem}._subHeading_1jvri_53{color:#5e6368;font-size:.8125rem;margin-top:.125rem;margin-bottom:1.5rem}._alert_1jvri_189{margin:1em 0}._cardRow_1jvri_193{display:flex;gap:.25rem;margin-top:.5rem}._cardIcon_1jvri_134{border:1px solid #d9d9d9;border-radius:.156rem}._hidden_1jvri_204{display:none}:root,:host{--ctc-button: #186ec3;--ctc-button-hover: color-mix(in srgb, var(--ctc-button), black 15%);--ctc-button-disabled: #e0e0e0;--ctc-button-text: #fff;--ctc-button-disabled-text: #a2a3a4}:root,:host{--ctc-radio: #186ec3}:root,:host{--ctc-checkbox: #186ec3}:root,:host{--ctc-input-field-focus: #186ec3}:root,:host{--ctc-font-family: "Roboto", sans-serif}@supports not (background: color-mix(in srgb,red 50%,blue)){:root{--ctc-button-hover: var(--ctc-button)}}._button_1eyp1_41{color:var(--ctc-button-text);padding:.5rem 1.375rem;background-color:var(--ctc-button);border:0 none;border-radius:.25rem;font-size:.9375rem;font-weight:400;font-family:var(--ctc-font-family);text-transform:uppercase;line-height:1.5rem;letter-spacing:.43px;box-shadow:0 2px 2px #00000024,0 3px 1px -2px #0000001f,0 1px 5px #0003;background-position:center;transition:background-color .8s;cursor:pointer}._button_1eyp1_41:hover{background:var(--ctc-button-hover) radial-gradient(circle,transparent 1%,var(--ctc-button-hover) 1%) center/15000%}._button_1eyp1_41:active{background-color:var(--ctc-button-hover);background-size:100%;transition:background-color 0s}._button_1eyp1_41:disabled{color:var(--ctc-button-disabled-text);background-color:var(--ctc-button-disabled);pointer-events:none;box-shadow:none}._button_1eyp1_41:disabled:hover,._button_1eyp1_41:disabled:active{background-color:var(--ctc-button-disabled);cursor:not-allowed}._fullWidth_1eyp1_77{width:100%}._linkButton_1eyp1_81{text-decoration:none;text-transform:unset;background:none;border-bottom:1.5px solid transparent;box-shadow:none;padding:0;border-radius:0;color:var(--ctc-button);font-size:1rem;font-weight:700;line-height:1.188rem;letter-spacing:.009rem}._linkButton_1eyp1_81:hover,._linkButton_1eyp1_81:active{cursor:pointer;border-bottom:1.5px solid var(--ctc-button);background:none}._linkButton_1eyp1_81._disabled_1eyp1_100{color:#a2a3a4;text-decoration:none;cursor:not-allowed;pointer-events:none;background-color:transparent;box-shadow:none}._linkButton_1eyp1_81._disabled_1eyp1_100:hover,._linkButton_1eyp1_81._disabled_1eyp1_100:active{border-bottom:none}._lowOpacityButton_1eyp1_112{background-color:color-mix(in srgb,var(--ctc-button),transparent 30%)}@supports not (background: color-mix(in srgb,red 50%,blue)){._lowOpacityButton_1eyp1_112{background-color:var(--ctc-button);opacity:60%}}._textButton_1eyp1_122{background-color:transparent;color:var(--ctc-button);box-shadow:none;padding:.5rem .6875rem}._textButton_1eyp1_122:hover{background:color-mix(in srgb,var(--ctc-button),transparent 90%) radial-gradient(circle,transparent 1%,color-mix(in srgb,var(--ctc-button),transparent 90%) 1%) center/15000%}._textButton_1eyp1_122:active{background-color:color-mix(in srgb,var(--ctc-button),transparent 90%);background-size:100%;transition:background-color 0s}._textButton_1eyp1_122:focus{background-color:color-mix(in srgb,var(--ctc-button),transparent 90%)}._textButton_1eyp1_122:disabled{background-color:transparent;color:#e0e0e0}._errorButton_1eyp1_144{color:#b52323;background:transparent;border:1px solid transparent;transition:none;box-shadow:none;outline:none}._errorButton_1eyp1_144:hover{background:#fbdada}._errorButton_1eyp1_144:active{border:1px solid #b52323;background:#ffc5c5}._errorButton_1eyp1_144:disabled{background-color:transparent;color:#e0e0e0}',{})})();
 var ht = Object.defineProperty;
 var mt = (r, l, n) => l in r ? ht(r, l, { enumerable: !0, configurable: !0, writable: !0, value: n }) : r[l] = n;
-var g = (r, l, n) => mt(r, typeof l != "symbol" ? l + "" : l, n);
+var w = (r, l, n) => mt(r, typeof l != "symbol" ? l + "" : l, n);
 var D = /* @__PURE__ */ ((r) => (r.applepay = "applepay", r.bancontactcard = "bcmc", r.eps = "eps", r.googlepay = "googlepay", r.ideal = "ideal", r.invoice = "invoice", r.paypal = "paypal", r.prepayment = "prepayment", r.GuaranteedInvoice = "GuaranteedInvoice", r.GuaranteedSepa = "GuaranteedSepa", r.twint = "twint", r.sepa = "sepa", r.ach = "ach", r.creditcard = "creditcard", r.onlinebanktransfer = "onlinebanktransfer", r.alipay = "alipay", r.bancontact = "bancontact", r.blik = "blik", r.mbway = "mbway", r.multibanco = "multibanco", r.postfinance = "postfinance", r.postfinancecard = "postfinancecard", r.przelewy24 = "przelewy24", r.trustly = "trustly", r.wechatpay = "wechatpay", r.pix = "pix", r.boleto = "boleto", r.bizum = "bizum", r.bancomat = "BANCOMATPAY", r.kakaopay = "kakaoPay", r.naverpay = "naverpay", r))(D || {});
-class q {
+class z {
   constructor(l, n, e) {
-    g(this, "paymentMethod");
-    g(this, "sdk");
-    g(this, "processorUrl");
-    g(this, "sessionId");
-    g(this, "environment");
-    g(this, "locale");
-    g(this, "onComplete");
-    g(this, "onError");
-    g(this, "clientKey", "");
-    g(this, "paymentCompleted", !1);
+    w(this, "paymentMethod");
+    w(this, "sdk");
+    w(this, "processorUrl");
+    w(this, "sessionId");
+    w(this, "environment");
+    w(this, "locale");
+    w(this, "onComplete");
+    w(this, "onError");
+    w(this, "clientKey", "");
+    w(this, "paymentCompleted", !1);
     this.paymentMethod = l, this.sdk = n.sdk, this.processorUrl = n.processorUrl, this.sessionId = n.sessionId, this.environment = n.environment, this.locale = n.locale, this.onComplete = n.onComplete, this.onError = n.onError;
   }
   getLanguage() {
@@ -25,13 +25,13 @@ class q {
     this.paymentCompleted || (this.paymentCompleted = !0, this.onComplete(l));
   }
 }
-const bt = "_wrapper_1jvri_40", v = {
+const bt = "_wrapper_1jvri_40", B = {
   wrapper: bt
-}, Tt = "_button_1eyp1_41", wt = "_fullWidth_1eyp1_77", E = {
-  button: Tt,
-  fullWidth: wt
+}, wt = "_button_1eyp1_41", Tt = "_fullWidth_1eyp1_77", C = {
+  button: wt,
+  fullWidth: Tt
 };
-var qe = {}, Ve;
+var ze = {}, Ve;
 function gt() {
   return Ve || (Ve = 1, function(r) {
     Object.defineProperty(r, "__esModule", { value: !0 }), r.Type = r.StandardType = r.ExtendedTypeBuilder = r.StandardTypeBuilder = r.TypeBuilder = r.TemplateLiteralGenerator = r.TemplateLiteralFinite = r.TemplateLiteralParser = r.TemplateLiteralParserError = r.TemplateLiteralResolver = r.TemplateLiteralPattern = r.KeyResolver = r.ObjectMap = r.TypeClone = r.TypeExtends = r.TypeExtendsResult = r.ExtendsUndefined = r.TypeGuard = r.TypeGuardUnknownTypeError = r.FormatRegistry = r.TypeRegistry = r.PatternStringExact = r.PatternNumberExact = r.PatternBooleanExact = r.PatternString = r.PatternNumber = r.PatternBoolean = r.Kind = r.Hint = r.Modifier = void 0, r.Modifier = Symbol.for("TypeBox.Modifier"), r.Hint = Symbol.for("TypeBox.Hint"), r.Kind = Symbol.for("TypeBox.Kind"), r.PatternBoolean = "(true|false)", r.PatternNumber = "(0|[1-9][0-9]*)", r.PatternString = "(.*)", r.PatternBooleanExact = `^${r.PatternBoolean}$`, r.PatternNumberExact = `^${r.PatternNumber}$`, r.PatternStringExact = `^${r.PatternString}$`;
@@ -46,16 +46,16 @@ function gt() {
         return c.clear();
       }
       m.Clear = b;
-      function p(w) {
-        return c.has(w);
+      function p(g) {
+        return c.has(g);
       }
       m.Has = p;
-      function f(w, I) {
-        c.set(w, I);
+      function f(g, U) {
+        c.set(g, U);
       }
       m.Set = f;
-      function T(w) {
-        return c.get(w);
+      function T(g) {
+        return c.get(g);
       }
       m.Get = T;
     })(l = r.TypeRegistry || (r.TypeRegistry = {})), function(m) {
@@ -68,16 +68,16 @@ function gt() {
         return c.clear();
       }
       m.Clear = b;
-      function p(w) {
-        return c.has(w);
+      function p(g) {
+        return c.has(g);
       }
       m.Has = p;
-      function f(w, I) {
-        c.set(w, I);
+      function f(g, U) {
+        c.set(g, U);
       }
       m.Set = f;
-      function T(w) {
-        return c.get(w);
+      function T(g) {
+        return c.get(g);
       }
       m.Get = T;
     }(r.FormatRegistry || (r.FormatRegistry = {}));
@@ -89,239 +89,239 @@ function gt() {
     r.TypeGuardUnknownTypeError = n;
     var e;
     (function(m) {
-      function c(s) {
-        return typeof s == "object" && s !== null && !Array.isArray(s);
+      function c(a) {
+        return typeof a == "object" && a !== null && !Array.isArray(a);
       }
-      function y(s) {
-        return typeof s == "object" && s !== null && Array.isArray(s);
+      function y(a) {
+        return typeof a == "object" && a !== null && Array.isArray(a);
       }
-      function b(s) {
+      function b(a) {
         try {
-          return new RegExp(s), !0;
+          return new RegExp(a), !0;
         } catch {
           return !1;
         }
       }
-      function p(s) {
-        if (typeof s != "string")
+      function p(a) {
+        if (typeof a != "string")
           return !1;
-        for (let Z = 0; Z < s.length; Z++) {
-          const M = s.charCodeAt(Z);
+        for (let Y = 0; Y < a.length; Y++) {
+          const M = a.charCodeAt(Y);
           if (M >= 7 && M <= 13 || M === 27 || M === 127)
             return !1;
         }
         return !0;
       }
-      function f(s) {
-        return typeof s == "bigint";
+      function f(a) {
+        return typeof a == "bigint";
       }
-      function T(s) {
-        return typeof s == "string";
+      function T(a) {
+        return typeof a == "string";
       }
-      function w(s) {
-        return typeof s == "number" && globalThis.Number.isFinite(s);
+      function g(a) {
+        return typeof a == "number" && globalThis.Number.isFinite(a);
       }
-      function I(s) {
-        return typeof s == "boolean";
+      function U(a) {
+        return typeof a == "boolean";
       }
-      function R(s) {
-        return s === void 0 || s !== void 0 && f(s);
+      function N(a) {
+        return a === void 0 || a !== void 0 && f(a);
       }
-      function $(s) {
-        return s === void 0 || s !== void 0 && w(s);
+      function R(a) {
+        return a === void 0 || a !== void 0 && g(a);
       }
-      function z(s) {
-        return s === void 0 || s !== void 0 && I(s);
+      function q(a) {
+        return a === void 0 || a !== void 0 && U(a);
       }
-      function x(s) {
-        return s === void 0 || s !== void 0 && T(s);
+      function $(a) {
+        return a === void 0 || a !== void 0 && T(a);
       }
-      function P(s) {
-        return s === void 0 || s !== void 0 && T(s) && p(s) && b(s);
+      function P(a) {
+        return a === void 0 || a !== void 0 && T(a) && p(a) && b(a);
       }
-      function U(s) {
-        return s === void 0 || s !== void 0 && T(s) && p(s);
+      function L(a) {
+        return a === void 0 || a !== void 0 && T(a) && p(a);
       }
-      function X(s) {
-        return s === void 0 || te(s);
+      function W(a) {
+        return a === void 0 || re(a);
       }
-      function G(s) {
-        return L(s) && s[r.Kind] === "Any" && x(s.$id);
+      function Q(a) {
+        return k(a) && a[r.Kind] === "Any" && $(a.$id);
       }
-      m.TAny = G;
-      function K(s) {
-        return L(s) && s[r.Kind] === "Array" && s.type === "array" && x(s.$id) && te(s.items) && $(s.minItems) && $(s.maxItems) && z(s.uniqueItems);
+      m.TAny = Q;
+      function X(a) {
+        return k(a) && a[r.Kind] === "Array" && a.type === "array" && $(a.$id) && re(a.items) && R(a.minItems) && R(a.maxItems) && q(a.uniqueItems);
       }
-      m.TArray = K;
-      function W(s) {
-        return L(s) && s[r.Kind] === "BigInt" && s.type === "null" && s.typeOf === "BigInt" && x(s.$id) && R(s.multipleOf) && R(s.minimum) && R(s.maximum) && R(s.exclusiveMinimum) && R(s.exclusiveMaximum);
+      m.TArray = X;
+      function Z(a) {
+        return k(a) && a[r.Kind] === "BigInt" && a.type === "null" && a.typeOf === "BigInt" && $(a.$id) && N(a.multipleOf) && N(a.minimum) && N(a.maximum) && N(a.exclusiveMinimum) && N(a.exclusiveMaximum);
       }
-      m.TBigInt = W;
-      function V(s) {
-        return L(s) && s[r.Kind] === "Boolean" && s.type === "boolean" && x(s.$id);
+      m.TBigInt = Z;
+      function G(a) {
+        return k(a) && a[r.Kind] === "Boolean" && a.type === "boolean" && $(a.$id);
       }
-      m.TBoolean = V;
-      function J(s) {
-        if (!(L(s) && s[r.Kind] === "Constructor" && s.type === "object" && s.instanceOf === "Constructor" && x(s.$id) && y(s.parameters) && te(s.returns)))
+      m.TBoolean = G;
+      function V(a) {
+        if (!(k(a) && a[r.Kind] === "Constructor" && a.type === "object" && a.instanceOf === "Constructor" && $(a.$id) && y(a.parameters) && re(a.returns)))
           return !1;
-        for (const Z of s.parameters)
-          if (!te(Z))
+        for (const Y of a.parameters)
+          if (!re(Y))
             return !1;
         return !0;
       }
-      m.TConstructor = J;
-      function ge(s) {
-        return L(s) && s[r.Kind] === "Date" && s.type === "object" && s.instanceOf === "Date" && x(s.$id) && $(s.minimumTimestamp) && $(s.maximumTimestamp) && $(s.exclusiveMinimumTimestamp) && $(s.exclusiveMaximumTimestamp);
+      m.TConstructor = V;
+      function Se(a) {
+        return k(a) && a[r.Kind] === "Date" && a.type === "object" && a.instanceOf === "Date" && $(a.$id) && R(a.minimumTimestamp) && R(a.maximumTimestamp) && R(a.exclusiveMinimumTimestamp) && R(a.exclusiveMaximumTimestamp);
       }
-      m.TDate = ge;
-      function Se(s) {
-        if (!(L(s) && s[r.Kind] === "Function" && s.type === "object" && s.instanceOf === "Function" && x(s.$id) && y(s.parameters) && te(s.returns)))
+      m.TDate = Se;
+      function Pe(a) {
+        if (!(k(a) && a[r.Kind] === "Function" && a.type === "object" && a.instanceOf === "Function" && $(a.$id) && y(a.parameters) && re(a.returns)))
           return !1;
-        for (const Z of s.parameters)
-          if (!te(Z))
+        for (const Y of a.parameters)
+          if (!re(Y))
             return !1;
         return !0;
       }
-      m.TFunction = Se;
-      function fe(s) {
-        return L(s) && s[r.Kind] === "Integer" && s.type === "integer" && x(s.$id) && $(s.multipleOf) && $(s.minimum) && $(s.maximum) && $(s.exclusiveMinimum) && $(s.exclusiveMaximum);
+      m.TFunction = Pe;
+      function fe(a) {
+        return k(a) && a[r.Kind] === "Integer" && a.type === "integer" && $(a.$id) && R(a.multipleOf) && R(a.minimum) && R(a.maximum) && R(a.exclusiveMinimum) && R(a.exclusiveMaximum);
       }
       m.TInteger = fe;
-      function Pe(s) {
-        if (!(L(s) && s[r.Kind] === "Intersect" && y(s.allOf) && x(s.type) && (z(s.unevaluatedProperties) || X(s.unevaluatedProperties)) && x(s.$id)) || "type" in s && s.type !== "object")
+      function ve(a) {
+        if (!(k(a) && a[r.Kind] === "Intersect" && y(a.allOf) && $(a.type) && (q(a.unevaluatedProperties) || W(a.unevaluatedProperties)) && $(a.$id)) || "type" in a && a.type !== "object")
           return !1;
-        for (const Z of s.allOf)
-          if (!te(Z))
+        for (const Y of a.allOf)
+          if (!re(Y))
             return !1;
         return !0;
       }
-      m.TIntersect = Pe;
-      function L(s) {
-        return c(s) && r.Kind in s && typeof s[r.Kind] == "string";
+      m.TIntersect = ve;
+      function k(a) {
+        return c(a) && r.Kind in a && typeof a[r.Kind] == "string";
       }
-      m.TKind = L;
-      function le(s) {
-        return L(s) && s[r.Kind] === "Literal" && x(s.$id) && (T(s.const) || w(s.const) || I(s.const) || f(s.const));
+      m.TKind = k;
+      function le(a) {
+        return k(a) && a[r.Kind] === "Literal" && $(a.$id) && (T(a.const) || g(a.const) || U(a.const) || f(a.const));
       }
       m.TLiteral = le;
-      function pe(s) {
-        return L(s) && s[r.Kind] === "Never" && c(s.not) && globalThis.Object.getOwnPropertyNames(s.not).length === 0;
+      function pe(a) {
+        return k(a) && a[r.Kind] === "Never" && c(a.not) && globalThis.Object.getOwnPropertyNames(a.not).length === 0;
       }
       m.TNever = pe;
-      function de(s) {
-        return L(s) && s[r.Kind] === "Not" && y(s.allOf) && s.allOf.length === 2 && c(s.allOf[0]) && te(s.allOf[0].not) && te(s.allOf[1]);
+      function de(a) {
+        return k(a) && a[r.Kind] === "Not" && y(a.allOf) && a.allOf.length === 2 && c(a.allOf[0]) && re(a.allOf[0].not) && re(a.allOf[1]);
       }
       m.TNot = de;
-      function he(s) {
-        return L(s) && s[r.Kind] === "Null" && s.type === "null" && x(s.$id);
+      function he(a) {
+        return k(a) && a[r.Kind] === "Null" && a.type === "null" && $(a.$id);
       }
       m.TNull = he;
-      function ve(s) {
-        return L(s) && s[r.Kind] === "Number" && s.type === "number" && x(s.$id) && $(s.multipleOf) && $(s.minimum) && $(s.maximum) && $(s.exclusiveMinimum) && $(s.exclusiveMaximum);
+      function Ee(a) {
+        return k(a) && a[r.Kind] === "Number" && a.type === "number" && $(a.$id) && R(a.multipleOf) && R(a.minimum) && R(a.maximum) && R(a.exclusiveMinimum) && R(a.exclusiveMaximum);
       }
-      m.TNumber = ve;
-      function Ee(s) {
-        if (!(L(s) && s[r.Kind] === "Object" && s.type === "object" && x(s.$id) && c(s.properties) && (z(s.additionalProperties) || X(s.additionalProperties)) && $(s.minProperties) && $(s.maxProperties)))
+      m.TNumber = Ee;
+      function Be(a) {
+        if (!(k(a) && a[r.Kind] === "Object" && a.type === "object" && $(a.$id) && c(a.properties) && (q(a.additionalProperties) || W(a.additionalProperties)) && R(a.minProperties) && R(a.maxProperties)))
           return !1;
-        for (const [Z, M] of Object.entries(s.properties))
-          if (!p(Z) || !te(M))
+        for (const [Y, M] of Object.entries(a.properties))
+          if (!p(Y) || !re(M))
             return !1;
         return !0;
       }
-      m.TObject = Ee;
-      function Be(s) {
-        return L(s) && s[r.Kind] === "Promise" && s.type === "object" && s.instanceOf === "Promise" && x(s.$id) && te(s.item);
+      m.TObject = Be;
+      function Ce(a) {
+        return k(a) && a[r.Kind] === "Promise" && a.type === "object" && a.instanceOf === "Promise" && $(a.$id) && re(a.item);
       }
-      m.TPromise = Be;
-      function Ce(s) {
-        if (!(L(s) && s[r.Kind] === "Record" && s.type === "object" && x(s.$id) && s.additionalProperties === !1 && c(s.patternProperties)))
+      m.TPromise = Ce;
+      function Ie(a) {
+        if (!(k(a) && a[r.Kind] === "Record" && a.type === "object" && $(a.$id) && a.additionalProperties === !1 && c(a.patternProperties)))
           return !1;
-        const Z = Object.keys(s.patternProperties);
-        return !(Z.length !== 1 || !b(Z[0]) || !te(s.patternProperties[Z[0]]));
+        const Y = Object.keys(a.patternProperties);
+        return !(Y.length !== 1 || !b(Y[0]) || !re(a.patternProperties[Y[0]]));
       }
-      m.TRecord = Ce;
-      function Ie(s) {
-        return L(s) && s[r.Kind] === "Ref" && x(s.$id) && T(s.$ref);
+      m.TRecord = Ie;
+      function Ue(a) {
+        return k(a) && a[r.Kind] === "Ref" && $(a.$id) && T(a.$ref);
       }
-      m.TRef = Ie;
-      function ae(s) {
-        return L(s) && s[r.Kind] === "String" && s.type === "string" && x(s.$id) && $(s.minLength) && $(s.maxLength) && P(s.pattern) && U(s.format);
+      m.TRef = Ue;
+      function ae(a) {
+        return k(a) && a[r.Kind] === "String" && a.type === "string" && $(a.$id) && R(a.minLength) && R(a.maxLength) && P(a.pattern) && L(a.format);
       }
       m.TString = ae;
-      function Ue(s) {
-        return L(s) && s[r.Kind] === "Symbol" && s.type === "null" && s.typeOf === "Symbol" && x(s.$id);
+      function Le(a) {
+        return k(a) && a[r.Kind] === "Symbol" && a.type === "null" && a.typeOf === "Symbol" && $(a.$id);
       }
-      m.TSymbol = Ue;
-      function me(s) {
-        return L(s) && s[r.Kind] === "TemplateLiteral" && s.type === "string" && T(s.pattern) && s.pattern[0] === "^" && s.pattern[s.pattern.length - 1] === "$";
+      m.TSymbol = Le;
+      function me(a) {
+        return k(a) && a[r.Kind] === "TemplateLiteral" && a.type === "string" && T(a.pattern) && a.pattern[0] === "^" && a.pattern[a.pattern.length - 1] === "$";
       }
       m.TTemplateLiteral = me;
-      function Q(s) {
-        return L(s) && s[r.Kind] === "This" && x(s.$id) && T(s.$ref);
+      function ee(a) {
+        return k(a) && a[r.Kind] === "This" && $(a.$id) && T(a.$ref);
       }
-      m.TThis = Q;
-      function Le(s) {
-        if (!(L(s) && s[r.Kind] === "Tuple" && s.type === "array" && x(s.$id) && w(s.minItems) && w(s.maxItems) && s.minItems === s.maxItems))
+      m.TThis = ee;
+      function ke(a) {
+        if (!(k(a) && a[r.Kind] === "Tuple" && a.type === "array" && $(a.$id) && g(a.minItems) && g(a.maxItems) && a.minItems === a.maxItems))
           return !1;
-        if (s.items === void 0 && s.additionalItems === void 0 && s.minItems === 0)
+        if (a.items === void 0 && a.additionalItems === void 0 && a.minItems === 0)
           return !0;
-        if (!y(s.items))
+        if (!y(a.items))
           return !1;
-        for (const Z of s.items)
-          if (!te(Z))
+        for (const Y of a.items)
+          if (!re(Y))
             return !1;
         return !0;
       }
-      m.TTuple = Le;
-      function ke(s) {
-        return L(s) && s[r.Kind] === "Undefined" && s.type === "null" && s.typeOf === "Undefined" && x(s.$id);
+      m.TTuple = ke;
+      function Oe(a) {
+        return k(a) && a[r.Kind] === "Undefined" && a.type === "null" && a.typeOf === "Undefined" && $(a.$id);
       }
-      m.TUndefined = ke;
-      function ue(s) {
-        if (!(L(s) && s[r.Kind] === "Union" && y(s.anyOf) && x(s.$id)))
+      m.TUndefined = Oe;
+      function ue(a) {
+        if (!(k(a) && a[r.Kind] === "Union" && y(a.anyOf) && $(a.$id)))
           return !1;
-        for (const Z of s.anyOf)
-          if (!te(Z))
+        for (const Y of a.anyOf)
+          if (!re(Y))
             return !1;
         return !0;
       }
       m.TUnion = ue;
-      function be(s) {
-        return ue(s) && s.anyOf.every((Z) => le(Z) && typeof Z.const == "string");
+      function be(a) {
+        return ue(a) && a.anyOf.every((Y) => le(Y) && typeof Y.const == "string");
       }
       m.TUnionLiteral = be;
-      function ie(s) {
-        return L(s) && s[r.Kind] === "Uint8Array" && s.type === "object" && x(s.$id) && s.instanceOf === "Uint8Array" && $(s.minByteLength) && $(s.maxByteLength);
+      function ie(a) {
+        return k(a) && a[r.Kind] === "Uint8Array" && a.type === "object" && $(a.$id) && a.instanceOf === "Uint8Array" && R(a.minByteLength) && R(a.maxByteLength);
       }
       m.TUint8Array = ie;
-      function Ae(s) {
-        return L(s) && s[r.Kind] === "Unknown" && x(s.$id);
+      function Ae(a) {
+        return k(a) && a[r.Kind] === "Unknown" && $(a.$id);
       }
       m.TUnknown = Ae;
-      function Te(s) {
-        return L(s) && s[r.Kind] === "Unsafe";
+      function we(a) {
+        return k(a) && a[r.Kind] === "Unsafe";
       }
-      m.TUnsafe = Te;
-      function Oe(s) {
-        return L(s) && s[r.Kind] === "Void" && s.type === "null" && s.typeOf === "Void" && x(s.$id);
+      m.TUnsafe = we;
+      function Ne(a) {
+        return k(a) && a[r.Kind] === "Void" && a.type === "null" && a.typeOf === "Void" && $(a.$id);
       }
-      m.TVoid = Oe;
-      function De(s) {
-        return c(s) && s[r.Modifier] === "ReadonlyOptional";
+      m.TVoid = Ne;
+      function De(a) {
+        return c(a) && a[r.Modifier] === "ReadonlyOptional";
       }
       m.TReadonlyOptional = De;
-      function je(s) {
-        return c(s) && s[r.Modifier] === "Readonly";
+      function je(a) {
+        return c(a) && a[r.Modifier] === "Readonly";
       }
       m.TReadonly = je;
-      function ze(s) {
-        return c(s) && s[r.Modifier] === "Optional";
+      function qe(a) {
+        return c(a) && a[r.Modifier] === "Optional";
       }
-      m.TOptional = ze;
-      function te(s) {
-        return typeof s == "object" && (G(s) || K(s) || V(s) || W(s) || J(s) || ge(s) || Se(s) || fe(s) || Pe(s) || le(s) || pe(s) || de(s) || he(s) || ve(s) || Ee(s) || Be(s) || Ce(s) || Ie(s) || ae(s) || Ue(s) || me(s) || Q(s) || Le(s) || ke(s) || ue(s) || ie(s) || Ae(s) || Te(s) || Oe(s) || L(s) && l.Has(s[r.Kind]));
+      m.TOptional = qe;
+      function re(a) {
+        return typeof a == "object" && (Q(a) || X(a) || G(a) || Z(a) || V(a) || Se(a) || Pe(a) || fe(a) || ve(a) || le(a) || pe(a) || de(a) || he(a) || Ee(a) || Be(a) || Ce(a) || Ie(a) || Ue(a) || ae(a) || Le(a) || me(a) || ee(a) || ke(a) || Oe(a) || ue(a) || ie(a) || Ae(a) || we(a) || Ne(a) || k(a) && l.Has(a[r.Kind]));
       }
-      m.TSchema = te;
+      m.TSchema = re;
     })(e = r.TypeGuard || (r.TypeGuard = {})), function(m) {
       function c(y) {
         return y[r.Kind] === "Undefined" ? !0 : y[r.Kind] === "Union" ? y.anyOf.some((p) => c(p)) : !1;
@@ -341,123 +341,123 @@ function gt() {
         return t.True;
       }
       function b(u, i) {
-        return e.TIntersect(i) ? U(u, i) : e.TUnion(i) && i.anyOf.some((H) => e.TAny(H) || e.TUnknown(H)) ? t.True : e.TUnion(i) ? t.Union : e.TUnknown(i) || e.TAny(i) ? t.True : t.Union;
+        return e.TIntersect(i) ? L(u, i) : e.TUnion(i) && i.anyOf.some((H) => e.TAny(H) || e.TUnknown(H)) ? t.True : e.TUnion(i) ? t.Union : e.TUnknown(i) || e.TAny(i) ? t.True : t.Union;
       }
       function p(u, i) {
         return e.TUnknown(u) ? t.False : e.TAny(u) ? t.Union : e.TNever(u) ? t.True : t.False;
       }
       function f(u, i) {
-        return e.TIntersect(i) ? U(u, i) : e.TUnion(i) ? M(u, i) : e.TUnknown(i) ? ee() : e.TAny(i) ? y() : e.TObject(i) && ae(i) ? t.True : e.TArray(i) ? c(Y(u.items, i.items)) : t.False;
+        return e.TIntersect(i) ? L(u, i) : e.TUnion(i) ? M(u, i) : e.TUnknown(i) ? te() : e.TAny(i) ? y() : e.TObject(i) && ae(i) ? t.True : e.TArray(i) ? c(J(u.items, i.items)) : t.False;
       }
       function T(u, i) {
-        return e.TIntersect(i) ? U(u, i) : e.TUnion(i) ? M(u, i) : e.TNever(i) ? J() : e.TUnknown(i) ? ee() : e.TAny(i) ? y() : e.TObject(i) ? Q(u, i) : e.TRecord(i) ? ie(u, i) : e.TBigInt(i) ? t.True : t.False;
+        return e.TIntersect(i) ? L(u, i) : e.TUnion(i) ? M(u, i) : e.TNever(i) ? V() : e.TUnknown(i) ? te() : e.TAny(i) ? y() : e.TObject(i) ? ee(u, i) : e.TRecord(i) ? ie(u, i) : e.TBigInt(i) ? t.True : t.False;
       }
-      function w(u, i) {
+      function g(u, i) {
         return e.TLiteral(u) && typeof u.const == "boolean" || e.TBoolean(u) ? t.True : t.False;
       }
-      function I(u, i) {
-        return e.TIntersect(i) ? U(u, i) : e.TUnion(i) ? M(u, i) : e.TNever(i) ? J() : e.TUnknown(i) ? ee() : e.TAny(i) ? y() : e.TObject(i) ? Q(u, i) : e.TRecord(i) ? ie(u, i) : e.TBoolean(i) ? t.True : t.False;
+      function U(u, i) {
+        return e.TIntersect(i) ? L(u, i) : e.TUnion(i) ? M(u, i) : e.TNever(i) ? V() : e.TUnknown(i) ? te() : e.TAny(i) ? y() : e.TObject(i) ? ee(u, i) : e.TRecord(i) ? ie(u, i) : e.TBoolean(i) ? t.True : t.False;
+      }
+      function N(u, i) {
+        return e.TIntersect(i) ? L(u, i) : e.TUnion(i) ? M(u, i) : e.TUnknown(i) ? te() : e.TAny(i) ? y() : e.TObject(i) ? ee(u, i) : !e.TConstructor(i) || u.parameters.length > i.parameters.length || !u.parameters.every((H, oe) => c(J(i.parameters[oe], H)) === t.True) ? t.False : c(J(u.returns, i.returns));
       }
       function R(u, i) {
-        return e.TIntersect(i) ? U(u, i) : e.TUnion(i) ? M(u, i) : e.TUnknown(i) ? ee() : e.TAny(i) ? y() : e.TObject(i) ? Q(u, i) : !e.TConstructor(i) || u.parameters.length > i.parameters.length || !u.parameters.every((H, oe) => c(Y(i.parameters[oe], H)) === t.True) ? t.False : c(Y(u.returns, i.returns));
+        return e.TIntersect(i) ? L(u, i) : e.TUnion(i) ? M(u, i) : e.TUnknown(i) ? te() : e.TAny(i) ? y() : e.TObject(i) ? ee(u, i) : e.TRecord(i) ? ie(u, i) : e.TDate(i) ? t.True : t.False;
+      }
+      function q(u, i) {
+        return e.TIntersect(i) ? L(u, i) : e.TUnion(i) ? M(u, i) : e.TUnknown(i) ? te() : e.TAny(i) ? y() : e.TObject(i) ? ee(u, i) : !e.TFunction(i) || u.parameters.length > i.parameters.length || !u.parameters.every((H, oe) => c(J(i.parameters[oe], H)) === t.True) ? t.False : c(J(u.returns, i.returns));
       }
       function $(u, i) {
-        return e.TIntersect(i) ? U(u, i) : e.TUnion(i) ? M(u, i) : e.TUnknown(i) ? ee() : e.TAny(i) ? y() : e.TObject(i) ? Q(u, i) : e.TRecord(i) ? ie(u, i) : e.TDate(i) ? t.True : t.False;
-      }
-      function z(u, i) {
-        return e.TIntersect(i) ? U(u, i) : e.TUnion(i) ? M(u, i) : e.TUnknown(i) ? ee() : e.TAny(i) ? y() : e.TObject(i) ? Q(u, i) : !e.TFunction(i) || u.parameters.length > i.parameters.length || !u.parameters.every((H, oe) => c(Y(i.parameters[oe], H)) === t.True) ? t.False : c(Y(u.returns, i.returns));
-      }
-      function x(u, i) {
         return e.TLiteral(u) && typeof u.const == "number" || e.TNumber(u) || e.TInteger(u) ? t.True : t.False;
       }
       function P(u, i) {
-        return e.TIntersect(i) ? U(u, i) : e.TUnion(i) ? M(u, i) : e.TNever(i) ? J() : e.TUnknown(i) ? ee() : e.TAny(i) ? y() : e.TObject(i) ? Q(u, i) : e.TRecord(i) ? ie(u, i) : e.TInteger(i) || e.TNumber(i) ? t.True : t.False;
-      }
-      function U(u, i) {
-        return i.allOf.every((H) => Y(u, H) === t.True) ? t.True : t.False;
-      }
-      function X(u, i) {
-        return u.allOf.some((H) => Y(H, i) === t.True) ? t.True : t.False;
-      }
-      function G(u) {
-        return typeof u.const == "string";
-      }
-      function K(u) {
-        return typeof u.const == "number";
-      }
-      function W(u) {
-        return typeof u.const == "boolean";
-      }
-      function V(u, i) {
-        return e.TIntersect(i) ? U(u, i) : e.TUnion(i) ? M(u, i) : e.TNever(i) ? J() : e.TUnknown(i) ? ee() : e.TAny(i) ? y() : e.TObject(i) ? Q(u, i) : e.TRecord(i) ? ie(u, i) : e.TString(i) ? Te(u) : e.TNumber(i) ? fe(u) : e.TInteger(i) ? x(u) : e.TBoolean(i) ? w(u) : e.TLiteral(i) && i.const === u.const ? t.True : t.False;
-      }
-      function J(u, i) {
-        return t.False;
-      }
-      function ge(u, i) {
-        return t.True;
-      }
-      function Se(u, i) {
-        return e.TIntersect(i) ? U(u, i) : e.TUnion(i) ? M(u, i) : e.TNever(i) ? J() : e.TUnknown(i) ? ee() : e.TAny(i) ? y() : e.TObject(i) ? Q(u, i) : e.TRecord(i) ? ie(u, i) : e.TNull(i) ? t.True : t.False;
-      }
-      function fe(u, i) {
-        return e.TLiteral(u) && K(u) || e.TNumber(u) || e.TInteger(u) ? t.True : t.False;
-      }
-      function Pe(u, i) {
-        return e.TIntersect(i) ? U(u, i) : e.TUnion(i) ? M(u, i) : e.TNever(i) ? J() : e.TUnknown(i) ? ee() : e.TAny(i) ? y() : e.TObject(i) ? Q(u, i) : e.TRecord(i) ? ie(u, i) : e.TInteger(i) || e.TNumber(i) ? t.True : t.False;
+        return e.TIntersect(i) ? L(u, i) : e.TUnion(i) ? M(u, i) : e.TNever(i) ? V() : e.TUnknown(i) ? te() : e.TAny(i) ? y() : e.TObject(i) ? ee(u, i) : e.TRecord(i) ? ie(u, i) : e.TInteger(i) || e.TNumber(i) ? t.True : t.False;
       }
       function L(u, i) {
+        return i.allOf.every((H) => J(u, H) === t.True) ? t.True : t.False;
+      }
+      function W(u, i) {
+        return u.allOf.some((H) => J(H, i) === t.True) ? t.True : t.False;
+      }
+      function Q(u) {
+        return typeof u.const == "string";
+      }
+      function X(u) {
+        return typeof u.const == "number";
+      }
+      function Z(u) {
+        return typeof u.const == "boolean";
+      }
+      function G(u, i) {
+        return e.TIntersect(i) ? L(u, i) : e.TUnion(i) ? M(u, i) : e.TNever(i) ? V() : e.TUnknown(i) ? te() : e.TAny(i) ? y() : e.TObject(i) ? ee(u, i) : e.TRecord(i) ? ie(u, i) : e.TString(i) ? we(u) : e.TNumber(i) ? fe(u) : e.TInteger(i) ? $(u) : e.TBoolean(i) ? g(u) : e.TLiteral(i) && i.const === u.const ? t.True : t.False;
+      }
+      function V(u, i) {
+        return t.False;
+      }
+      function Se(u, i) {
+        return t.True;
+      }
+      function Pe(u, i) {
+        return e.TIntersect(i) ? L(u, i) : e.TUnion(i) ? M(u, i) : e.TNever(i) ? V() : e.TUnknown(i) ? te() : e.TAny(i) ? y() : e.TObject(i) ? ee(u, i) : e.TRecord(i) ? ie(u, i) : e.TNull(i) ? t.True : t.False;
+      }
+      function fe(u, i) {
+        return e.TLiteral(u) && X(u) || e.TNumber(u) || e.TInteger(u) ? t.True : t.False;
+      }
+      function ve(u, i) {
+        return e.TIntersect(i) ? L(u, i) : e.TUnion(i) ? M(u, i) : e.TNever(i) ? V() : e.TUnknown(i) ? te() : e.TAny(i) ? y() : e.TObject(i) ? ee(u, i) : e.TRecord(i) ? ie(u, i) : e.TInteger(i) || e.TNumber(i) ? t.True : t.False;
+      }
+      function k(u, i) {
         return globalThis.Object.keys(u.properties).length === i;
       }
       function le(u) {
         return ae(u);
       }
       function pe(u) {
-        return L(u, 0) || L(u, 1) && "description" in u.properties && e.TUnion(u.properties.description) && u.properties.description.anyOf.length === 2 && (e.TString(u.properties.description.anyOf[0]) && e.TUndefined(u.properties.description.anyOf[1]) || e.TString(u.properties.description.anyOf[1]) && e.TUndefined(u.properties.description.anyOf[0]));
+        return k(u, 0) || k(u, 1) && "description" in u.properties && e.TUnion(u.properties.description) && u.properties.description.anyOf.length === 2 && (e.TString(u.properties.description.anyOf[0]) && e.TUndefined(u.properties.description.anyOf[1]) || e.TString(u.properties.description.anyOf[1]) && e.TUndefined(u.properties.description.anyOf[0]));
       }
       function de(u) {
-        return L(u, 0);
+        return k(u, 0);
       }
       function he(u) {
-        return L(u, 0);
-      }
-      function ve(u) {
-        return L(u, 0);
+        return k(u, 0);
       }
       function Ee(u) {
-        return L(u, 0);
+        return k(u, 0);
       }
       function Be(u) {
-        return ae(u);
+        return k(u, 0);
       }
       function Ce(u) {
-        const i = r.Type.Number();
-        return L(u, 0) || L(u, 1) && "length" in u.properties && c(Y(u.properties.length, i)) === t.True;
+        return ae(u);
       }
       function Ie(u) {
-        return L(u, 0);
+        const i = r.Type.Number();
+        return k(u, 0) || k(u, 1) && "length" in u.properties && c(J(u.properties.length, i)) === t.True;
+      }
+      function Ue(u) {
+        return k(u, 0);
       }
       function ae(u) {
         const i = r.Type.Number();
-        return L(u, 0) || L(u, 1) && "length" in u.properties && c(Y(u.properties.length, i)) === t.True;
+        return k(u, 0) || k(u, 1) && "length" in u.properties && c(J(u.properties.length, i)) === t.True;
       }
-      function Ue(u) {
+      function Le(u) {
         const i = r.Type.Function([r.Type.Any()], r.Type.Any());
-        return L(u, 0) || L(u, 1) && "then" in u.properties && c(Y(u.properties.then, i)) === t.True;
+        return k(u, 0) || k(u, 1) && "then" in u.properties && c(J(u.properties.then, i)) === t.True;
       }
       function me(u, i) {
-        return Y(u, i) === t.False || e.TOptional(u) && !e.TOptional(i) ? t.False : t.True;
+        return J(u, i) === t.False || e.TOptional(u) && !e.TOptional(i) ? t.False : t.True;
       }
-      function Q(u, i) {
-        return e.TUnknown(u) ? t.False : e.TAny(u) ? t.Union : e.TNever(u) || e.TLiteral(u) && G(u) && le(i) || e.TLiteral(u) && K(u) && de(i) || e.TLiteral(u) && W(u) && he(i) || e.TSymbol(u) && pe(i) || e.TBigInt(u) && ve(i) || e.TString(u) && le(i) || e.TSymbol(u) && pe(i) || e.TNumber(u) && de(i) || e.TInteger(u) && de(i) || e.TBoolean(u) && he(i) || e.TUint8Array(u) && Be(i) || e.TDate(u) && Ee(i) || e.TConstructor(u) && Ie(i) || e.TFunction(u) && Ce(i) ? t.True : e.TRecord(u) && e.TString(ue(u)) ? i[r.Hint] === "Record" ? t.True : t.False : e.TRecord(u) && e.TNumber(ue(u)) && L(i, 0) ? t.True : t.False;
+      function ee(u, i) {
+        return e.TUnknown(u) ? t.False : e.TAny(u) ? t.Union : e.TNever(u) || e.TLiteral(u) && Q(u) && le(i) || e.TLiteral(u) && X(u) && de(i) || e.TLiteral(u) && Z(u) && he(i) || e.TSymbol(u) && pe(i) || e.TBigInt(u) && Ee(i) || e.TString(u) && le(i) || e.TSymbol(u) && pe(i) || e.TNumber(u) && de(i) || e.TInteger(u) && de(i) || e.TBoolean(u) && he(i) || e.TUint8Array(u) && Ce(i) || e.TDate(u) && Be(i) || e.TConstructor(u) && Ue(i) || e.TFunction(u) && Ie(i) ? t.True : e.TRecord(u) && e.TString(ue(u)) ? i[r.Hint] === "Record" ? t.True : t.False : e.TRecord(u) && e.TNumber(ue(u)) && k(i, 0) ? t.True : t.False;
       }
-      function Le(u, i) {
+      function ke(u, i) {
         if (e.TIntersect(i))
-          return U(u, i);
+          return L(u, i);
         if (e.TUnion(i))
           return M(u, i);
         if (e.TUnknown(i))
-          return ee();
+          return te();
         if (e.TAny(i))
           return y();
         if (e.TRecord(i))
@@ -469,8 +469,8 @@ function gt() {
             return t.False;
         return t.True;
       }
-      function ke(u, i) {
-        return e.TIntersect(i) ? U(u, i) : e.TUnion(i) ? M(u, i) : e.TUnknown(i) ? ee() : e.TAny(i) ? y() : e.TObject(i) && Ue(i) ? t.True : e.TPromise(i) ? c(Y(u.item, i.item)) : t.False;
+      function Oe(u, i) {
+        return e.TIntersect(i) ? L(u, i) : e.TUnion(i) ? M(u, i) : e.TUnknown(i) ? te() : e.TAny(i) ? y() : e.TObject(i) && Le(i) ? t.True : e.TPromise(i) ? c(J(u.item, i.item)) : t.False;
       }
       function ue(u) {
         if (r.PatternNumberExact in u.patternProperties)
@@ -488,10 +488,10 @@ function gt() {
       }
       function ie(u, i) {
         const H = ue(i), oe = be(i);
-        if (e.TLiteral(u) && G(u) && e.TNumber(H) && c(Y(u, oe)) === t.True)
+        if (e.TLiteral(u) && Q(u) && e.TNumber(H) && c(J(u, oe)) === t.True)
           return t.True;
         if (e.TUint8Array(u) && e.TNumber(H) || e.TString(u) && e.TNumber(H) || e.TArray(u) && e.TNumber(H))
-          return Y(u, oe);
+          return J(u, oe);
         if (e.TObject(u)) {
           for (const pt of globalThis.Object.keys(u.properties))
             if (me(oe, u.properties[pt]) === t.False)
@@ -502,55 +502,55 @@ function gt() {
       }
       function Ae(u, i) {
         const H = be(u);
-        return e.TIntersect(i) ? U(u, i) : e.TUnion(i) ? M(u, i) : e.TUnknown(i) ? ee() : e.TAny(i) ? y() : e.TObject(i) ? Q(u, i) : e.TRecord(i) ? Y(H, be(i)) : t.False;
+        return e.TIntersect(i) ? L(u, i) : e.TUnion(i) ? M(u, i) : e.TUnknown(i) ? te() : e.TAny(i) ? y() : e.TObject(i) ? ee(u, i) : e.TRecord(i) ? J(H, be(i)) : t.False;
       }
-      function Te(u, i) {
+      function we(u, i) {
         return e.TLiteral(u) && typeof u.const == "string" || e.TString(u) ? t.True : t.False;
       }
-      function Oe(u, i) {
-        return e.TIntersect(i) ? U(u, i) : e.TUnion(i) ? M(u, i) : e.TNever(i) ? J() : e.TUnknown(i) ? ee() : e.TAny(i) ? y() : e.TObject(i) ? Q(u, i) : e.TRecord(i) ? ie(u, i) : e.TString(i) ? t.True : t.False;
+      function Ne(u, i) {
+        return e.TIntersect(i) ? L(u, i) : e.TUnion(i) ? M(u, i) : e.TNever(i) ? V() : e.TUnknown(i) ? te() : e.TAny(i) ? y() : e.TObject(i) ? ee(u, i) : e.TRecord(i) ? ie(u, i) : e.TString(i) ? t.True : t.False;
       }
       function De(u, i) {
-        return e.TIntersect(i) ? U(u, i) : e.TUnion(i) ? M(u, i) : e.TNever(i) ? J() : e.TUnknown(i) ? ee() : e.TAny(i) ? y() : e.TObject(i) ? Q(u, i) : e.TRecord(i) ? ie(u, i) : e.TSymbol(i) ? t.True : t.False;
+        return e.TIntersect(i) ? L(u, i) : e.TUnion(i) ? M(u, i) : e.TNever(i) ? V() : e.TUnknown(i) ? te() : e.TAny(i) ? y() : e.TObject(i) ? ee(u, i) : e.TRecord(i) ? ie(u, i) : e.TSymbol(i) ? t.True : t.False;
       }
       function je(u, i) {
         return e.TUnknown(u) ? t.False : e.TAny(u) ? t.Union : e.TNever(u) ? t.True : t.False;
       }
-      function ze(u, i) {
-        return e.TArray(i) && u.items !== void 0 && u.items.every((H) => Y(H, i.items) === t.True);
+      function qe(u, i) {
+        return e.TArray(i) && u.items !== void 0 && u.items.every((H) => J(H, i.items) === t.True);
       }
-      function te(u, i) {
-        return e.TIntersect(i) ? U(u, i) : e.TUnion(i) ? M(u, i) : e.TUnknown(i) ? ee() : e.TAny(i) ? y() : e.TObject(i) && ae(i) || e.TArray(i) && ze(u, i) ? t.True : !e.TTuple(i) || u.items === void 0 && i.items !== void 0 || u.items !== void 0 && i.items === void 0 ? t.False : u.items === void 0 && i.items === void 0 || u.items.every((H, oe) => Y(H, i.items[oe]) === t.True) ? t.True : t.False;
+      function re(u, i) {
+        return e.TIntersect(i) ? L(u, i) : e.TUnion(i) ? M(u, i) : e.TUnknown(i) ? te() : e.TAny(i) ? y() : e.TObject(i) && ae(i) || e.TArray(i) && qe(u, i) ? t.True : !e.TTuple(i) || u.items === void 0 && i.items !== void 0 || u.items !== void 0 && i.items === void 0 ? t.False : u.items === void 0 && i.items === void 0 || u.items.every((H, oe) => J(H, i.items[oe]) === t.True) ? t.True : t.False;
       }
-      function s(u, i) {
-        return e.TIntersect(i) ? U(u, i) : e.TUnion(i) ? M(u, i) : e.TUnknown(i) ? ee() : e.TAny(i) ? y() : e.TObject(i) ? Q(u, i) : e.TRecord(i) ? ie(u, i) : e.TUint8Array(i) ? t.True : t.False;
+      function a(u, i) {
+        return e.TIntersect(i) ? L(u, i) : e.TUnion(i) ? M(u, i) : e.TUnknown(i) ? te() : e.TAny(i) ? y() : e.TObject(i) ? ee(u, i) : e.TRecord(i) ? ie(u, i) : e.TUint8Array(i) ? t.True : t.False;
       }
-      function Z(u, i) {
-        return e.TIntersect(i) ? U(u, i) : e.TUnion(i) ? M(u, i) : e.TNever(i) ? J() : e.TUnknown(i) ? ee() : e.TAny(i) ? y() : e.TObject(i) ? Q(u, i) : e.TRecord(i) ? ie(u, i) : e.TVoid(i) ? dt(u) : e.TUndefined(i) ? t.True : t.False;
+      function Y(u, i) {
+        return e.TIntersect(i) ? L(u, i) : e.TUnion(i) ? M(u, i) : e.TNever(i) ? V() : e.TUnknown(i) ? te() : e.TAny(i) ? y() : e.TObject(i) ? ee(u, i) : e.TRecord(i) ? ie(u, i) : e.TVoid(i) ? dt(u) : e.TUndefined(i) ? t.True : t.False;
       }
       function M(u, i) {
-        return i.anyOf.some((H) => Y(u, H) === t.True) ? t.True : t.False;
+        return i.anyOf.some((H) => J(u, H) === t.True) ? t.True : t.False;
       }
       function ct(u, i) {
-        return u.anyOf.every((H) => Y(H, i) === t.True) ? t.True : t.False;
+        return u.anyOf.every((H) => J(H, i) === t.True) ? t.True : t.False;
       }
-      function ee(u, i) {
+      function te(u, i) {
         return t.True;
       }
       function lt(u, i) {
-        return e.TIntersect(i) ? U(u, i) : e.TUnion(i) ? M(u, i) : e.TAny(i) ? y() : e.TString(i) ? Te(u) : e.TNumber(i) ? fe(u) : e.TInteger(i) ? x(u) : e.TBoolean(i) ? w(u) : e.TArray(i) ? p(u) : e.TTuple(i) ? je(u) : e.TObject(i) ? Q(u, i) : e.TUnknown(i) ? t.True : t.False;
+        return e.TIntersect(i) ? L(u, i) : e.TUnion(i) ? M(u, i) : e.TAny(i) ? y() : e.TString(i) ? we(u) : e.TNumber(i) ? fe(u) : e.TInteger(i) ? $(u) : e.TBoolean(i) ? g(u) : e.TArray(i) ? p(u) : e.TTuple(i) ? je(u) : e.TObject(i) ? ee(u, i) : e.TUnknown(i) ? t.True : t.False;
       }
       function dt(u, i) {
         return e.TUndefined(u) || e.TUndefined(u) ? t.True : t.False;
       }
       function yt(u, i) {
-        return e.TIntersect(i) ? U(u, i) : e.TUnion(i) ? M(u, i) : e.TUnknown(i) ? ee() : e.TAny(i) ? y() : e.TObject(i) ? Q(u, i) : e.TVoid(i) ? t.True : t.False;
+        return e.TIntersect(i) ? L(u, i) : e.TUnion(i) ? M(u, i) : e.TUnknown(i) ? te() : e.TAny(i) ? y() : e.TObject(i) ? ee(u, i) : e.TVoid(i) ? t.True : t.False;
       }
-      function Y(u, i) {
+      function J(u, i) {
         if (e.TTemplateLiteral(u))
-          return Y(k.Resolve(u), i);
+          return J(O.Resolve(u), i);
         if (e.TTemplateLiteral(i))
-          return Y(u, k.Resolve(i));
+          return J(u, O.Resolve(i));
         if (e.TAny(u))
           return b(u, i);
         if (e.TArray(u))
@@ -558,41 +558,41 @@ function gt() {
         if (e.TBigInt(u))
           return T(u, i);
         if (e.TBoolean(u))
-          return I(u, i);
+          return U(u, i);
         if (e.TConstructor(u))
-          return R(u, i);
+          return N(u, i);
         if (e.TDate(u))
-          return $(u, i);
+          return R(u, i);
         if (e.TFunction(u))
-          return z(u, i);
+          return q(u, i);
         if (e.TInteger(u))
           return P(u, i);
         if (e.TIntersect(u))
-          return X(u, i);
+          return W(u, i);
         if (e.TLiteral(u))
-          return V(u, i);
+          return G(u, i);
         if (e.TNever(u))
-          return ge();
+          return Se();
         if (e.TNull(u))
-          return Se(u, i);
-        if (e.TNumber(u))
           return Pe(u, i);
+        if (e.TNumber(u))
+          return ve(u, i);
         if (e.TObject(u))
-          return Le(u, i);
+          return ke(u, i);
         if (e.TRecord(u))
           return Ae(u, i);
         if (e.TString(u))
-          return Oe(u, i);
+          return Ne(u, i);
         if (e.TSymbol(u))
           return De(u, i);
         if (e.TTuple(u))
-          return te(u, i);
+          return re(u, i);
         if (e.TPromise(u))
-          return ke(u, i);
+          return Oe(u, i);
         if (e.TUint8Array(u))
-          return s(u, i);
+          return a(u, i);
         if (e.TUndefined(u))
-          return Z(u, i);
+          return Y(u, i);
         if (e.TUnion(u))
           return ct(u, i);
         if (e.TUnknown(u))
@@ -602,72 +602,72 @@ function gt() {
         throw Error(`TypeExtends: Unknown left type operand '${u[r.Kind]}'`);
       }
       function ft(u, i) {
-        return Y(u, i);
+        return J(u, i);
       }
       m.Extends = ft;
     })(o = r.TypeExtends || (r.TypeExtends = {}));
-    var a;
+    var s;
     (function(m) {
-      function c(w) {
-        return typeof w == "object" && w !== null;
+      function c(g) {
+        return typeof g == "object" && g !== null;
       }
-      function y(w) {
-        return globalThis.Array.isArray(w);
+      function y(g) {
+        return globalThis.Array.isArray(g);
       }
-      function b(w) {
-        return w.map((I) => f(I));
+      function b(g) {
+        return g.map((U) => f(U));
       }
-      function p(w) {
-        const I = globalThis.Object.getOwnPropertyNames(w).reduce(($, z) => ({ ...$, [z]: f(w[z]) }), {}), R = globalThis.Object.getOwnPropertySymbols(w).reduce(($, z) => ({ ...$, [z]: f(w[z]) }), {});
-        return { ...I, ...R };
+      function p(g) {
+        const U = globalThis.Object.getOwnPropertyNames(g).reduce((R, q) => ({ ...R, [q]: f(g[q]) }), {}), N = globalThis.Object.getOwnPropertySymbols(g).reduce((R, q) => ({ ...R, [q]: f(g[q]) }), {});
+        return { ...U, ...N };
       }
-      function f(w) {
-        return y(w) ? b(w) : c(w) ? p(w) : w;
+      function f(g) {
+        return y(g) ? b(g) : c(g) ? p(g) : g;
       }
-      function T(w, I) {
-        return { ...f(w), ...I };
+      function T(g, U) {
+        return { ...f(g), ...U };
       }
       m.Clone = T;
-    })(a = r.TypeClone || (r.TypeClone = {}));
+    })(s = r.TypeClone || (r.TypeClone = {}));
     var d;
     (function(m) {
-      function c(T, w) {
-        return r.Type.Intersect(T.allOf.map((I) => p(I, w)), { ...T });
+      function c(T, g) {
+        return r.Type.Intersect(T.allOf.map((U) => p(U, g)), { ...T });
       }
-      function y(T, w) {
-        return r.Type.Union(T.anyOf.map((I) => p(I, w)), { ...T });
+      function y(T, g) {
+        return r.Type.Union(T.anyOf.map((U) => p(U, g)), { ...T });
       }
-      function b(T, w) {
-        return w(T);
+      function b(T, g) {
+        return g(T);
       }
-      function p(T, w) {
-        return T[r.Kind] === "Intersect" ? c(T, w) : T[r.Kind] === "Union" ? y(T, w) : T[r.Kind] === "Object" ? b(T, w) : T;
+      function p(T, g) {
+        return T[r.Kind] === "Intersect" ? c(T, g) : T[r.Kind] === "Union" ? y(T, g) : T[r.Kind] === "Object" ? b(T, g) : T;
       }
-      function f(T, w, I) {
-        return { ...p(a.Clone(T, {}), w), ...I };
+      function f(T, g, U) {
+        return { ...p(s.Clone(T, {}), g), ...U };
       }
       m.Map = f;
     })(d = r.ObjectMap || (r.ObjectMap = {}));
     var h;
     (function(m) {
-      function c(w) {
-        return e.TIntersect(w) || e.TUnion(w) || e.TObject(w) && globalThis.Object.getOwnPropertyNames(w.properties).length > 0;
+      function c(g) {
+        return e.TIntersect(g) || e.TUnion(g) || e.TObject(g) && globalThis.Object.getOwnPropertyNames(g.properties).length > 0;
       }
-      function y(w) {
-        return [...w.allOf.filter((I) => c(I)).reduce((I, R) => f(R).map(($) => I.add($))[0], /* @__PURE__ */ new Set())];
+      function y(g) {
+        return [...g.allOf.filter((U) => c(U)).reduce((U, N) => f(N).map((R) => U.add(R))[0], /* @__PURE__ */ new Set())];
       }
-      function b(w) {
-        const I = w.anyOf.filter((R) => c(R)).map((R) => f(R));
-        return [...I.reduce((R, $) => $.map((z) => I.every((x) => x.includes(z)) ? R.add(z) : R)[0], /* @__PURE__ */ new Set())];
+      function b(g) {
+        const U = g.anyOf.filter((N) => c(N)).map((N) => f(N));
+        return [...U.reduce((N, R) => R.map((q) => U.every(($) => $.includes(q)) ? N.add(q) : N)[0], /* @__PURE__ */ new Set())];
       }
-      function p(w) {
-        return globalThis.Object.keys(w.properties);
+      function p(g) {
+        return globalThis.Object.keys(g.properties);
       }
-      function f(w) {
-        return e.TIntersect(w) ? y(w) : e.TUnion(w) ? b(w) : e.TObject(w) ? p(w) : [];
+      function f(g) {
+        return e.TIntersect(g) ? y(g) : e.TUnion(g) ? b(g) : e.TObject(g) ? p(g) : [];
       }
-      function T(w) {
-        return f(w);
+      function T(g) {
+        return f(g);
       }
       m.Resolve = T;
     })(h = r.KeyResolver || (r.KeyResolver = {}));
@@ -680,7 +680,7 @@ function gt() {
         if (e.TTemplateLiteral(p))
           return p.pattern.slice(1, p.pattern.length - 1);
         if (e.TUnion(p))
-          return `(${p.anyOf.map((w) => y(w, f)).join("|")})`;
+          return `(${p.anyOf.map((g) => y(g, f)).join("|")})`;
         if (e.TNumber(p))
           return `${f}${r.PatternNumber}`;
         if (e.TInteger(p))
@@ -700,110 +700,110 @@ function gt() {
       }
       m.Create = b;
     })(S = r.TemplateLiteralPattern || (r.TemplateLiteralPattern = {}));
-    var k;
+    var O;
     (function(m) {
       function c(y) {
-        const b = C.ParseExact(y.pattern);
-        if (!j.Check(b))
+        const b = v.ParseExact(y.pattern);
+        if (!K.Check(b))
           return r.Type.String();
-        const p = [...ne.Generate(b)].map((f) => r.Type.Literal(f));
+        const p = [...I.Generate(b)].map((f) => r.Type.Literal(f));
         return r.Type.Union(p);
       }
       m.Resolve = c;
-    })(k = r.TemplateLiteralResolver || (r.TemplateLiteralResolver = {}));
-    class B extends Error {
+    })(O = r.TemplateLiteralResolver || (r.TemplateLiteralResolver = {}));
+    class E extends Error {
       constructor(c) {
         super(c);
       }
     }
-    r.TemplateLiteralParserError = B;
-    var C;
+    r.TemplateLiteralParserError = E;
+    var v;
     (function(m) {
-      function c(P, U, X) {
-        return P[U] === X && P.charCodeAt(U - 1) !== 92;
+      function c(P, L, W) {
+        return P[L] === W && P.charCodeAt(L - 1) !== 92;
       }
-      function y(P, U) {
-        return c(P, U, "(");
+      function y(P, L) {
+        return c(P, L, "(");
       }
-      function b(P, U) {
-        return c(P, U, ")");
+      function b(P, L) {
+        return c(P, L, ")");
       }
-      function p(P, U) {
-        return c(P, U, "|");
+      function p(P, L) {
+        return c(P, L, "|");
       }
       function f(P) {
         if (!(y(P, 0) && b(P, P.length - 1)))
           return !1;
-        let U = 0;
-        for (let X = 0; X < P.length; X++)
-          if (y(P, X) && (U += 1), b(P, X) && (U -= 1), U === 0 && X !== P.length - 1)
+        let L = 0;
+        for (let W = 0; W < P.length; W++)
+          if (y(P, W) && (L += 1), b(P, W) && (L -= 1), L === 0 && W !== P.length - 1)
             return !1;
         return !0;
       }
       function T(P) {
         return P.slice(1, P.length - 1);
       }
-      function w(P) {
-        let U = 0;
-        for (let X = 0; X < P.length; X++)
-          if (y(P, X) && (U += 1), b(P, X) && (U -= 1), p(P, X) && U === 0)
+      function g(P) {
+        let L = 0;
+        for (let W = 0; W < P.length; W++)
+          if (y(P, W) && (L += 1), b(P, W) && (L -= 1), p(P, W) && L === 0)
             return !0;
         return !1;
       }
-      function I(P) {
-        for (let U = 0; U < P.length; U++)
-          if (y(P, U))
+      function U(P) {
+        for (let L = 0; L < P.length; L++)
+          if (y(P, L))
             return !0;
         return !1;
+      }
+      function N(P) {
+        let [L, W] = [0, 0];
+        const Q = [];
+        for (let Z = 0; Z < P.length; Z++)
+          if (y(P, Z) && (L += 1), b(P, Z) && (L -= 1), p(P, Z) && L === 0) {
+            const G = P.slice(W, Z);
+            G.length > 0 && Q.push(q(G)), W = Z + 1;
+          }
+        const X = P.slice(W);
+        return X.length > 0 && Q.push(q(X)), Q.length === 0 ? { type: "const", const: "" } : Q.length === 1 ? Q[0] : { type: "or", expr: Q };
       }
       function R(P) {
-        let [U, X] = [0, 0];
-        const G = [];
-        for (let W = 0; W < P.length; W++)
-          if (y(P, W) && (U += 1), b(P, W) && (U -= 1), p(P, W) && U === 0) {
-            const V = P.slice(X, W);
-            V.length > 0 && G.push(z(V)), X = W + 1;
-          }
-        const K = P.slice(X);
-        return K.length > 0 && G.push(z(K)), G.length === 0 ? { type: "const", const: "" } : G.length === 1 ? G[0] : { type: "or", expr: G };
-      }
-      function $(P) {
-        function U(K, W) {
-          if (!y(K, W))
-            throw new B("TemplateLiteralParser: Index must point to open parens");
-          let V = 0;
-          for (let J = W; J < K.length; J++)
-            if (y(K, J) && (V += 1), b(K, J) && (V -= 1), V === 0)
-              return [W, J];
-          throw new B("TemplateLiteralParser: Unclosed group parens in expression");
+        function L(X, Z) {
+          if (!y(X, Z))
+            throw new E("TemplateLiteralParser: Index must point to open parens");
+          let G = 0;
+          for (let V = Z; V < X.length; V++)
+            if (y(X, V) && (G += 1), b(X, V) && (G -= 1), G === 0)
+              return [Z, V];
+          throw new E("TemplateLiteralParser: Unclosed group parens in expression");
         }
-        function X(K, W) {
-          for (let V = W; V < K.length; V++)
-            if (y(K, V))
-              return [W, V];
-          return [W, K.length];
+        function W(X, Z) {
+          for (let G = Z; G < X.length; G++)
+            if (y(X, G))
+              return [Z, G];
+          return [Z, X.length];
         }
-        const G = [];
-        for (let K = 0; K < P.length; K++)
-          if (y(P, K)) {
-            const [W, V] = U(P, K), J = P.slice(W, V + 1);
-            G.push(z(J)), K = V;
+        const Q = [];
+        for (let X = 0; X < P.length; X++)
+          if (y(P, X)) {
+            const [Z, G] = L(P, X), V = P.slice(Z, G + 1);
+            Q.push(q(V)), X = G;
           } else {
-            const [W, V] = X(P, K), J = P.slice(W, V);
-            J.length > 0 && G.push(z(J)), K = V - 1;
+            const [Z, G] = W(P, X), V = P.slice(Z, G);
+            V.length > 0 && Q.push(q(V)), X = G - 1;
           }
-        return G.length === 0 ? { type: "const", const: "" } : G.length === 1 ? G[0] : { type: "and", expr: G };
+        return Q.length === 0 ? { type: "const", const: "" } : Q.length === 1 ? Q[0] : { type: "and", expr: Q };
       }
-      function z(P) {
-        return f(P) ? z(T(P)) : w(P) ? R(P) : I(P) ? $(P) : { type: "const", const: P };
+      function q(P) {
+        return f(P) ? q(T(P)) : g(P) ? N(P) : U(P) ? R(P) : { type: "const", const: P };
       }
-      m.Parse = z;
-      function x(P) {
-        return z(P.slice(1, P.length - 1));
+      m.Parse = q;
+      function $(P) {
+        return q(P.slice(1, P.length - 1));
       }
-      m.ParseExact = x;
-    })(C = r.TemplateLiteralParser || (r.TemplateLiteralParser = {}));
-    var j;
+      m.ParseExact = $;
+    })(v = r.TemplateLiteralParser || (r.TemplateLiteralParser = {}));
+    var K;
     (function(m) {
       function c(f) {
         return f.type === "or" && f.expr.length === 2 && f.expr[0].type === "const" && f.expr[0].const === "0" && f.expr[1].type === "const" && f.expr[1].const === "[1-9][0-9]*";
@@ -828,22 +828,22 @@ function gt() {
         throw Error("TemplateLiteralFinite: Unknown expression type");
       }
       m.Check = p;
-    })(j = r.TemplateLiteralFinite || (r.TemplateLiteralFinite = {}));
-    var ne;
+    })(K = r.TemplateLiteralFinite || (r.TemplateLiteralFinite = {}));
+    var I;
     (function(m) {
       function* c(T) {
         if (T.length === 1)
           return yield* T[0];
-        for (const w of T[0])
-          for (const I of c(T.slice(1)))
-            yield `${w}${I}`;
+        for (const g of T[0])
+          for (const U of c(T.slice(1)))
+            yield `${g}${U}`;
       }
       function* y(T) {
-        return yield* c(T.expr.map((w) => [...f(w)]));
+        return yield* c(T.expr.map((g) => [...f(g)]));
       }
       function* b(T) {
-        for (const w of T.expr)
-          yield* f(w);
+        for (const g of T.expr)
+          yield* f(g);
       }
       function* p(T) {
         return yield T.const;
@@ -858,9 +858,9 @@ function gt() {
         throw Error("TemplateLiteralGenerator: Unknown expression");
       }
       m.Generate = f;
-    })(ne = r.TemplateLiteralGenerator || (r.TemplateLiteralGenerator = {}));
-    let re = 0;
-    class N {
+    })(I = r.TemplateLiteralGenerator || (r.TemplateLiteralGenerator = {}));
+    let x = 0;
+    class A {
       /** `[Utility]` Creates a schema without `static` and `params` types */
       Create(c) {
         return c;
@@ -870,18 +870,18 @@ function gt() {
         return JSON.parse(JSON.stringify(c));
       }
     }
-    r.TypeBuilder = N;
-    class A extends N {
+    r.TypeBuilder = A;
+    class j extends A {
       // ------------------------------------------------------------------------
       // Modifiers
       // ------------------------------------------------------------------------
       /** `[Modifier]` Creates a Optional property */
       Optional(c) {
-        return { [r.Modifier]: "Optional", ...a.Clone(c, {}) };
+        return { [r.Modifier]: "Optional", ...s.Clone(c, {}) };
       }
       /** `[Modifier]` Creates a ReadonlyOptional property */
       ReadonlyOptional(c) {
-        return { [r.Modifier]: "ReadonlyOptional", ...a.Clone(c, {}) };
+        return { [r.Modifier]: "ReadonlyOptional", ...s.Clone(c, {}) };
       }
       /** `[Modifier]` Creates a Readonly object or property */
       Readonly(c) {
@@ -896,7 +896,7 @@ function gt() {
       }
       /** `[Standard]` Creates an Array type */
       Array(c, y = {}) {
-        return this.Create({ ...y, [r.Kind]: "Array", type: "array", items: a.Clone(c, {}) });
+        return this.Create({ ...y, [r.Kind]: "Array", type: "array", items: s.Clone(c, {}) });
       }
       /** `[Standard]` Creates a Boolean type */
       Boolean(c = {}) {
@@ -904,24 +904,24 @@ function gt() {
       }
       /** `[Standard]` Creates a Composite object type. */
       Composite(c, y) {
-        const b = (I, R) => I.every(($) => !(R in $.properties) || p($.properties[R])), p = (I) => e.TOptional(I) || e.TReadonlyOptional(I), [f, T] = [/* @__PURE__ */ new Set(), /* @__PURE__ */ new Set()];
-        for (const I of c)
-          for (const R of globalThis.Object.getOwnPropertyNames(I.properties))
-            b(c, R) && T.add(R);
-        for (const I of c)
-          for (const R of globalThis.Object.getOwnPropertyNames(I.properties))
-            T.has(R) || f.add(R);
-        const w = {};
-        for (const I of c)
-          for (const [R, $] of Object.entries(I.properties)) {
-            const z = a.Clone($, {});
-            if (T.has(R) || delete z[r.Modifier], R in w) {
-              const x = o.Extends(w[R], z) !== t.False, P = o.Extends(z, w[R]) !== t.False;
-              !x && !P && (w[R] = r.Type.Never()), !x && P && (w[R] = z);
+        const b = (U, N) => U.every((R) => !(N in R.properties) || p(R.properties[N])), p = (U) => e.TOptional(U) || e.TReadonlyOptional(U), [f, T] = [/* @__PURE__ */ new Set(), /* @__PURE__ */ new Set()];
+        for (const U of c)
+          for (const N of globalThis.Object.getOwnPropertyNames(U.properties))
+            b(c, N) && T.add(N);
+        for (const U of c)
+          for (const N of globalThis.Object.getOwnPropertyNames(U.properties))
+            T.has(N) || f.add(N);
+        const g = {};
+        for (const U of c)
+          for (const [N, R] of Object.entries(U.properties)) {
+            const q = s.Clone(R, {});
+            if (T.has(N) || delete q[r.Modifier], N in g) {
+              const $ = o.Extends(g[N], q) !== t.False, P = o.Extends(q, g[N]) !== t.False;
+              !$ && !P && (g[N] = r.Type.Never()), !$ && P && (g[N] = q);
             } else
-              w[R] = z;
+              g[N] = q;
           }
-        return f.size > 0 ? this.Create({ ...y, [r.Kind]: "Object", [r.Hint]: "Composite", type: "object", properties: w, required: [...f] }) : this.Create({ ...y, [r.Kind]: "Object", [r.Hint]: "Composite", type: "object", properties: w });
+        return f.size > 0 ? this.Create({ ...y, [r.Kind]: "Object", [r.Hint]: "Composite", type: "object", properties: g, required: [...f] }) : this.Create({ ...y, [r.Kind]: "Object", [r.Hint]: "Composite", type: "object", properties: g });
       }
       /** `[Standard]` Creates a Enum type */
       Enum(c, y = {}) {
@@ -932,36 +932,36 @@ function gt() {
       Extends(c, y, b, p, f = {}) {
         switch (o.Extends(c, y)) {
           case t.Union:
-            return this.Union([a.Clone(b, f), a.Clone(p, f)]);
+            return this.Union([s.Clone(b, f), s.Clone(p, f)]);
           case t.True:
-            return a.Clone(b, f);
+            return s.Clone(b, f);
           case t.False:
-            return a.Clone(p, f);
+            return s.Clone(p, f);
         }
       }
       /** `[Standard]` Excludes from the left type any type that is not assignable to the right */
       Exclude(c, y, b = {}) {
         if (e.TTemplateLiteral(c))
-          return this.Exclude(k.Resolve(c), y, b);
+          return this.Exclude(O.Resolve(c), y, b);
         if (e.TTemplateLiteral(y))
-          return this.Exclude(c, k.Resolve(y), b);
+          return this.Exclude(c, O.Resolve(y), b);
         if (e.TUnion(c)) {
           const p = c.anyOf.filter((f) => o.Extends(f, y) === t.False);
-          return p.length === 1 ? a.Clone(p[0], b) : this.Union(p, b);
+          return p.length === 1 ? s.Clone(p[0], b) : this.Union(p, b);
         } else
-          return o.Extends(c, y) !== t.False ? this.Never(b) : a.Clone(c, b);
+          return o.Extends(c, y) !== t.False ? this.Never(b) : s.Clone(c, b);
       }
       /** `[Standard]` Extracts from the left type any type that is assignable to the right */
       Extract(c, y, b = {}) {
         if (e.TTemplateLiteral(c))
-          return this.Extract(k.Resolve(c), y, b);
+          return this.Extract(O.Resolve(c), y, b);
         if (e.TTemplateLiteral(y))
-          return this.Extract(c, k.Resolve(y), b);
+          return this.Extract(c, O.Resolve(y), b);
         if (e.TUnion(c)) {
           const p = c.anyOf.filter((f) => o.Extends(f, y) !== t.False);
-          return p.length === 1 ? a.Clone(p[0], b) : this.Union(p, b);
+          return p.length === 1 ? s.Clone(p[0], b) : this.Union(p, b);
         } else
-          return o.Extends(c, y) !== t.False ? a.Clone(c, b) : this.Never(b);
+          return o.Extends(c, y) !== t.False ? s.Clone(c, b) : this.Never(b);
       }
       /** `[Standard]` Creates an Integer type */
       Integer(c = {}) {
@@ -971,8 +971,8 @@ function gt() {
         if (c.length === 0)
           return r.Type.Never();
         if (c.length === 1)
-          return a.Clone(c[0], y);
-        const b = c.every((T) => e.TObject(T)), p = c.map((T) => a.Clone(T, {})), f = e.TSchema(y.unevaluatedProperties) ? { unevaluatedProperties: a.Clone(y.unevaluatedProperties, {}) } : {};
+          return s.Clone(c[0], y);
+        const b = c.every((T) => e.TObject(T)), p = c.map((T) => s.Clone(T, {})), f = e.TSchema(y.unevaluatedProperties) ? { unevaluatedProperties: s.Clone(y.unevaluatedProperties, {}) } : {};
         return y.unevaluatedProperties === !1 || e.TSchema(y.unevaluatedProperties) || b ? this.Create({ ...y, ...f, [r.Kind]: "Intersect", type: "object", allOf: p }) : this.Create({ ...y, ...f, [r.Kind]: "Intersect", allOf: p });
       }
       /** `[Standard]` Creates a KeyOf type */
@@ -1002,7 +1002,7 @@ function gt() {
       }
       /** `[Standard]` Creates a Not type. The first argument is the disallowed type, the second is the allowed. */
       Not(c, y, b) {
-        return this.Create({ ...b, [r.Kind]: "Not", allOf: [{ not: a.Clone(c, {}) }, a.Clone(y, {})] });
+        return this.Create({ ...b, [r.Kind]: "Not", allOf: [{ not: s.Clone(c, {}) }, s.Clone(y, {})] });
       }
       /** `[Standard]` Creates a Null type */
       Null(c = {}) {
@@ -1014,12 +1014,12 @@ function gt() {
       }
       /** `[Standard]` Creates an Object type */
       Object(c, y = {}) {
-        const b = globalThis.Object.getOwnPropertyNames(c), p = b.filter((I) => e.TOptional(c[I]) || e.TReadonlyOptional(c[I])), f = b.filter((I) => !p.includes(I)), T = e.TSchema(y.additionalProperties) ? { additionalProperties: a.Clone(y.additionalProperties, {}) } : {}, w = b.reduce((I, R) => ({ ...I, [R]: a.Clone(c[R], {}) }), {});
-        return f.length > 0 ? this.Create({ ...y, ...T, [r.Kind]: "Object", type: "object", properties: w, required: f }) : this.Create({ ...y, ...T, [r.Kind]: "Object", type: "object", properties: w });
+        const b = globalThis.Object.getOwnPropertyNames(c), p = b.filter((U) => e.TOptional(c[U]) || e.TReadonlyOptional(c[U])), f = b.filter((U) => !p.includes(U)), T = e.TSchema(y.additionalProperties) ? { additionalProperties: s.Clone(y.additionalProperties, {}) } : {}, g = b.reduce((U, N) => ({ ...U, [N]: s.Clone(c[N], {}) }), {});
+        return f.length > 0 ? this.Create({ ...y, ...T, [r.Kind]: "Object", type: "object", properties: g, required: f }) : this.Create({ ...y, ...T, [r.Kind]: "Object", type: "object", properties: g });
       }
       Omit(c, y, b = {}) {
         const p = e.TUnionLiteral(y) ? y.anyOf.map((f) => f.const) : e.TLiteral(y) ? [y.const] : e.TNever(y) ? [] : y;
-        return d.Map(a.Clone(c, {}), (f) => {
+        return d.Map(s.Clone(c, {}), (f) => {
           f.required && (f.required = f.required.filter((T) => !p.includes(T)), f.required.length === 0 && delete f.required);
           for (const T of globalThis.Object.keys(f.properties))
             p.includes(T) && delete f.properties[T];
@@ -1044,11 +1044,11 @@ function gt() {
               break;
           }
         }
-        return d.Map(a.Clone(c, {}), (p) => (delete p.required, globalThis.Object.keys(p.properties).forEach((f) => b(p.properties[f])), p), y);
+        return d.Map(s.Clone(c, {}), (p) => (delete p.required, globalThis.Object.keys(p.properties).forEach((f) => b(p.properties[f])), p), y);
       }
       Pick(c, y, b = {}) {
         const p = e.TUnionLiteral(y) ? y.anyOf.map((f) => f.const) : e.TLiteral(y) ? [y.const] : e.TNever(y) ? [] : y;
-        return d.Map(a.Clone(c, {}), (f) => {
+        return d.Map(s.Clone(c, {}), (f) => {
           f.required && (f.required = f.required.filter((T) => p.includes(T)), f.required.length === 0 && delete f.required);
           for (const T of globalThis.Object.keys(f.properties))
             p.includes(T) || delete f.properties[T];
@@ -1058,30 +1058,30 @@ function gt() {
       /** `[Standard]` Creates a Record type */
       Record(c, y, b = {}) {
         if (e.TTemplateLiteral(c)) {
-          const p = C.ParseExact(c.pattern);
-          return j.Check(p) ? this.Object([...ne.Generate(p)].reduce((f, T) => ({ ...f, [T]: a.Clone(y, {}) }), {}), b) : this.Create({ ...b, [r.Kind]: "Record", type: "object", patternProperties: { [c.pattern]: a.Clone(y, {}) }, additionalProperties: !1 });
+          const p = v.ParseExact(c.pattern);
+          return K.Check(p) ? this.Object([...I.Generate(p)].reduce((f, T) => ({ ...f, [T]: s.Clone(y, {}) }), {}), b) : this.Create({ ...b, [r.Kind]: "Record", type: "object", patternProperties: { [c.pattern]: s.Clone(y, {}) }, additionalProperties: !1 });
         } else if (e.TUnionLiteral(c))
           if (c.anyOf.every((p) => e.TLiteral(p) && (typeof p.const == "string" || typeof p.const == "number"))) {
-            const p = c.anyOf.reduce((f, T) => ({ ...f, [T.const]: a.Clone(y, {}) }), {});
+            const p = c.anyOf.reduce((f, T) => ({ ...f, [T.const]: s.Clone(y, {}) }), {});
             return this.Object(p, { ...b, [r.Hint]: "Record" });
           } else
             throw Error("TypeBuilder: Record key can only be derived from union literal of number or string");
         else if (e.TLiteral(c)) {
           if (typeof c.const == "string" || typeof c.const == "number")
-            return this.Object({ [c.const]: a.Clone(y, {}) }, b);
+            return this.Object({ [c.const]: s.Clone(y, {}) }, b);
           throw Error("TypeBuilder: Record key can only be derived from literals of number or string");
         } else if (e.TInteger(c) || e.TNumber(c)) {
           const p = r.PatternNumberExact;
-          return this.Create({ ...b, [r.Kind]: "Record", type: "object", patternProperties: { [p]: a.Clone(y, {}) }, additionalProperties: !1 });
+          return this.Create({ ...b, [r.Kind]: "Record", type: "object", patternProperties: { [p]: s.Clone(y, {}) }, additionalProperties: !1 });
         } else if (e.TString(c)) {
           const p = c.pattern === void 0 ? r.PatternStringExact : c.pattern;
-          return this.Create({ ...b, [r.Kind]: "Record", type: "object", patternProperties: { [p]: a.Clone(y, {}) }, additionalProperties: !1 });
+          return this.Create({ ...b, [r.Kind]: "Record", type: "object", patternProperties: { [p]: s.Clone(y, {}) }, additionalProperties: !1 });
         } else
           throw Error("StandardTypeBuilder: Invalid Record Key");
       }
       /** `[Standard]` Creates a Recursive type */
       Recursive(c, y = {}) {
-        y.$id === void 0 && (y.$id = `T${re++}`);
+        y.$id === void 0 && (y.$id = `T${x++}`);
         const b = c({ [r.Kind]: "This", $ref: `${y.$id}` });
         return b.$id = y.$id, this.Create({ ...y, [r.Hint]: "Recursive", ...b });
       }
@@ -1109,7 +1109,7 @@ function gt() {
               break;
           }
         }
-        return d.Map(a.Clone(c, {}), (p) => (p.required = globalThis.Object.keys(p.properties), globalThis.Object.keys(p.properties).forEach((f) => b(p.properties[f])), p), y);
+        return d.Map(s.Clone(c, {}), (p) => (p.required = globalThis.Object.keys(p.properties), globalThis.Object.keys(p.properties).forEach((f) => b(p.properties[f])), p), y);
       }
       /** `[Standard]` Creates a String type */
       String(c = {}) {
@@ -1122,19 +1122,19 @@ function gt() {
       }
       /** `[Standard]` Creates a Tuple type */
       Tuple(c, y = {}) {
-        const [b, p, f] = [!1, c.length, c.length], T = c.map((I) => a.Clone(I, {})), w = c.length > 0 ? { ...y, [r.Kind]: "Tuple", type: "array", items: T, additionalItems: b, minItems: p, maxItems: f } : { ...y, [r.Kind]: "Tuple", type: "array", minItems: p, maxItems: f };
-        return this.Create(w);
+        const [b, p, f] = [!1, c.length, c.length], T = c.map((U) => s.Clone(U, {})), g = c.length > 0 ? { ...y, [r.Kind]: "Tuple", type: "array", items: T, additionalItems: b, minItems: p, maxItems: f } : { ...y, [r.Kind]: "Tuple", type: "array", minItems: p, maxItems: f };
+        return this.Create(g);
       }
       Union(c, y = {}) {
         if (e.TTemplateLiteral(c))
-          return k.Resolve(c);
+          return O.Resolve(c);
         {
           const b = c;
           if (b.length === 0)
             return this.Never(y);
           if (b.length === 1)
-            return this.Create(a.Clone(b[0], y));
-          const p = b.map((f) => a.Clone(f, {}));
+            return this.Create(s.Clone(b[0], y));
+          const p = b.map((f) => s.Clone(f, {}));
           return this.Create({ ...y, [r.Kind]: "Union", anyOf: p });
         }
       }
@@ -1147,8 +1147,8 @@ function gt() {
         return this.Create({ ...c, [r.Kind]: c[r.Kind] || "Unsafe" });
       }
     }
-    r.StandardTypeBuilder = A;
-    class O extends A {
+    r.StandardTypeBuilder = j;
+    class ne extends j {
       /** `[Extended]` Creates a BigInt type */
       BigInt(c = {}) {
         return this.Create({ ...c, [r.Kind]: "BigInt", type: "null", typeOf: "BigInt" });
@@ -1158,12 +1158,12 @@ function gt() {
         return this.Tuple([...c.parameters], { ...y });
       }
       Constructor(c, y, b = {}) {
-        const p = a.Clone(y, {});
+        const p = s.Clone(y, {});
         if (e.TTuple(c)) {
-          const f = c.items === void 0 ? [] : c.items.map((T) => a.Clone(T, {}));
+          const f = c.items === void 0 ? [] : c.items.map((T) => s.Clone(T, {}));
           return this.Create({ ...b, [r.Kind]: "Constructor", type: "object", instanceOf: "Constructor", parameters: f, returns: p });
         } else if (globalThis.Array.isArray(c)) {
-          const f = c.map((T) => a.Clone(T, {}));
+          const f = c.map((T) => s.Clone(T, {}));
           return this.Create({ ...b, [r.Kind]: "Constructor", type: "object", instanceOf: "Constructor", parameters: f, returns: p });
         } else
           throw new Error("ExtendedTypeBuilder.Constructor: Invalid parameters");
@@ -1173,19 +1173,19 @@ function gt() {
         return this.Create({ ...c, [r.Kind]: "Date", type: "object", instanceOf: "Date" });
       }
       Function(c, y, b = {}) {
-        const p = a.Clone(y, {});
+        const p = s.Clone(y, {});
         if (e.TTuple(c)) {
-          const f = c.items === void 0 ? [] : c.items.map((T) => a.Clone(T, {}));
+          const f = c.items === void 0 ? [] : c.items.map((T) => s.Clone(T, {}));
           return this.Create({ ...b, [r.Kind]: "Function", type: "object", instanceOf: "Function", parameters: f, returns: p });
         } else if (globalThis.Array.isArray(c)) {
-          const f = c.map((T) => a.Clone(T, {}));
+          const f = c.map((T) => s.Clone(T, {}));
           return this.Create({ ...b, [r.Kind]: "Function", type: "object", instanceOf: "Function", parameters: f, returns: p });
         } else
           throw new Error("ExtendedTypeBuilder.Function: Invalid parameters");
       }
       /** `[Extended]` Extracts the InstanceType from the given Constructor */
       InstanceType(c, y = {}) {
-        return a.Clone(c.returns, y);
+        return s.Clone(c.returns, y);
       }
       /** `[Extended]` Extracts the Parameters from the given Function type */
       Parameters(c, y = {}) {
@@ -1193,7 +1193,7 @@ function gt() {
       }
       /** `[Extended]` Creates a Promise type */
       Promise(c, y = {}) {
-        return this.Create({ ...y, [r.Kind]: "Promise", type: "object", instanceOf: "Promise", item: a.Clone(c, {}) });
+        return this.Create({ ...y, [r.Kind]: "Promise", type: "object", instanceOf: "Promise", item: s.Clone(c, {}) });
       }
       /** `[Extended]` Creates a regular expression type */
       RegEx(c, y = {}) {
@@ -1201,7 +1201,7 @@ function gt() {
       }
       /** `[Extended]` Extracts the ReturnType from the given Function */
       ReturnType(c, y = {}) {
-        return a.Clone(c.returns, y);
+        return s.Clone(c.returns, y);
       }
       /** `[Extended]` Creates a Symbol type */
       Symbol(c) {
@@ -1220,8 +1220,8 @@ function gt() {
         return this.Create({ ...c, [r.Kind]: "Void", type: "null", typeOf: "Void" });
       }
     }
-    r.ExtendedTypeBuilder = O, r.StandardType = new A(), r.Type = new O();
-  }(qe)), qe;
+    r.ExtendedTypeBuilder = ne, r.StandardType = new j(), r.Type = new ne();
+  }(ze)), ze;
 }
 var _ = gt(), F = /* @__PURE__ */ ((r) => (r.AUTHORIZED = "Authorized", r.REJECTED = "Rejected", r))(F || {});
 const St = _.Type.Enum(F);
@@ -1247,21 +1247,21 @@ _.Type.Object({
 });
 class Pt {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
     return new vt(this.baseOptions, l);
   }
 }
-class vt extends q {
+class vt extends z {
   constructor(n, e) {
     super(
       D.invoice,
       n,
       e
     );
-    g(this, "showPayButton");
+    w(this, "showPayButton");
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
   mount(n) {
@@ -1277,14 +1277,14 @@ class vt extends q {
       const o = t.querySelector("#invoiceForm-paymentButton");
       o && o.addEventListener(
         "click",
-        (a) => {
-          a.preventDefault(), this.submit();
+        (s) => {
+          s.preventDefault(), this.submit();
         }
       );
     }
   }
   async submit() {
-    var o, a;
+    var o, s;
     this.sdk.init({
       environment: this.environment
     });
@@ -1309,10 +1309,10 @@ class vt extends q {
         }
       );
       if (!h.ok) {
-        const k = await h.text();
+        const O = await h.text();
         throw console.error("[Invoice] HTTP error", {
           status: h.status,
-          body: k
+          body: O
         }), new Error(`HTTP error! status: ${h.status}`);
       }
       const S = await h.json();
@@ -1325,7 +1325,7 @@ class vt extends q {
         return;
       }
       if (S != null && S.paymentReference) {
-        (a = this.onComplete) == null || a.call(this, {
+        (s = this.onComplete) == null || s.call(this, {
           isSuccess: !0,
           paymentReference: S.paymentReference
         });
@@ -1342,11 +1342,11 @@ class vt extends q {
   _getTemplate() {
     const n = document.documentElement.lang || "en", e = n.startsWith("de") ? "Sie erhalten eine E-Mail mit den Bankdaten von Novalnet, um die Zahlung abzuschließen" : "You will receive an e-mail with the Novalnet account details to complete the payment";
     return this.showPayButton ? `
-      <div class="${v.wrapper}">
+      <div class="${B.wrapper}">
         <p>${e}</p>
 
         <button
-          class="${E.button} ${E.fullWidth} ${v.submitButton}"
+          class="${C.button} ${C.fullWidth} ${B.submitButton}"
           id="invoiceForm-paymentButton"
           type="button"
         >
@@ -1358,21 +1358,21 @@ class vt extends q {
 }
 class Et {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
     return new Bt(this.baseOptions, l);
   }
 }
-class Bt extends q {
+class Bt extends z {
   constructor(n, e) {
     super(
       D.prepayment,
       n,
       e
     );
-    g(this, "showPayButton");
+    w(this, "showPayButton");
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
   mount(n) {
@@ -1388,14 +1388,14 @@ class Bt extends q {
       const o = t.querySelector("#purchaseOrderForm-paymentButton");
       o && o.addEventListener(
         "click",
-        (a) => {
-          a.preventDefault(), this.submit();
+        (s) => {
+          s.preventDefault(), this.submit();
         }
       );
     }
   }
   async submit() {
-    var o, a;
+    var o, s;
     this.sdk.init({
       environment: this.environment
     });
@@ -1420,10 +1420,10 @@ class Bt extends q {
         }
       );
       if (!h.ok) {
-        const k = await h.text();
+        const O = await h.text();
         throw console.error("[Prepayment] HTTP error", {
           status: h.status,
-          body: k
+          body: O
         }), new Error(`HTTP error! status: ${h.status}`);
       }
       const S = await h.json();
@@ -1436,7 +1436,7 @@ class Bt extends q {
         return;
       }
       if (S != null && S.paymentReference) {
-        (a = this.onComplete) == null || a.call(this, {
+        (s = this.onComplete) == null || s.call(this, {
           isSuccess: !0,
           paymentReference: S.paymentReference
         });
@@ -1453,11 +1453,11 @@ class Bt extends q {
   _getTemplate() {
     const n = document.documentElement.lang || "en", e = n.startsWith("de") ? "Sie erhalten eine E-Mail mit den Bankdaten von Novalnet, um die Zahlung abzuschließen" : "You will receive an e-mail with the Novalnet account details to complete the payment";
     return this.showPayButton ? `
-      <div class="${v.wrapper}">
+      <div class="${B.wrapper}">
         <p>${e}</p>
 
         <button
-          class="${E.button} ${E.fullWidth} ${v.submitButton}"
+          class="${C.button} ${C.fullWidth} ${B.submitButton}"
           id="purchaseOrderForm-paymentButton"
           type="button"
         >
@@ -1471,21 +1471,33 @@ const Ct = {
   en: {
     save: "Save for future purchase",
     card: "Add new card details",
-    account: "Add new account details"
+    account: "Add new account details",
+    accountNumber: "Account Number",
+    delete: "Delete saved payment",
+    deleteError: "Unable to delete saved payment. Please try again."
   },
   de: {
     save: "Speichern für zukünftige Einkäufe",
     card: "Neue Kreditkarte hinzufügen",
-    account: "Neue Kontodaten hinzufügen"
+    account: "Neue Kontodaten hinzufügen",
+    accountNumber: "Kontonummer",
+    delete: "Gespeicherte Zahlungsdaten löschen",
+    deleteError: "Die gespeicherten Zahlungsdaten konnten nicht gelöscht werden. Bitte versuchen Sie es erneut."
   }
 };
-class _e {
+class ge {
   constructor() {
-    g(this, "radios");
-    g(this, "checkbox");
-    g(this, "newFields", []);
-    g(this, "saveLabel");
-    g(this, "business", !1);
+    w(this, "radios");
+    w(this, "checkbox");
+    w(this, "newFields", []);
+    w(this, "saveLabel");
+    w(this, "deleteError");
+    w(this, "business", !1);
+    w(this, "businessOptions");
+    w(this, "businessRequest");
+    w(this, "businessObserver");
+    w(this, "businessListener");
+    w(this, "dobState");
   }
   get savedPaymentId() {
     var l, n;
@@ -1495,60 +1507,127 @@ class _e {
     var l;
     return this.savedPaymentId ? { savedPaymentId: this.savedPaymentId } : (l = this.checkbox) != null && l.checked ? { savePayment: !0 } : {};
   }
-  async mount(l) {
-    var h;
+  async loadFeatures(l) {
     const n = await fetch(
       `${l.processorUrl}/paymentFeatures?paymentMethod=${encodeURIComponent(l.type)}`,
-      {
-        headers: { "X-Session-Id": l.sessionId },
-        cache: "no-store"
-      }
+      { headers: { "X-Session-Id": l.sessionId }, cache: "no-store" }
     );
     if (!n.ok) throw new Error("Unable to load payment settings.");
-    const e = await n.json();
-    this.business = e.business === !0;
-    const t = l.dob ? l.container.querySelector(l.dob) : null;
-    if (this.business && t) {
-      const S = t.parentElement;
-      S && (S.style.display = "none"), t.disabled = !0, t.required = !1;
+    return n.json();
+  }
+  applyBusiness(l) {
+    this.business = l;
+    const n = this.dobState;
+    n && (n.field && (n.field.style.display = l ? "none" : n.display), n.input.disabled = l ? !0 : n.disabled, n.input.required = l ? !1 : n.required);
+  }
+  async refreshBusiness() {
+    const l = this.businessOptions;
+    if (!(l != null && l.dob)) return;
+    if (this.businessRequest) return this.businessRequest;
+    const n = this.loadFeatures(l).then((e) => {
+      this.businessOptions === l && this.applyBusiness(e.business === !0);
+    });
+    this.businessRequest = n;
+    try {
+      await n;
+    } finally {
+      this.businessRequest === n && (this.businessRequest = void 0);
     }
-    if (!e.oneClick) return;
-    const o = Ct[l.locale];
-    this.newFields = l.fields.map((S) => l.container.querySelector(S)).filter((S) => !!S).map((S) => ({ element: S, display: S.style.display }));
-    const a = Array.isArray(e.savedPayments) ? e.savedPayments.slice(0, 3) : [];
-    if (a.length) {
+  }
+  watchBusiness(l) {
+    if (!l.dob) return;
+    const n = () => {
+      this.refreshBusiness().catch(() => {
+      });
+    };
+    if (this.businessListener = n, l.container.addEventListener("focusin", n), l.container.addEventListener("pointerenter", n), typeof IntersectionObserver < "u") {
+      const e = new IntersectionObserver((t) => {
+        if (!l.container.isConnected) {
+          e.disconnect();
+          return;
+        }
+        t.some((o) => o.isIntersecting) && n();
+      });
+      e.observe(l.container), this.businessObserver = e;
+    }
+  }
+  async mount(l) {
+    var d, h, S, O;
+    (d = this.businessObserver) == null || d.disconnect(), this.businessOptions && this.businessListener && (this.businessOptions.container.removeEventListener("focusin", this.businessListener), this.businessOptions.container.removeEventListener("pointerenter", this.businessListener)), this.businessOptions = l, this.businessRequest = void 0;
+    const n = l.dob ? l.container.querySelector(l.dob) : null;
+    this.dobState = n ? ((h = this.dobState) == null ? void 0 : h.input) === n ? this.dobState : {
+      input: n,
+      field: n.parentElement,
+      display: ((S = n.parentElement) == null ? void 0 : S.style.display) ?? "",
+      disabled: n.disabled,
+      required: n.required
+    } : void 0;
+    const e = await this.loadFeatures(l);
+    if (this.businessOptions !== l || (this.applyBusiness(e.business === !0), this.watchBusiness(l), !e.oneClick)) return;
+    const t = Ct[l.locale];
+    this.newFields = l.fields.map((E) => l.container.querySelector(E)).filter((E) => !!E).map((E) => ({ element: E, display: E.style.display }));
+    const o = Array.isArray(e.savedPayments) ? e.savedPayments.slice(0, 3) : [];
+    if (o.length) {
       this.radios = document.createElement("fieldset"), this.radios.style.border = "0", this.radios.style.padding = "0";
-      const S = document.createElement("legend");
-      S.textContent = l.type === "CREDITCARD" ? "Credit/Debit Cards" : "IBAN", this.radios.appendChild(S), [
-        ...a,
+      const E = document.createElement("legend");
+      E.textContent = l.type === "CREDITCARD" ? "Credit/Debit Cards" : l.type === "DIRECT_DEBIT_ACH" ? t.accountNumber : "IBAN", this.radios.appendChild(E), [
+        ...o,
         {
           id: "",
-          label: l.type === "CREDITCARD" ? o.card : o.account
+          label: l.type === "CREDITCARD" ? t.card : t.account
         }
-      ].forEach((k, B) => {
-        const C = document.createElement("label");
-        C.style.display = "block";
-        const j = document.createElement("input");
-        j.type = "radio", j.name = `nn_saved_${l.type}`, j.value = k.id, j.checked = B === 0, j.addEventListener("change", () => this.toggle()), C.append(j, document.createTextNode(` ${k.label}`)), this.radios.appendChild(C);
+      ].forEach((v, K) => {
+        const I = document.createElement("label");
+        I.style.display = "block";
+        const x = document.createElement("input");
+        if (x.type = "radio", x.name = `nn_saved_${l.type}`, x.value = v.id, x.checked = K === 0, x.addEventListener("change", () => this.toggle()), I.append(x, document.createTextNode(` ${v.label}`)), !v.id) {
+          this.radios.appendChild(I);
+          return;
+        }
+        const A = document.createElement("div");
+        A.style.display = "flex", A.style.alignItems = "center", A.style.gap = "8px", A.style.justifyContent = "flex-start", I.style.display = "inline-flex", I.style.alignItems = "center", I.style.flex = "0 1 auto", I.style.width = "auto", I.style.margin = "0";
+        const j = document.createElement("button");
+        j.type = "button", j.title = t.delete, j.setAttribute("aria-label", `${t.delete}: ${v.label}`), j.style.cssText = "border:0;background:transparent;cursor:pointer;padding:4px;color:inherit;width:auto;flex:0 0 auto;margin:0;display:inline-flex;align-items:center;", j.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 6h18M9 6V3h6v3M5 6l1 15h12l1-15M10 10v7M14 10v7"/></svg>', j.addEventListener("click", async (ne) => {
+          var m;
+          if (ne.preventDefault(), ne.stopPropagation(), !j.disabled) {
+            j.disabled = !0, (m = this.deleteError) == null || m.remove(), this.deleteError = void 0;
+            try {
+              if (!(await fetch(`${l.processorUrl}/deleteSavedPayment`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json", "X-Session-Id": l.sessionId },
+                body: JSON.stringify({ paymentMethod: l.type, savedPaymentId: v.id })
+              })).ok) throw new Error("Saved payment deletion failed.");
+              const y = x.checked;
+              x.checked = !1, A.remove();
+              const b = this.radios.querySelector(
+                'input[type="radio"]:not([value=""])'
+              );
+              b ? y && (b.checked = !0) : (this.radios.remove(), this.radios = void 0), this.toggle();
+            } catch {
+              j.disabled = !1, this.deleteError = document.createElement("p"), this.deleteError.setAttribute("role", "alert"), this.deleteError.textContent = t.deleteError, this.radios.appendChild(this.deleteError);
+            }
+          }
+        }), A.append(I, j), this.radios.appendChild(A);
       }), l.container.prepend(this.radios);
     }
     this.saveLabel = document.createElement("label"), this.saveLabel.style.display = "block", this.checkbox = document.createElement("input"), this.checkbox.type = "checkbox", this.checkbox.checked = !1, this.saveLabel.append(
       this.checkbox,
-      document.createTextNode(` ${o.save}`)
+      document.createTextNode(` ${t.save}`)
     );
-    const d = (h = this.newFields[this.newFields.length - 1]) == null ? void 0 : h.element;
-    d ? d.after(this.saveLabel) : l.container.appendChild(this.saveLabel), this.toggle();
+    const s = (O = this.newFields[this.newFields.length - 1]) == null ? void 0 : O.element;
+    s ? s.after(this.saveLabel) : l.container.appendChild(this.saveLabel), this.toggle();
   }
   toggle() {
+    var n, e;
     const l = !!this.savedPaymentId;
-    for (const n of this.newFields)
-      n.element.style.display = l ? "none" : n.display;
-    this.saveLabel && (this.saveLabel.style.display = l ? "none" : "block"), l && this.checkbox && (this.checkbox.checked = !1);
+    for (const t of this.newFields)
+      t.element.style.display = l ? "none" : t.display;
+    this.saveLabel && (this.saveLabel.style.display = l ? "none" : "block"), l && this.checkbox && (this.checkbox.checked = !1), (e = (n = this.businessOptions) == null ? void 0 : n.onSelectionChange) == null || e.call(n, l);
   }
 }
 class It {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
@@ -1558,16 +1637,16 @@ class It {
     );
   }
 }
-class Ut extends q {
+class Ut extends z {
   constructor(n, e) {
     super(
       D.GuaranteedInvoice,
       n,
       e
     );
-    g(this, "paymentFeatures", new _e());
-    g(this, "featuresReady", Promise.resolve());
-    g(this, "showPayButton");
+    w(this, "paymentFeatures", new ge());
+    w(this, "featuresReady", Promise.resolve());
+    w(this, "showPayButton");
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
   async mount(n) {
@@ -1597,14 +1676,14 @@ class Ut extends q {
       dob: "#nn_birthdate"
     }), await this.featuresReady, setTimeout(() => {
       var d;
-      const a = t.querySelector("label");
-      a && ((d = a.textContent) != null && d.toLowerCase().includes("guaranteed")) && (a.textContent = "Invoice with payment guarantee"), this.initializeDobHandling();
+      const s = t.querySelector("label");
+      s && ((d = s.textContent) != null && d.toLowerCase().includes("guaranteed")) && (s.textContent = "Invoice with payment guarantee"), this.initializeDobHandling();
     }, 100), this.showPayButton && ((o = document.querySelector(
       "#GuaranteedInvoiceForm-paymentButton"
     )) == null || o.addEventListener(
       "click",
-      (a) => {
-        a.preventDefault(), this.submit();
+      (s) => {
+        s.preventDefault(), this.submit();
       }
     ));
   }
@@ -1651,13 +1730,13 @@ class Ut extends q {
     );
   }
   async submit() {
-    var e, t, o, a;
+    var e, t, o, s;
     this.sdk.init({
       environment: this.environment
     });
     const n = window.location.origin;
     try {
-      await this.featuresReady;
+      await this.featuresReady, await this.paymentFeatures.refreshBusiness();
       const d = ((e = document.getElementById(
         "nn_birthdate"
       )) == null ? void 0 : e.value.trim()) ?? "";
@@ -1680,12 +1759,12 @@ class Ut extends q {
         paymentMethod: {
           ...this.paymentFeatures.paymentFields,
           type: "GUARANTEED_INVOICE",
-          birthdate: d
+          ...!this.paymentFeatures.business && { birthdate: d }
         },
         paymentOutcome: F.AUTHORIZED,
         lang: this.getLanguage(),
         path: n
-      }, k = await fetch(
+      }, O = await fetch(
         this.processorUrl + "/directPayment",
         {
           method: "POST",
@@ -1698,33 +1777,33 @@ class Ut extends q {
           )
         }
       );
-      if (!k.ok) {
-        const C = await k.text();
+      if (!O.ok) {
+        const v = await O.text();
         throw console.error(
           "[Guaranteed Invoice] HTTP Error",
-          C
+          v
         ), new Error(
-          `HTTP ${k.status}`
+          `HTTP ${O.status}`
         );
       }
-      const B = await k.json();
-      if (String((B == null ? void 0 : B.transactionStatus) ?? "").toUpperCase() === "FAILURE") {
+      const E = await O.json();
+      if (String((E == null ? void 0 : E.transactionStatus) ?? "").toUpperCase() === "FAILURE") {
         (o = this.onError) == null || o.call(
           this,
-          (B == null ? void 0 : B.transactionStatusText) || "Payment failed. Please try again.",
-          { paymentReference: B == null ? void 0 : B.paymentReference }
+          (E == null ? void 0 : E.transactionStatusText) || "Payment failed. Please try again.",
+          { paymentReference: E == null ? void 0 : E.paymentReference }
         );
         return;
       }
-      if (B != null && B.paymentReference) {
-        (a = this.onComplete) == null || a.call(this, {
+      if (E != null && E.paymentReference) {
+        (s = this.onComplete) == null || s.call(this, {
           isSuccess: !0,
-          paymentReference: B.paymentReference
+          paymentReference: E.paymentReference
         });
         return;
       }
       this.onError(
-        (B == null ? void 0 : B.transactionStatusText) || "Some error occurred. Please try again."
+        (E == null ? void 0 : E.transactionStatusText) || "Some error occurred. Please try again."
       );
     } catch (d) {
       console.error(
@@ -1738,7 +1817,7 @@ class Ut extends q {
   _getTemplate() {
     const n = this.getLanguage(), e = n === "de", t = n.startsWith("de") ? "Sie erhalten eine E-Mail mit den Bankdaten von Novalnet, um die Zahlung abzuschließen" : "You will receive an e-mail with the Novalnet account details to complete the payment", o = this.showPayButton ? `
           <button
-            class="${E.button} ${E.fullWidth} ${v.submitButton}"
+            class="${C.button} ${C.fullWidth} ${B.submitButton}"
             id="GuaranteedInvoiceForm-paymentButton"
             type="button"
           >
@@ -1747,7 +1826,7 @@ class Ut extends q {
         ` : "";
     return `
       <div
-        class="${v.wrapper}"
+        class="${B.wrapper}"
         style="width:100%;display:flex;flex-direction:column;gap:20px;"
       >
 
@@ -1790,11 +1869,11 @@ class Ut extends q {
     `;
   }
 }
-function we(r) {
+function Te(r) {
   return /^[\p{L}& ]*$/u.test(r);
 }
 function Fe(r) {
-  return new RegExp("\\p{L}", "u").test(r) && we(r.trim());
+  return new RegExp("\\p{L}", "u").test(r) && Te(r.trim());
 }
 function He(r) {
   return r === "de" ? "Der Kontoinhaber darf nur Buchstaben, Leerzeichen und & enthalten." : "Account holder may contain only letters, spaces, and &.";
@@ -1803,15 +1882,15 @@ function Ye(r, l, n) {
   if (!r || r.dataset.novalnetHolderValidation === "1") return;
   r.dataset.novalnetHolderValidation = "1";
   const e = He(l);
-  let t = we(r.value) ? r.value : "";
+  let t = Te(r.value) ? r.value : "";
   r.addEventListener("beforeinput", (o) => {
-    o.data && !we(o.data) && (o.preventDefault(), n(e));
+    o.data && !Te(o.data) && (o.preventDefault(), n(e));
   }), r.addEventListener("paste", (o) => {
     var d;
-    const a = ((d = o.clipboardData) == null ? void 0 : d.getData("text")) ?? "";
-    we(a) || (o.preventDefault(), n(e));
+    const s = ((d = o.clipboardData) == null ? void 0 : d.getData("text")) ?? "";
+    Te(s) || (o.preventDefault(), n(e));
   }), r.addEventListener("input", () => {
-    we(r.value) ? t = r.value : (r.value = t, n(e));
+    Te(r.value) ? t = r.value : (r.value = t, n(e));
   }), r.addEventListener("keydown", (o) => {
     o.key === "Enter" && !Fe(r.value) && (o.preventDefault(), n(e));
   });
@@ -1845,7 +1924,7 @@ function st(r) {
 }
 class Lt {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
@@ -1855,21 +1934,21 @@ class Lt {
     );
   }
 }
-class kt extends q {
+class kt extends z {
   constructor(n, e) {
     super(
       D.GuaranteedSepa,
       n,
       e
     );
-    g(this, "paymentFeatures", new _e());
-    g(this, "featuresReady", Promise.resolve());
-    g(this, "formContainer");
-    g(this, "showPayButton");
+    w(this, "paymentFeatures", new ge());
+    w(this, "featuresReady", Promise.resolve());
+    w(this, "formContainer");
+    w(this, "showPayButton");
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
   async mount(n) {
-    var o, a, d, h, S, k, B;
+    var o, s, d, h, S, O, E;
     const e = "#" + CSS.escape(
       n.substring(1)
     ), t = document.querySelector(
@@ -1885,7 +1964,7 @@ class kt extends q {
     this.formContainer = t, await this.loadNovalnetUtility(), t.insertAdjacentHTML(
       "afterbegin",
       this.getTemplate()
-    ), (a = (o = t.querySelector("#nn_guaranteesepa_account_holder")) == null ? void 0 : o.parentElement) == null || a.setAttribute("data-nn-oneclick-field", "0"), (h = (d = t.querySelector("#nn_guaranteesepa_account_no")) == null ? void 0 : d.parentElement) == null || h.setAttribute("data-nn-oneclick-field", "1"), (k = (S = t.querySelector("#nn_guaranteesepa_bic")) == null ? void 0 : S.parentElement) == null || k.setAttribute("data-nn-oneclick-field", "2"), this.featuresReady = this.paymentFeatures.mount({
+    ), (s = (o = t.querySelector("#nn_guaranteesepa_account_holder")) == null ? void 0 : o.parentElement) == null || s.setAttribute("data-nn-oneclick-field", "0"), (h = (d = t.querySelector("#nn_guaranteesepa_account_no")) == null ? void 0 : d.parentElement) == null || h.setAttribute("data-nn-oneclick-field", "1"), (O = (S = t.querySelector("#nn_guaranteesepa_bic")) == null ? void 0 : S.parentElement) == null || O.setAttribute("data-nn-oneclick-field", "2"), this.featuresReady = this.paymentFeatures.mount({
       container: t,
       processorUrl: this.processorUrl,
       sessionId: this.sessionId,
@@ -1896,19 +1975,19 @@ class kt extends q {
     }), await this.featuresReady, Ye(
       t.querySelector("#nn_guaranteesepa_account_holder"),
       this.getLanguage(),
-      (C) => this.onError(C)
+      (v) => this.onError(v)
     ), setTimeout(() => {
-      var j;
-      const C = t.querySelector(
+      var K;
+      const v = t.querySelector(
         "label"
       );
-      C && ((j = C.textContent) != null && j.toLowerCase().includes("guaranteed")) && (C.textContent = "Direct Debit SEPA with payment guarantee"), this.initializeIbanHandling(), this.initializeDobHandling();
-    }, 100), this.showPayButton && ((B = document.querySelector(
+      v && ((K = v.textContent) != null && K.toLowerCase().includes("guaranteed")) && (v.textContent = "Direct Debit SEPA with payment guarantee"), this.initializeIbanHandling(), this.initializeDobHandling();
+    }, 100), this.showPayButton && ((E = document.querySelector(
       "#guaranteed-sepa-payment-button"
-    )) == null || B.addEventListener(
+    )) == null || E.addEventListener(
       "click",
-      (C) => {
-        C.preventDefault(), this.submit();
+      (v) => {
+        v.preventDefault(), this.submit();
       }
     ));
   }
@@ -1931,9 +2010,9 @@ class kt extends q {
       return;
     }
     const e = (o) => {
-      var a;
+      var s;
       try {
-        const d = (a = window.NovalnetUtility) == null ? void 0 : a.formatIban(
+        const d = (s = window.NovalnetUtility) == null ? void 0 : s.formatIban(
           o,
           "nn_guaranteesepa_bic_div"
         ), h = document.getElementById(
@@ -1993,66 +2072,66 @@ class kt extends q {
     );
   }
   async submit() {
-    var t, o, a, d, h, S, k, B;
+    var t, o, s, d, h, S, O, E;
     this.sdk.init({
       environment: this.environment
     });
     const n = this.getLanguage(), e = window.location.origin;
     try {
-      await this.featuresReady;
-      const C = (t = document.getElementById(
+      await this.featuresReady, await this.paymentFeatures.refreshBusiness();
+      const v = (t = document.getElementById(
         "nn_guaranteesepa_account_holder"
-      )) == null ? void 0 : t.value.trim(), j = (o = document.getElementById(
+      )) == null ? void 0 : t.value.trim(), K = (o = document.getElementById(
         "nn_guaranteesepa_account_no"
-      )) == null ? void 0 : o.value.trim(), ne = (d = (a = this.formContainer) == null ? void 0 : a.querySelector(
+      )) == null ? void 0 : o.value.trim(), I = (d = (s = this.formContainer) == null ? void 0 : s.querySelector(
         "#nn_guaranteesepa_bic"
-      )) == null ? void 0 : d.value.trim(), re = (h = document.getElementById(
+      )) == null ? void 0 : d.value.trim(), x = (h = document.getElementById(
         "nn_guaranteesepa_dob"
       )) == null ? void 0 : h.value.trim();
-      if (!this.paymentFeatures.savedPaymentId && !C) {
+      if (!this.paymentFeatures.savedPaymentId && !v) {
         this.onError(
           this.getLanguage() === "de" ? "Bitte geben Sie den Kontoinhaber ein." : "Please enter account holder name."
         );
         return;
       }
-      if (!this.paymentFeatures.savedPaymentId && !Fe(C)) {
+      if (!this.paymentFeatures.savedPaymentId && !Fe(v)) {
         this.onError(He(this.getLanguage()));
         return;
       }
-      if (!this.paymentFeatures.savedPaymentId && !j) {
+      if (!this.paymentFeatures.savedPaymentId && !K) {
         this.onError(
           this.getLanguage() === "de" ? "Bitte geben Sie die IBAN ein." : "Please enter IBAN."
         );
         return;
       }
-      if (!this.paymentFeatures.business && !re) {
+      if (!this.paymentFeatures.business && !x) {
         this.onError(
           this.getLanguage() === "de" ? "Bitte geben Sie das Geburtsdatum ein." : "Please enter Date of Birth."
         );
         return;
       }
-      const N = this.paymentFeatures.business || ((S = window.NovalnetUtility) == null ? void 0 : S.validateDateFormat(
-        re
+      const A = this.paymentFeatures.business || ((S = window.NovalnetUtility) == null ? void 0 : S.validateDateFormat(
+        x
       ));
-      if (!this.paymentFeatures.business && !N) {
+      if (!this.paymentFeatures.business && !A) {
         this.onError(
           this.getLanguage() === "de" ? "Bitte geben Sie ein gültiges Geburtsdatum ein." : "Please enter a valid Date of Birth."
         );
         return;
       }
-      const A = {
+      const j = {
         paymentMethod: {
           ...this.paymentFeatures.paymentFields,
           type: "GUARANTEED_DIRECT_DEBIT_SEPA",
-          accHolder: C,
-          iban: j,
-          bic: ne,
-          birthdate: re
+          accHolder: v,
+          iban: K,
+          bic: I,
+          ...!this.paymentFeatures.business && { birthdate: x }
         },
         paymentOutcome: F.AUTHORIZED,
         lang: n,
         path: e
-      }, O = await fetch(
+      }, ne = await fetch(
         this.processorUrl + "/directPayment",
         {
           method: "POST",
@@ -2061,22 +2140,22 @@ class kt extends q {
             "X-Session-Id": this.sessionId
           },
           body: JSON.stringify(
-            A
+            j
           )
         }
       );
-      if (!O.ok) {
-        const c = await O.text();
+      if (!ne.ok) {
+        const c = await ne.text();
         throw console.error(
           "[Guaranteed SEPA] HTTP Error",
           c
         ), new Error(
-          `HTTP ${O.status}`
+          `HTTP ${ne.status}`
         );
       }
-      const m = await O.json();
+      const m = await ne.json();
       if (String((m == null ? void 0 : m.transactionStatus) ?? "").toUpperCase() === "FAILURE") {
-        (k = this.onError) == null || k.call(
+        (O = this.onError) == null || O.call(
           this,
           (m == null ? void 0 : m.transactionStatusText) || "Payment failed. Please try again.",
           { paymentReference: m == null ? void 0 : m.paymentReference }
@@ -2084,7 +2163,7 @@ class kt extends q {
         return;
       }
       if (m != null && m.paymentReference) {
-        (B = this.onComplete) == null || B.call(this, {
+        (E = this.onComplete) == null || E.call(this, {
           isSuccess: !0,
           paymentReference: m.paymentReference
         });
@@ -2093,10 +2172,10 @@ class kt extends q {
       this.onError(
         (m == null ? void 0 : m.transactionStatusText) || "Payment failed. Please try again."
       );
-    } catch (C) {
+    } catch (v) {
       console.error(
         "[Guaranteed SEPA] Submit error",
-        C
+        v
       ), this.onError(
         "Some error occurred. Please try again."
       );
@@ -2105,7 +2184,7 @@ class kt extends q {
   getTemplate() {
     const n = this.getLanguage(), e = n === "de", t = n.startsWith("de") ? "Der Betrag wird durch Novalnet von Ihrem Konto abgebucht" : "The amount will be debited from your account by Novalnet", o = this.showPayButton ? `
         <button
-          class="${E.button} ${E.fullWidth} ${v.submitButton}"
+          class="${C.button} ${C.fullWidth} ${B.submitButton}"
           id="guaranteed-sepa-payment-button"
           type="button"
         >
@@ -2114,7 +2193,7 @@ class kt extends q {
       ` : "";
     return `
       <div
-        class="${v.wrapper}"
+        class="${B.wrapper}"
         style="display:flex;flex-direction:column;gap:20px;width:100%;margin-top:20px;"
       >
 
@@ -2212,19 +2291,19 @@ class kt extends q {
     `;
   }
 }
-class At {
+class Ot {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
-    return new Ot(this.baseOptions, l);
+    return new At(this.baseOptions, l);
   }
 }
-class Ot extends q {
+class At extends z {
   constructor(n, e) {
     super(D.ideal, n, e);
-    g(this, "showPayButton");
+    w(this, "showPayButton");
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
   mount(n) {
@@ -2237,17 +2316,17 @@ class Ot extends q {
       "afterbegin",
       this._getTemplate()
     ), setTimeout(() => {
-      t.querySelectorAll("label").forEach((a) => {
+      t.querySelectorAll("label").forEach((s) => {
         var h;
-        const d = (h = a.textContent) == null ? void 0 : h.trim().toLowerCase();
-        d != null && d.includes("ideal") && (a.textContent = "iDEAL | Wero");
+        const d = (h = s.textContent) == null ? void 0 : h.trim().toLowerCase();
+        d != null && d.includes("ideal") && (s.textContent = "iDEAL | Wero");
       });
     }, 100), this.showPayButton) {
       const o = t.querySelector("#purchaseOrderForm-paymentButton");
       o && o.addEventListener(
         "click",
-        (a) => {
-          a.preventDefault(), this.submit();
+        (s) => {
+          s.preventDefault(), this.submit();
         }
       );
     }
@@ -2265,7 +2344,7 @@ class Ot extends q {
         paymentOutcome: F.AUTHORIZED,
         lang: n ?? "de",
         path: t
-      }, a = await fetch(
+      }, s = await fetch(
         this.processorUrl + "/redirectPayment",
         {
           method: "POST",
@@ -2276,14 +2355,14 @@ class Ot extends q {
           body: JSON.stringify(o)
         }
       );
-      if (!a.ok) {
-        const h = await a.text();
+      if (!s.ok) {
+        const h = await s.text();
         throw console.error("[iDEAL] HTTP error:", {
-          status: a.status,
+          status: s.status,
           body: h
-        }), new Error(`HTTP error! status: ${a.status}`);
+        }), new Error(`HTTP error! status: ${s.status}`);
       }
-      const d = await a.json();
+      const d = await s.json();
       d != null && d.txnSecret ? window.location.href = d.txnSecret : this.onError(
         (d == null ? void 0 : d.transactionStatusText) || "Payment failed. Please try again."
       );
@@ -2297,11 +2376,11 @@ class Ot extends q {
   _getTemplate() {
     const n = document.documentElement.lang || "en", e = n.startsWith("de") ? "Sie werden zu iDEAL | Wero weitergeleitet. Um eine erfolgreiche Zahlung zu gewährleisten, darf die Seite nicht geschlossen oder neu geladen werden, bis die Bezahlung abgeschlossen ist" : "You will be redirected to iDEAL | Wero. Please don’t close or refresh the browser until the payment is completed";
     return this.showPayButton ? `
-      <div class="${v.wrapper}">
+      <div class="${B.wrapper}">
         <p>${e}</p>
 
         <button
-          class="${E.button} ${E.fullWidth} ${v.submitButton}"
+          class="${C.button} ${C.fullWidth} ${B.submitButton}"
           id="purchaseOrderForm-paymentButton"
           type="button"
         >
@@ -2313,21 +2392,21 @@ class Ot extends q {
 }
 class Nt {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
     return new Rt(this.baseOptions, l);
   }
 }
-class Rt extends q {
+class Rt extends z {
   constructor(n, e) {
     super(
       D.paypal,
       n,
       e
     );
-    g(this, "showPayButton");
+    w(this, "showPayButton");
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
   mount(n) {
@@ -2343,8 +2422,8 @@ class Rt extends q {
       const o = t.querySelector("#purchaseOrderForm-paymentButton");
       o && o.addEventListener(
         "click",
-        (a) => {
-          a.preventDefault(), this.submit();
+        (s) => {
+          s.preventDefault(), this.submit();
         }
       );
     }
@@ -2362,7 +2441,7 @@ class Rt extends q {
         paymentOutcome: F.AUTHORIZED,
         lang: n ?? "de",
         path: t
-      }, a = await fetch(
+      }, s = await fetch(
         this.processorUrl + "/redirectPayment",
         {
           method: "POST",
@@ -2373,14 +2452,14 @@ class Rt extends q {
           body: JSON.stringify(o)
         }
       );
-      if (!a.ok) {
-        const h = await a.text();
+      if (!s.ok) {
+        const h = await s.text();
         throw console.error("[PayPal] HTTP error:", {
-          status: a.status,
+          status: s.status,
           body: h
-        }), new Error(`HTTP error! status: ${a.status}`);
+        }), new Error(`HTTP error! status: ${s.status}`);
       }
-      const d = await a.json();
+      const d = await s.json();
       d != null && d.txnSecret ? window.location.href = d.txnSecret : this.onError(
         (d == null ? void 0 : d.transactionStatusText) || "Payment failed. Please try again."
       );
@@ -2394,11 +2473,11 @@ class Rt extends q {
   _getTemplate() {
     const n = document.documentElement.lang || "en", e = n.startsWith("de") ? "Sie werden zu PayPal weitergeleitet. Um eine erfolgreiche Zahlung zu gewährleisten, darf die Seite nicht geschlossen oder neu geladen werden, bis die Bezahlung abgeschlossen ist" : "You will be redirected to PayPal. Please don’t close or refresh the browser until the payment is completed";
     return this.showPayButton ? `
-      <div class="${v.wrapper}">
+      <div class="${B.wrapper}">
         <p>${e}</p>
 
         <button
-          class="${E.button} ${E.fullWidth} ${v.submitButton}"
+          class="${C.button} ${C.fullWidth} ${B.submitButton}"
           id="purchaseOrderForm-paymentButton"
           type="button"
         >
@@ -2410,7 +2489,7 @@ class Rt extends q {
 }
 class $t {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
@@ -2420,14 +2499,14 @@ class $t {
     );
   }
 }
-class xt extends q {
+class xt extends z {
   constructor(n, e) {
     super(
       D.onlinebanktransfer,
       n,
       e
     );
-    g(this, "showPayButton");
+    w(this, "showPayButton");
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
   mount(n) {
@@ -2447,17 +2526,17 @@ class xt extends q {
       "afterbegin",
       this._getTemplate()
     ), setTimeout(() => {
-      var a;
+      var s;
       const o = t.querySelector("label");
-      o && ((a = o.textContent) != null && a.toLowerCase().includes("onlinebanktransfer")) && (o.textContent = "Online bank transfer");
+      o && ((s = o.textContent) != null && s.toLowerCase().includes("onlinebanktransfer")) && (o.textContent = "Online bank transfer");
     }, 100), this.showPayButton) {
       const o = t.querySelector(
         "#onlinebanktransfer-paymentButton"
       );
       o && o.addEventListener(
         "click",
-        (a) => {
-          a.preventDefault(), this.submit();
+        (s) => {
+          s.preventDefault(), this.submit();
         }
       );
     }
@@ -2475,7 +2554,7 @@ class xt extends q {
         paymentOutcome: F.AUTHORIZED,
         lang: n ?? "de",
         path: t
-      }, a = await fetch(
+      }, s = await fetch(
         this.processorUrl + "/redirectPayment",
         {
           method: "POST",
@@ -2488,19 +2567,19 @@ class xt extends q {
           )
         }
       );
-      if (!a.ok) {
-        const h = await a.text();
+      if (!s.ok) {
+        const h = await s.text();
         throw console.error(
           "[Online Bank Transfer] HTTP error:",
           {
-            status: a.status,
+            status: s.status,
             body: h
           }
         ), new Error(
-          `HTTP error! status: ${a.status}`
+          `HTTP error! status: ${s.status}`
         );
       }
-      const d = await a.json();
+      const d = await s.json();
       d != null && d.txnSecret ? window.location.href = d.txnSecret : this.onError(
         (d == null ? void 0 : d.transactionStatusText) || "Payment failed. Please try again."
       );
@@ -2521,7 +2600,7 @@ class xt extends q {
     return `
       <div
         id="novalnet-onlinebanktransfer-wrapper"
-        class="${v.wrapper}"
+        class="${B.wrapper}"
       >
 
         <p>
@@ -2530,9 +2609,9 @@ class xt extends q {
 
         ${this.showPayButton ? `
             <button
-              class="${E.button}
-              ${E.fullWidth}
-              ${v.submitButton}"
+              class="${C.button}
+              ${C.fullWidth}
+              ${B.submitButton}"
 
               type="button"
 
@@ -2548,21 +2627,21 @@ class xt extends q {
 }
 class _t {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
     return new Ft(this.baseOptions, l);
   }
 }
-class Ft extends q {
+class Ft extends z {
   constructor(n, e) {
     super(
       D.alipay,
       n,
       e
     );
-    g(this, "showPayButton");
+    w(this, "showPayButton");
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
   mount(n) {
@@ -2578,8 +2657,8 @@ class Ft extends q {
       const o = t.querySelector("#purchaseOrderForm-paymentButton");
       o && o.addEventListener(
         "click",
-        (a) => {
-          a.preventDefault(), this.submit();
+        (s) => {
+          s.preventDefault(), this.submit();
         }
       );
     }
@@ -2597,7 +2676,7 @@ class Ft extends q {
         paymentOutcome: F.AUTHORIZED,
         lang: n ?? "de",
         path: t
-      }, a = await fetch(
+      }, s = await fetch(
         this.processorUrl + "/redirectPayment",
         {
           method: "POST",
@@ -2608,14 +2687,14 @@ class Ft extends q {
           body: JSON.stringify(o)
         }
       );
-      if (!a.ok) {
-        const h = await a.text();
+      if (!s.ok) {
+        const h = await s.text();
         throw console.error("[Alipay] HTTP error:", {
-          status: a.status,
+          status: s.status,
           body: h
-        }), new Error(`HTTP error! status: ${a.status}`);
+        }), new Error(`HTTP error! status: ${s.status}`);
       }
-      const d = await a.json();
+      const d = await s.json();
       d != null && d.txnSecret ? window.location.href = d.txnSecret : this.onError(
         (d == null ? void 0 : d.transactionStatusText) || "Payment failed. Please try again."
       );
@@ -2629,11 +2708,11 @@ class Ft extends q {
   _getTemplate() {
     const n = document.documentElement.lang || "en", e = n.startsWith("de") ? "Sie werden zu Alipay weitergeleitet. Um eine erfolgreiche Zahlung zu gewährleisten, darf die Seite nicht geschlossen oder neu geladen werden, bis die Bezahlung abgeschlossen ist" : "You will be redirected to Alipay. Please don’t close or refresh the browser until the payment is completed";
     return this.showPayButton ? `
-      <div class="${v.wrapper}">
+      <div class="${B.wrapper}">
         <p>${e}</p>
 
         <button
-          class="${E.button} ${E.fullWidth} ${v.submitButton}"
+          class="${C.button} ${C.fullWidth} ${B.submitButton}"
           id="purchaseOrderForm-paymentButton"
           type="button"
         >
@@ -2645,21 +2724,21 @@ class Ft extends q {
 }
 class Ht {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
     return new Dt(this.baseOptions, l);
   }
 }
-class Dt extends q {
+class Dt extends z {
   constructor(n, e) {
     super(
       D.bancontact,
       n,
       e
     );
-    g(this, "showPayButton");
+    w(this, "showPayButton");
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
   mount(n) {
@@ -2675,8 +2754,8 @@ class Dt extends q {
       const o = t.querySelector("#purchaseOrderForm-paymentButton");
       o && o.addEventListener(
         "click",
-        (a) => {
-          a.preventDefault(), this.submit();
+        (s) => {
+          s.preventDefault(), this.submit();
         }
       );
     }
@@ -2694,7 +2773,7 @@ class Dt extends q {
         paymentOutcome: F.AUTHORIZED,
         lang: n ?? "de",
         path: t
-      }, a = await fetch(
+      }, s = await fetch(
         this.processorUrl + "/redirectPayment",
         {
           method: "POST",
@@ -2705,14 +2784,14 @@ class Dt extends q {
           body: JSON.stringify(o)
         }
       );
-      if (!a.ok) {
-        const h = await a.text();
+      if (!s.ok) {
+        const h = await s.text();
         throw console.error("[Bancontact] HTTP error:", {
-          status: a.status,
+          status: s.status,
           body: h
-        }), new Error(`HTTP error! status: ${a.status}`);
+        }), new Error(`HTTP error! status: ${s.status}`);
       }
-      const d = await a.json();
+      const d = await s.json();
       d != null && d.txnSecret ? window.location.href = d.txnSecret : this.onError(
         (d == null ? void 0 : d.transactionStatusText) || "Payment failed. Please try again."
       );
@@ -2726,11 +2805,11 @@ class Dt extends q {
   _getTemplate() {
     const n = document.documentElement.lang || "en", e = n.startsWith("de") ? "Sie werden zu Bancontact weitergeleitet. Um eine erfolgreiche Zahlung zu gewährleisten, darf die Seite nicht geschlossen oder neu geladen werden, bis die Bezahlung abgeschlossen ist" : "You will be redirected to Bancontact. Please don’t close or refresh the browser until the payment is completed";
     return this.showPayButton ? `
-      <div class="${v.wrapper}">
+      <div class="${B.wrapper}">
         <p>${e}</p>
 
         <button
-          class="${E.button} ${E.fullWidth} ${v.submitButton}"
+          class="${C.button} ${C.fullWidth} ${B.submitButton}"
           id="purchaseOrderForm-paymentButton"
           type="button"
         >
@@ -2742,21 +2821,21 @@ class Dt extends q {
 }
 class jt {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
-    return new zt(this.baseOptions, l);
+    return new qt(this.baseOptions, l);
   }
 }
-class zt extends q {
+class qt extends z {
   constructor(n, e) {
     super(
       D.blik,
       n,
       e
     );
-    g(this, "showPayButton");
+    w(this, "showPayButton");
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
   mount(n) {
@@ -2772,8 +2851,8 @@ class zt extends q {
       const o = t.querySelector("#purchaseOrderForm-paymentButton");
       o && o.addEventListener(
         "click",
-        (a) => {
-          a.preventDefault(), this.submit();
+        (s) => {
+          s.preventDefault(), this.submit();
         }
       );
     }
@@ -2791,7 +2870,7 @@ class zt extends q {
         paymentOutcome: F.AUTHORIZED,
         lang: n ?? "de",
         path: t
-      }, a = await fetch(
+      }, s = await fetch(
         this.processorUrl + "/redirectPayment",
         {
           method: "POST",
@@ -2802,14 +2881,14 @@ class zt extends q {
           body: JSON.stringify(o)
         }
       );
-      if (!a.ok) {
-        const h = await a.text();
+      if (!s.ok) {
+        const h = await s.text();
         throw console.error("[BLIK] HTTP error:", {
-          status: a.status,
+          status: s.status,
           body: h
-        }), new Error(`HTTP error! status: ${a.status}`);
+        }), new Error(`HTTP error! status: ${s.status}`);
       }
-      const d = await a.json();
+      const d = await s.json();
       d != null && d.txnSecret ? window.location.href = d.txnSecret : this.onError(
         (d == null ? void 0 : d.transactionStatusText) || "Payment failed. Please try again."
       );
@@ -2823,11 +2902,11 @@ class zt extends q {
   _getTemplate() {
     const n = document.documentElement.lang || "en", e = n.startsWith("de") ? "Sie werden zu Blik weitergeleitet. Um eine erfolgreiche Zahlung zu gewährleisten, darf die Seite nicht geschlossen oder neu geladen werden, bis die Bezahlung abgeschlossen ist." : "You will be redirected to Blik. Please don’t close or refresh the browser until the payment is completed. ";
     return this.showPayButton ? `
-      <div class="${v.wrapper}">
+      <div class="${B.wrapper}">
         <p>${e}</p>
 
         <button
-          class="${E.button} ${E.fullWidth} ${v.submitButton}"
+          class="${C.button} ${C.fullWidth} ${B.submitButton}"
           id="purchaseOrderForm-paymentButton"
           type="button"
         >
@@ -2837,23 +2916,23 @@ class zt extends q {
       ` : "";
   }
 }
-class qt {
+class zt {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
     return new Mt(this.baseOptions, l);
   }
 }
-class Mt extends q {
+class Mt extends z {
   constructor(n, e) {
     super(
       D.eps,
       n,
       e
     );
-    g(this, "showPayButton");
+    w(this, "showPayButton");
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
   mount(n) {
@@ -2869,8 +2948,8 @@ class Mt extends q {
       const o = t.querySelector("#purchaseOrderForm-paymentButton");
       o && o.addEventListener(
         "click",
-        (a) => {
-          a.preventDefault(), this.submit();
+        (s) => {
+          s.preventDefault(), this.submit();
         }
       );
     }
@@ -2888,7 +2967,7 @@ class Mt extends q {
         paymentOutcome: F.AUTHORIZED,
         lang: n ?? "de",
         path: t
-      }, a = await fetch(
+      }, s = await fetch(
         this.processorUrl + "/redirectPayment",
         {
           method: "POST",
@@ -2899,14 +2978,14 @@ class Mt extends q {
           body: JSON.stringify(o)
         }
       );
-      if (!a.ok) {
-        const h = await a.text();
+      if (!s.ok) {
+        const h = await s.text();
         throw console.error("[EPS] HTTP error:", {
-          status: a.status,
+          status: s.status,
           body: h
-        }), new Error(`HTTP error! status: ${a.status}`);
+        }), new Error(`HTTP error! status: ${s.status}`);
       }
-      const d = await a.json();
+      const d = await s.json();
       d != null && d.txnSecret ? window.location.href = d.txnSecret : this.onError(
         (d == null ? void 0 : d.transactionStatusText) || "Payment failed. Please try again."
       );
@@ -2920,11 +2999,11 @@ class Mt extends q {
   _getTemplate() {
     const n = document.documentElement.lang || "en", e = n.startsWith("de") ? "Sie werden zu eps weitergeleitet. Um eine erfolgreiche Zahlung zu gewährleisten, darf die Seite nicht geschlossen oder neu geladen werden, bis die Bezahlung abgeschlossen ist" : "You will be redirected to eps. Please don’t close or refresh the browser until the payment is completed";
     return this.showPayButton ? `
-      <div class="${v.wrapper}">
+      <div class="${B.wrapper}">
         <p>${e}</p>
 
         <button
-          class="${E.button} ${E.fullWidth} ${v.submitButton}"
+          class="${C.button} ${C.fullWidth} ${B.submitButton}"
           id="purchaseOrderForm-paymentButton"
           type="button"
         >
@@ -2936,21 +3015,21 @@ class Mt extends q {
 }
 class Kt {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
     return new Xt(this.baseOptions, l);
   }
 }
-class Xt extends q {
+class Xt extends z {
   constructor(n, e) {
     super(
       D.mbway,
       n,
       e
     );
-    g(this, "showPayButton");
+    w(this, "showPayButton");
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
   mount(n) {
@@ -2963,15 +3042,15 @@ class Xt extends q {
       "afterbegin",
       this._getTemplate()
     ), setTimeout(() => {
-      var a;
+      var s;
       const o = t.querySelector("label");
-      o && ((a = o.textContent) != null && a.toLowerCase().includes("mbway")) && (o.textContent = "MB Way");
+      o && ((s = o.textContent) != null && s.toLowerCase().includes("mbway")) && (o.textContent = "MB Way");
     }, 100), this.showPayButton) {
       const o = t.querySelector("#mbway-paymentButton");
       o && o.addEventListener(
         "click",
-        (a) => {
-          a.preventDefault(), this.submit();
+        (s) => {
+          s.preventDefault(), this.submit();
         }
       );
     }
@@ -2989,7 +3068,7 @@ class Xt extends q {
         paymentOutcome: F.AUTHORIZED,
         lang: n ?? "de",
         path: t
-      }, a = await fetch(
+      }, s = await fetch(
         this.processorUrl + "/redirectPayment",
         {
           method: "POST",
@@ -3000,14 +3079,14 @@ class Xt extends q {
           body: JSON.stringify(o)
         }
       );
-      if (!a.ok) {
-        const h = await a.text();
+      if (!s.ok) {
+        const h = await s.text();
         throw console.error("[MB Way] HTTP error:", {
-          status: a.status,
+          status: s.status,
           body: h
-        }), new Error(`HTTP error! status: ${a.status}`);
+        }), new Error(`HTTP error! status: ${s.status}`);
       }
-      const d = await a.json();
+      const d = await s.json();
       d != null && d.txnSecret ? window.location.href = d.txnSecret : this.onError(
         (d == null ? void 0 : d.transactionStatusText) || "Payment failed. Please try again."
       );
@@ -3023,13 +3102,13 @@ class Xt extends q {
     return `
       <div
         id="novalnet-mbway-wrapper"
-        class="${v.wrapper}"
+        class="${B.wrapper}"
       >
         <p>${e}</p>
 
         ${this.showPayButton ? `
             <button
-              class="${E.button} ${E.fullWidth} ${v.submitButton}"
+              class="${C.button} ${C.fullWidth} ${B.submitButton}"
               id="mbway-paymentButton"
               type="button"
             >
@@ -3042,21 +3121,21 @@ class Xt extends q {
 }
 class Wt {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
     return new Zt(this.baseOptions, l);
   }
 }
-class Zt extends q {
+class Zt extends z {
   constructor(n, e) {
     super(
       D.multibanco,
       n,
       e
     );
-    g(this, "showPayButton");
+    w(this, "showPayButton");
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
   mount(n) {
@@ -3072,8 +3151,8 @@ class Zt extends q {
       const o = t.querySelector("#purchaseOrderForm-paymentButton");
       o && o.addEventListener(
         "click",
-        (a) => {
-          a.preventDefault(), this.submit();
+        (s) => {
+          s.preventDefault(), this.submit();
         }
       );
     }
@@ -3085,7 +3164,7 @@ class Zt extends q {
     });
     const n = window.location.pathname.split("/")[1], t = new URL(window.location.href).origin;
     try {
-      const a = {
+      const s = {
         paymentMethod: {
           type: "MULTIBANCO"
         },
@@ -3100,7 +3179,7 @@ class Zt extends q {
             "Content-Type": "application/json",
             "X-Session-Id": this.sessionId
           },
-          body: JSON.stringify(a)
+          body: JSON.stringify(s)
         }
       );
       if (!d.ok) {
@@ -3117,21 +3196,21 @@ class Zt extends q {
       }) : this.onError(
         (h == null ? void 0 : h.transactionStatusText) || "Payment failed. Please try again."
       );
-    } catch (a) {
+    } catch (s) {
       console.error("[Multibanco] Submit error:", {
-        message: a instanceof Error ? a.message : String(a),
-        stack: a instanceof Error ? a.stack : void 0
+        message: s instanceof Error ? s.message : String(s),
+        stack: s instanceof Error ? s.stack : void 0
       }), this.onError("Some error occurred. Please try again.");
     }
   }
   _getTemplate() {
     const n = document.documentElement.lang || "en", e = n.startsWith("de") ? "Nach erfolgreichem Bestellabschluss erhalten Sie eine Zahlungsreferenz. Damit können Sie entweder an einem Multibanco-Geldautomaten oder im Onlinebanking bezahlen" : "On successful checkout, you will receive a payment reference. Using this payment reference, you can either pay in the Multibanco ATM or through your online bank account";
     return this.showPayButton ? `
-      <div class="${v.wrapper}">
+      <div class="${B.wrapper}">
         <p>${e}</p>
 
         <button
-          class="${E.button} ${E.fullWidth} ${v.submitButton}"
+          class="${C.button} ${C.fullWidth} ${B.submitButton}"
           id="purchaseOrderForm-paymentButton"
           type="button"
         >
@@ -3143,7 +3222,7 @@ class Zt extends q {
 }
 class Yt {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
@@ -3153,14 +3232,14 @@ class Yt {
     );
   }
 }
-class Jt extends q {
+class Jt extends z {
   constructor(n, e) {
     super(
       D.postfinance,
       n,
       e
     );
-    g(this, "showPayButton");
+    w(this, "showPayButton");
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
   mount(n) {
@@ -3176,15 +3255,15 @@ class Jt extends q {
       "afterbegin",
       this._getTemplate()
     ), setTimeout(() => {
-      var a;
+      var s;
       const o = t.querySelector("label");
-      o && ((a = o.textContent) != null && a.toLowerCase().includes("postfinance")) && (o.textContent = "PostFinance E-Finance");
+      o && ((s = o.textContent) != null && s.toLowerCase().includes("postfinance")) && (o.textContent = "PostFinance E-Finance");
     }, 100), this.showPayButton) {
       const o = t.querySelector("#purchaseOrderForm-paymentButton");
       o && o.addEventListener(
         "click",
-        (a) => {
-          a.preventDefault(), this.submit();
+        (s) => {
+          s.preventDefault(), this.submit();
         }
       );
     }
@@ -3202,7 +3281,7 @@ class Jt extends q {
         paymentOutcome: F.AUTHORIZED,
         lang: n ?? "de",
         path: t
-      }, a = await fetch(
+      }, s = await fetch(
         this.processorUrl + "/redirectPayment",
         {
           method: "POST",
@@ -3215,19 +3294,19 @@ class Jt extends q {
           )
         }
       );
-      if (!a.ok) {
-        const h = await a.text();
+      if (!s.ok) {
+        const h = await s.text();
         throw console.error(
           "[PostFinance E-Finance] HTTP error:",
           {
-            status: a.status,
+            status: s.status,
             body: h
           }
         ), new Error(
-          `HTTP error! status: ${a.status}`
+          `HTTP error! status: ${s.status}`
         );
       }
-      const d = await a.json();
+      const d = await s.json();
       d != null && d.txnSecret ? window.location.href = d.txnSecret : this.onError(
         (d == null ? void 0 : d.transactionStatusText) || "Payment failed. Please try again."
       );
@@ -3246,14 +3325,14 @@ class Jt extends q {
   _getTemplate() {
     const n = document.documentElement.lang || "en", e = n.startsWith("de") ? "Sie werden zu PostFinance weitergeleitet. Um eine erfolgreiche Zahlung zu gewährleisten, darf die Seite nicht geschlossen oder neu geladen werden, bis die Bezahlung abgeschlossen ist" : "You will be redirected to PostFinance. Please don’t close or refresh the browser until the payment is completed";
     return this.showPayButton ? `
-      <div class="${v.wrapper}">
+      <div class="${B.wrapper}">
 
         <p>${e}</p>
 
         <button
-          class="${E.button}
-          ${E.fullWidth}
-          ${v.submitButton}"
+          class="${C.button}
+          ${C.fullWidth}
+          ${B.submitButton}"
           id="purchaseOrderForm-paymentButton"
           type="button"
         >
@@ -3266,7 +3345,7 @@ class Jt extends q {
 }
 class Vt {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
@@ -3276,14 +3355,14 @@ class Vt {
     );
   }
 }
-class Gt extends q {
+class Gt extends z {
   constructor(n, e) {
     super(
       D.postfinancecard,
       n,
       e
     );
-    g(this, "showPayButton");
+    w(this, "showPayButton");
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
   mount(n) {
@@ -3303,17 +3382,17 @@ class Gt extends q {
       "afterbegin",
       this._getTemplate()
     ), setTimeout(() => {
-      var a;
+      var s;
       const o = t.querySelector("label");
-      o && ((a = o.textContent) != null && a.toLowerCase().includes("postfinancecard")) && (o.textContent = "PostFinance Card");
+      o && ((s = o.textContent) != null && s.toLowerCase().includes("postfinancecard")) && (o.textContent = "PostFinance Card");
     }, 100), this.showPayButton) {
       const o = t.querySelector(
         "#postfinance-paymentButton"
       );
       o && o.addEventListener(
         "click",
-        (a) => {
-          a.preventDefault(), this.submit();
+        (s) => {
+          s.preventDefault(), this.submit();
         }
       );
     }
@@ -3331,7 +3410,7 @@ class Gt extends q {
         paymentOutcome: F.AUTHORIZED,
         lang: n ?? "de",
         path: t
-      }, a = await fetch(
+      }, s = await fetch(
         this.processorUrl + "/redirectPayment",
         {
           method: "POST",
@@ -3344,19 +3423,19 @@ class Gt extends q {
           )
         }
       );
-      if (!a.ok) {
-        const h = await a.text();
+      if (!s.ok) {
+        const h = await s.text();
         throw console.error(
           "[PostFinance Card] HTTP error:",
           {
-            status: a.status,
+            status: s.status,
             body: h
           }
         ), new Error(
-          `HTTP error! status: ${a.status}`
+          `HTTP error! status: ${s.status}`
         );
       }
-      const d = await a.json();
+      const d = await s.json();
       d != null && d.txnSecret ? window.location.href = d.txnSecret : this.onError(
         (d == null ? void 0 : d.transactionStatusText) || "Payment failed. Please try again."
       );
@@ -3377,7 +3456,7 @@ class Gt extends q {
     return `
       <div
         id="novalnet-postfinance-wrapper"
-        class="${v.wrapper}"
+        class="${B.wrapper}"
       >
 
         <p>
@@ -3386,9 +3465,9 @@ class Gt extends q {
 
         ${this.showPayButton ? `
             <button
-              class="${E.button}
-              ${E.fullWidth}
-              ${v.submitButton}"
+              class="${C.button}
+              ${C.fullWidth}
+              ${B.submitButton}"
 
               id="postfinance-paymentButton"
               type="button"
@@ -3403,21 +3482,21 @@ class Gt extends q {
 }
 class Qt {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
     return new en(this.baseOptions, l);
   }
 }
-class en extends q {
+class en extends z {
   constructor(n, e) {
     super(
       D.przelewy24,
       n,
       e
     );
-    g(this, "showPayButton");
+    w(this, "showPayButton");
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
   mount(n) {
@@ -3433,8 +3512,8 @@ class en extends q {
       const o = t.querySelector("#purchaseOrderForm-paymentButton");
       o && o.addEventListener(
         "click",
-        (a) => {
-          a.preventDefault(), this.submit();
+        (s) => {
+          s.preventDefault(), this.submit();
         }
       );
     }
@@ -3452,7 +3531,7 @@ class en extends q {
         paymentOutcome: F.AUTHORIZED,
         lang: n ?? "de",
         path: t
-      }, a = await fetch(
+      }, s = await fetch(
         this.processorUrl + "/redirectPayment",
         {
           method: "POST",
@@ -3463,14 +3542,14 @@ class en extends q {
           body: JSON.stringify(o)
         }
       );
-      if (!a.ok) {
-        const h = await a.text();
+      if (!s.ok) {
+        const h = await s.text();
         throw console.error("[Przelewy24] HTTP error:", {
-          status: a.status,
+          status: s.status,
           body: h
-        }), new Error(`HTTP error! status: ${a.status}`);
+        }), new Error(`HTTP error! status: ${s.status}`);
       }
-      const d = await a.json();
+      const d = await s.json();
       d != null && d.txnSecret ? window.location.href = d.txnSecret : this.onError(
         (d == null ? void 0 : d.transactionStatusText) || "Payment failed. Please try again."
       );
@@ -3484,11 +3563,11 @@ class en extends q {
   _getTemplate() {
     const n = document.documentElement.lang || "en", e = n.startsWith("de") ? "Sie werden zu Przelewy24 weitergeleitet. Um eine erfolgreiche Zahlung zu gewährleisten, darf die Seite nicht geschlossen oder neu geladen werden, bis die Bezahlung abgeschlossen ist" : "You will be redirected to Przelewy24. Please don’t close or refresh the browser until the payment is completed";
     return this.showPayButton ? `
-      <div class="${v.wrapper}">
+      <div class="${B.wrapper}">
         <p>${e}</p>
 
         <button
-          class="${E.button} ${E.fullWidth} ${v.submitButton}"
+          class="${C.button} ${C.fullWidth} ${B.submitButton}"
           id="purchaseOrderForm-paymentButton"
           type="button"
         >
@@ -3500,21 +3579,21 @@ class en extends q {
 }
 class tn {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
     return new nn(this.baseOptions, l);
   }
 }
-class nn extends q {
+class nn extends z {
   constructor(n, e) {
     super(
       D.trustly,
       n,
       e
     );
-    g(this, "showPayButton");
+    w(this, "showPayButton");
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
   mount(n) {
@@ -3530,8 +3609,8 @@ class nn extends q {
       const o = t.querySelector("#purchaseOrderForm-paymentButton");
       o && o.addEventListener(
         "click",
-        (a) => {
-          a.preventDefault(), this.submit();
+        (s) => {
+          s.preventDefault(), this.submit();
         }
       );
     }
@@ -3549,7 +3628,7 @@ class nn extends q {
         paymentOutcome: F.AUTHORIZED,
         lang: n ?? "de",
         path: t
-      }, a = await fetch(
+      }, s = await fetch(
         this.processorUrl + "/redirectPayment",
         {
           method: "POST",
@@ -3560,14 +3639,14 @@ class nn extends q {
           body: JSON.stringify(o)
         }
       );
-      if (!a.ok) {
-        const h = await a.text();
+      if (!s.ok) {
+        const h = await s.text();
         throw console.error("[Trustly] HTTP error:", {
-          status: a.status,
+          status: s.status,
           body: h
-        }), new Error(`HTTP error! status: ${a.status}`);
+        }), new Error(`HTTP error! status: ${s.status}`);
       }
-      const d = await a.json();
+      const d = await s.json();
       d != null && d.txnSecret ? window.location.href = d.txnSecret : this.onError(
         (d == null ? void 0 : d.transactionStatusText) || "Payment failed. Please try again."
       );
@@ -3581,11 +3660,11 @@ class nn extends q {
   _getTemplate() {
     const n = document.documentElement.lang || "en", e = n.startsWith("de") ? "Sie werden zu Trustly weitergeleitet. Um eine erfolgreiche Zahlung zu gewährleisten, darf die Seite nicht geschlossen oder neu geladen werden, bis die Bezahlung abgeschlossen ist" : "You will be redirected to Trustly. Please don’t close or refresh the browser until the payment is completed";
     return this.showPayButton ? `
-      <div class="${v.wrapper}">
+      <div class="${B.wrapper}">
         <p>${e}</p>
 
         <button
-          class="${E.button} ${E.fullWidth} ${v.submitButton}"
+          class="${C.button} ${C.fullWidth} ${B.submitButton}"
           id="purchaseOrderForm-paymentButton"
           type="button"
         >
@@ -3597,21 +3676,21 @@ class nn extends q {
 }
 class rn {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
     return new on(this.baseOptions, l);
   }
 }
-class on extends q {
+class on extends z {
   constructor(n, e) {
     super(
       D.twint,
       n,
       e
     );
-    g(this, "showPayButton");
+    w(this, "showPayButton");
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
   mount(n) {
@@ -3627,8 +3706,8 @@ class on extends q {
       const o = t.querySelector("#purchaseOrderForm-paymentButton");
       o && o.addEventListener(
         "click",
-        (a) => {
-          a.preventDefault(), this.submit();
+        (s) => {
+          s.preventDefault(), this.submit();
         }
       );
     }
@@ -3646,7 +3725,7 @@ class on extends q {
         paymentOutcome: F.AUTHORIZED,
         lang: n ?? "de",
         path: t
-      }, a = await fetch(
+      }, s = await fetch(
         this.processorUrl + "/redirectPayment",
         {
           method: "POST",
@@ -3657,14 +3736,14 @@ class on extends q {
           body: JSON.stringify(o)
         }
       );
-      if (!a.ok) {
-        const h = await a.text();
+      if (!s.ok) {
+        const h = await s.text();
         throw console.error("[TWINT] HTTP error:", {
-          status: a.status,
+          status: s.status,
           body: h
-        }), new Error(`HTTP error! status: ${a.status}`);
+        }), new Error(`HTTP error! status: ${s.status}`);
       }
-      const d = await a.json();
+      const d = await s.json();
       d != null && d.txnSecret ? window.location.href = d.txnSecret : this.onError(
         (d == null ? void 0 : d.transactionStatusText) || "Payment failed. Please try again."
       );
@@ -3678,11 +3757,11 @@ class on extends q {
   _getTemplate() {
     const n = document.documentElement.lang || "en", e = n.startsWith("de") ? "Sie werden zu TWINT weitergeleitet. Um eine erfolgreiche Zahlung zu gewährleisten, darf die Seite nicht geschlossen oder neu geladen werden, bis die Bezahlung abgeschlossen ist" : "You will be redirected to TWINT. Please don’t close or refresh the browser until the payment is completed";
     return this.showPayButton ? `
-      <div class="${v.wrapper}">
+      <div class="${B.wrapper}">
         <p>${e}</p>
 
         <button
-          class="${E.button} ${E.fullWidth} ${v.submitButton}"
+          class="${C.button} ${C.fullWidth} ${B.submitButton}"
           id="purchaseOrderForm-paymentButton"
           type="button"
         >
@@ -3694,21 +3773,21 @@ class on extends q {
 }
 class sn {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
     return new an(this.baseOptions, l);
   }
 }
-class an extends q {
+class an extends z {
   constructor(n, e) {
     super(
       D.wechatpay,
       n,
       e
     );
-    g(this, "showPayButton");
+    w(this, "showPayButton");
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
   mount(n) {
@@ -3724,8 +3803,8 @@ class an extends q {
       const o = t.querySelector("#purchaseOrderForm-paymentButton");
       o && o.addEventListener(
         "click",
-        (a) => {
-          a.preventDefault(), this.submit();
+        (s) => {
+          s.preventDefault(), this.submit();
         }
       );
     }
@@ -3743,7 +3822,7 @@ class an extends q {
         paymentOutcome: F.AUTHORIZED,
         lang: n ?? "de",
         path: t
-      }, a = await fetch(
+      }, s = await fetch(
         this.processorUrl + "/redirectPayment",
         {
           method: "POST",
@@ -3754,14 +3833,14 @@ class an extends q {
           body: JSON.stringify(o)
         }
       );
-      if (!a.ok) {
-        const h = await a.text();
+      if (!s.ok) {
+        const h = await s.text();
         throw console.error("[WeChat Pay] HTTP error:", {
-          status: a.status,
+          status: s.status,
           body: h
-        }), new Error(`HTTP error! status: ${a.status}`);
+        }), new Error(`HTTP error! status: ${s.status}`);
       }
-      const d = await a.json();
+      const d = await s.json();
       d != null && d.txnSecret ? window.location.href = d.txnSecret : this.onError(
         (d == null ? void 0 : d.transactionStatusText) || "Payment failed. Please try again."
       );
@@ -3775,11 +3854,11 @@ class an extends q {
   _getTemplate() {
     const n = document.documentElement.lang || "en", e = n.startsWith("de") ? "Sie werden zu WeChat Pay weitergeleitet. Um eine erfolgreiche Zahlung zu gewährleisten, darf die Seite nicht geschlossen oder neu geladen werden, bis die Bezahlung abgeschlossen ist" : "You will be redirected to WeChat Pay. Please don’t close or refresh the browser until the payment is completed";
     return this.showPayButton ? `
-      <div class="${v.wrapper}">
+      <div class="${B.wrapper}">
         <p>${e}</p>
 
         <button
-          class="${E.button} ${E.fullWidth} ${v.submitButton}"
+          class="${C.button} ${C.fullWidth} ${B.submitButton}"
           id="purchaseOrderForm-paymentButton"
           type="button"
         >
@@ -3791,21 +3870,21 @@ class an extends q {
 }
 class un {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
     return new cn(this.baseOptions, l);
   }
 }
-class cn extends q {
+class cn extends z {
   constructor(n, e) {
     super(
       D.pix,
       n,
       e
     );
-    g(this, "showPayButton");
+    w(this, "showPayButton");
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
   mount(n) {
@@ -3821,8 +3900,8 @@ class cn extends q {
       const o = t.querySelector("#purchaseOrderForm-paymentButton");
       o && o.addEventListener(
         "click",
-        (a) => {
-          a.preventDefault(), this.submit();
+        (s) => {
+          s.preventDefault(), this.submit();
         }
       );
     }
@@ -3858,9 +3937,9 @@ class cn extends q {
           body: d
         }), new Error(`HTTP error! status: ${o.status}`);
       }
-      const a = await o.json();
-      a != null && a.txnSecret ? window.location.href = a.txnSecret : this.onError(
-        (a == null ? void 0 : a.transactionStatusText) || "Payment failed. Please try again."
+      const s = await o.json();
+      s != null && s.txnSecret ? window.location.href = s.txnSecret : this.onError(
+        (s == null ? void 0 : s.transactionStatusText) || "Payment failed. Please try again."
       );
     } catch (t) {
       console.error("[PIX] Submit error:", {
@@ -3872,11 +3951,11 @@ class cn extends q {
   _getTemplate() {
     const n = this.getLanguage(), e = n.startsWith("de") ? "Sie werden zu PIX weitergeleitet. Um eine erfolgreiche Zahlung zu gewährleisten, darf die Seite nicht geschlossen oder neu geladen werden, bis die Bezahlung abgeschlossen ist" : "You will be redirected to PIX. Please don’t close or refresh the browser until the payment is completed";
     return this.showPayButton ? `
-      <div class="${v.wrapper}">
+      <div class="${B.wrapper}">
         <p>${e}</p>
 
         <button
-          class="${E.button} ${E.fullWidth} ${v.submitButton}"
+          class="${C.button} ${C.fullWidth} ${B.submitButton}"
           id="purchaseOrderForm-paymentButton"
           type="button"
         >
@@ -3888,21 +3967,21 @@ class cn extends q {
 }
 class ln {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
     return new dn(this.baseOptions, l);
   }
 }
-class dn extends q {
+class dn extends z {
   constructor(n, e) {
     super(
       D.boleto,
       n,
       e
     );
-    g(this, "showPayButton");
+    w(this, "showPayButton");
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
   mount(n) {
@@ -3918,8 +3997,8 @@ class dn extends q {
       const o = t.querySelector("#purchaseOrderForm-paymentButton");
       o && o.addEventListener(
         "click",
-        (a) => {
-          a.preventDefault(), this.submit();
+        (s) => {
+          s.preventDefault(), this.submit();
         }
       );
     }
@@ -3955,9 +4034,9 @@ class dn extends q {
           body: d
         }), new Error(`HTTP error! status: ${o.status}`);
       }
-      const a = await o.json();
-      a != null && a.txnSecret ? window.location.href = a.txnSecret : this.onError(
-        (a == null ? void 0 : a.transactionStatusText) || "Payment failed. Please try again."
+      const s = await o.json();
+      s != null && s.txnSecret ? window.location.href = s.txnSecret : this.onError(
+        (s == null ? void 0 : s.transactionStatusText) || "Payment failed. Please try again."
       );
     } catch (t) {
       console.error("[Boleto] Submit error:", {
@@ -3969,11 +4048,11 @@ class dn extends q {
   _getTemplate() {
     const n = this.getLanguage(), e = n.startsWith("de") ? "Sie werden zu Boleto weitergeleitet. Um eine erfolgreiche Zahlung zu gewährleisten, darf die Seite nicht geschlossen oder neu geladen werden, bis die Bezahlung abgeschlossen ist" : "You will be redirected to Boleto. Please don’t close or refresh the browser until the payment is completed";
     return this.showPayButton ? `
-      <div class="${v.wrapper}">
+      <div class="${B.wrapper}">
         <p>${e}</p>
 
         <button
-          class="${E.button} ${E.fullWidth} ${v.submitButton}"
+          class="${C.button} ${C.fullWidth} ${B.submitButton}"
           id="purchaseOrderForm-paymentButton"
           type="button"
         >
@@ -3985,21 +4064,21 @@ class dn extends q {
 }
 class yn {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
     return new fn(this.baseOptions, l);
   }
 }
-class fn extends q {
+class fn extends z {
   constructor(n, e) {
     super(
       D.bizum,
       n,
       e
     );
-    g(this, "showPayButton");
+    w(this, "showPayButton");
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
   mount(n) {
@@ -4015,8 +4094,8 @@ class fn extends q {
       const o = t.querySelector("#purchaseOrderForm-paymentButton");
       o && o.addEventListener(
         "click",
-        (a) => {
-          a.preventDefault(), this.submit();
+        (s) => {
+          s.preventDefault(), this.submit();
         }
       );
     }
@@ -4052,9 +4131,9 @@ class fn extends q {
           body: d
         }), new Error(`HTTP error! status: ${o.status}`);
       }
-      const a = await o.json();
-      a != null && a.txnSecret ? window.location.href = a.txnSecret : this.onError(
-        (a == null ? void 0 : a.transactionStatusText) || "Payment failed. Please try again."
+      const s = await o.json();
+      s != null && s.txnSecret ? window.location.href = s.txnSecret : this.onError(
+        (s == null ? void 0 : s.transactionStatusText) || "Payment failed. Please try again."
       );
     } catch (t) {
       console.error("[Bizum] Submit error:", {
@@ -4066,11 +4145,11 @@ class fn extends q {
   _getTemplate() {
     const n = this.getLanguage(), e = n.startsWith("de") ? "Sie werden zu Bizum weitergeleitet. Um eine erfolgreiche Zahlung zu gewährleisten, darf die Seite nicht geschlossen oder neu geladen werden, bis die Bezahlung abgeschlossen ist" : "You will be redirected to Bizum. Please don’t close or refresh the browser until the payment is completed";
     return this.showPayButton ? `
-      <div class="${v.wrapper}">
+      <div class="${B.wrapper}">
         <p>${e}</p>
 
         <button
-          class="${E.button} ${E.fullWidth} ${v.submitButton}"
+          class="${C.button} ${C.fullWidth} ${B.submitButton}"
           id="purchaseOrderForm-paymentButton"
           type="button"
         >
@@ -4082,21 +4161,21 @@ class fn extends q {
 }
 class Ge {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
     return new pn(this.baseOptions, l);
   }
 }
-class pn extends q {
+class pn extends z {
   constructor(n, e) {
     super(
       D.bancomat,
       n,
       e
     );
-    g(this, "showPayButton");
+    w(this, "showPayButton");
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
   mount(n) {
@@ -4112,8 +4191,8 @@ class pn extends q {
       const o = t.querySelector("#purchaseOrderForm-paymentButton");
       o && o.addEventListener(
         "click",
-        (a) => {
-          a.preventDefault(), this.submit();
+        (s) => {
+          s.preventDefault(), this.submit();
         }
       );
     }
@@ -4149,9 +4228,9 @@ class pn extends q {
           body: d
         }), new Error(`HTTP error! status: ${o.status}`);
       }
-      const a = await o.json();
-      a != null && a.txnSecret ? window.location.href = a.txnSecret : this.onError(
-        (a == null ? void 0 : a.transactionStatusText) || "Payment failed. Please try again."
+      const s = await o.json();
+      s != null && s.txnSecret ? window.location.href = s.txnSecret : this.onError(
+        (s == null ? void 0 : s.transactionStatusText) || "Payment failed. Please try again."
       );
     } catch (t) {
       console.error("[BANCOMAT Pay] Submit error:", {
@@ -4163,11 +4242,11 @@ class pn extends q {
   _getTemplate() {
     const n = this.getLanguage(), e = n.startsWith("de") ? "Sie werden zu BANCOMAT Pay weitergeleitet. Um eine erfolgreiche Zahlung zu gewährleisten, darf die Seite nicht geschlossen oder neu geladen werden, bis die Bezahlung abgeschlossen ist" : "You will be redirected to BANCOMAT Pay. Please don’t close or refresh the browser until the payment is completed";
     return this.showPayButton ? `
-      <div class="${v.wrapper}">
+      <div class="${B.wrapper}">
         <p>${e}</p>
 
         <button
-          class="${E.button} ${E.fullWidth} ${v.submitButton}"
+          class="${C.button} ${C.fullWidth} ${B.submitButton}"
           id="purchaseOrderForm-paymentButton"
           type="button"
         >
@@ -4179,21 +4258,21 @@ class pn extends q {
 }
 class Qe {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
     return new hn(this.baseOptions, l);
   }
 }
-class hn extends q {
+class hn extends z {
   constructor(n, e) {
     super(
       D.kakaopay,
       n,
       e
     );
-    g(this, "showPayButton");
+    w(this, "showPayButton");
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
   mount(n) {
@@ -4209,8 +4288,8 @@ class hn extends q {
       const o = t.querySelector("#purchaseOrderForm-paymentButton");
       o && o.addEventListener(
         "click",
-        (a) => {
-          a.preventDefault(), this.submit();
+        (s) => {
+          s.preventDefault(), this.submit();
         }
       );
     }
@@ -4246,9 +4325,9 @@ class hn extends q {
           body: d
         }), new Error(`HTTP error! status: ${o.status}`);
       }
-      const a = await o.json();
-      a != null && a.txnSecret ? window.location.href = a.txnSecret : this.onError(
-        (a == null ? void 0 : a.transactionStatusText) || "Payment failed. Please try again."
+      const s = await o.json();
+      s != null && s.txnSecret ? window.location.href = s.txnSecret : this.onError(
+        (s == null ? void 0 : s.transactionStatusText) || "Payment failed. Please try again."
       );
     } catch (t) {
       console.error("[Kakao Pay] Submit error:", {
@@ -4260,11 +4339,11 @@ class hn extends q {
   _getTemplate() {
     const n = this.getLanguage(), e = n.startsWith("de") ? "Sie werden zu Kakao Pay weitergeleitet. Um eine erfolgreiche Zahlung zu gewährleisten, darf die Seite nicht geschlossen oder neu geladen werden, bis die Bezahlung abgeschlossen ist" : "You will be redirected to Kakao Pay. Please don’t close or refresh the browser until the payment is completed";
     return this.showPayButton ? `
-      <div class="${v.wrapper}">
+      <div class="${B.wrapper}">
         <p>${e}</p>
 
         <button
-          class="${E.button} ${E.fullWidth} ${v.submitButton}"
+          class="${C.button} ${C.fullWidth} ${B.submitButton}"
           id="purchaseOrderForm-paymentButton"
           type="button"
         >
@@ -4276,21 +4355,21 @@ class hn extends q {
 }
 class et {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
     return new mn(this.baseOptions, l);
   }
 }
-class mn extends q {
+class mn extends z {
   constructor(n, e) {
     super(
       D.naverpay,
       n,
       e
     );
-    g(this, "showPayButton");
+    w(this, "showPayButton");
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
   mount(n) {
@@ -4306,8 +4385,8 @@ class mn extends q {
       const o = t.querySelector("#purchaseOrderForm-paymentButton");
       o && o.addEventListener(
         "click",
-        (a) => {
-          a.preventDefault(), this.submit();
+        (s) => {
+          s.preventDefault(), this.submit();
         }
       );
     }
@@ -4343,9 +4422,9 @@ class mn extends q {
           body: d
         }), new Error(`HTTP error! status: ${o.status}`);
       }
-      const a = await o.json();
-      a != null && a.txnSecret ? window.location.href = a.txnSecret : this.onError(
-        (a == null ? void 0 : a.transactionStatusText) || "Payment failed. Please try again."
+      const s = await o.json();
+      s != null && s.txnSecret ? window.location.href = s.txnSecret : this.onError(
+        (s == null ? void 0 : s.transactionStatusText) || "Payment failed. Please try again."
       );
     } catch (t) {
       console.error("[Naver Pay] Submit error:", {
@@ -4357,11 +4436,11 @@ class mn extends q {
   _getTemplate() {
     const n = this.getLanguage(), e = n.startsWith("de") ? "Sie werden zu Naver Pay weitergeleitet. Um eine erfolgreiche Zahlung zu gewährleisten, darf die Seite nicht geschlossen oder neu geladen werden, bis die Bezahlung abgeschlossen ist" : "You will be redirected to Naver Pay. Please don’t close or refresh the browser until the payment is completed";
     return this.showPayButton ? `
-      <div class="${v.wrapper}">
+      <div class="${B.wrapper}">
         <p>${e}</p>
 
         <button
-          class="${E.button} ${E.fullWidth} ${v.submitButton}"
+          class="${C.button} ${C.fullWidth} ${B.submitButton}"
           id="purchaseOrderForm-paymentButton"
           type="button"
         >
@@ -4374,7 +4453,7 @@ class mn extends q {
 const tt = "https://cdn.novalnet.de/js/v2/NovalnetUtility-1.1.2.js";
 class bn {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
@@ -4384,17 +4463,17 @@ class bn {
     );
   }
 }
-const se = class se extends q {
+const se = class se extends z {
   constructor(n, e) {
     super(
       D.sepa,
       n,
       e
     );
-    g(this, "paymentFeatures", new _e());
-    g(this, "featuresReady", Promise.resolve());
-    g(this, "formContainer");
-    g(this, "showPayButton");
+    w(this, "paymentFeatures", new ge());
+    w(this, "featuresReady", Promise.resolve());
+    w(this, "formContainer");
+    w(this, "showPayButton");
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
   loadNovalnetUtility() {
@@ -4463,7 +4542,7 @@ const se = class se extends q {
     )), se.utilityLoadPromise);
   }
   async mount(n) {
-    var o, a, d, h, S, k;
+    var o, s, d, h, S, O;
     const e = "#" + CSS.escape(
       n.substring(1)
     ), t = document.querySelector(
@@ -4481,7 +4560,7 @@ const se = class se extends q {
     if (this.formContainer = t, t.insertAdjacentHTML(
       "afterbegin",
       this._getTemplate()
-    ), (a = (o = t.querySelector("#nn_account_holder")) == null ? void 0 : o.parentElement) == null || a.setAttribute("data-nn-oneclick-field", "0"), (h = (d = t.querySelector("#nn_sepa_account_no")) == null ? void 0 : d.parentElement) == null || h.setAttribute("data-nn-oneclick-field", "1"), (k = (S = t.querySelector("#nn_sepa_bic")) == null ? void 0 : S.parentElement) == null || k.setAttribute("data-nn-oneclick-field", "2"), this.featuresReady = this.paymentFeatures.mount({
+    ), (s = (o = t.querySelector("#nn_account_holder")) == null ? void 0 : o.parentElement) == null || s.setAttribute("data-nn-oneclick-field", "0"), (h = (d = t.querySelector("#nn_sepa_account_no")) == null ? void 0 : d.parentElement) == null || h.setAttribute("data-nn-oneclick-field", "1"), (O = (S = t.querySelector("#nn_sepa_bic")) == null ? void 0 : S.parentElement) == null || O.setAttribute("data-nn-oneclick-field", "2"), this.featuresReady = this.paymentFeatures.mount({
       container: t,
       processorUrl: this.processorUrl,
       sessionId: this.sessionId,
@@ -4491,26 +4570,26 @@ const se = class se extends q {
     }), await this.featuresReady, Ye(
       t.querySelector("#nn_account_holder"),
       this.getLanguage(),
-      (B) => this.onError(B)
+      (E) => this.onError(E)
     ), setTimeout(
       () => {
-        var C;
-        const B = t.querySelector(
+        var v;
+        const E = t.querySelector(
           "label"
         );
-        B && ((C = B.textContent) != null && C.toLowerCase().includes("sepa")) && (B.textContent = "Direct Debit SEPA");
+        E && ((v = E.textContent) != null && v.toLowerCase().includes("sepa")) && (E.textContent = "Direct Debit SEPA");
       },
       100
     ), this.setBicVisibility(
       !1
     ), this.bindIbanEvents(), this.loadNovalnetUtility(), this.showPayButton) {
-      const B = document.querySelector(
+      const E = document.querySelector(
         "#sepa-payment-button"
       );
-      B ? B.addEventListener(
+      E ? E.addEventListener(
         "click",
-        (C) => {
-          C.preventDefault(), this.submit();
+        (v) => {
+          v.preventDefault(), this.submit();
         }
       ) : console.warn(
         "[SEPA] Payment button not found"
@@ -4541,10 +4620,10 @@ const se = class se extends q {
           t,
           "nn_sepa_bic"
         ), this.syncBicContainerVisibility();
-      } catch (a) {
+      } catch (s) {
         console.error(
           "[SEPA] IBAN utility processing failed",
-          a
+          s
         );
       }
     };
@@ -4586,8 +4665,8 @@ const se = class se extends q {
     }
     const t = window.getComputedStyle(
       n
-    ).display, o = n.style.display, a = t !== "none" && o !== "none";
-    e.style.display = a ? "flex" : "none";
+    ).display, o = n.style.display, s = t !== "none" && o !== "none";
+    e.style.display = s ? "flex" : "none";
   }
   setBicVisibility(n) {
     const e = document.getElementById(
@@ -4602,7 +4681,7 @@ const se = class se extends q {
     e.style.display = n ? "flex" : "none";
   }
   async submit() {
-    var t, o, a, d, h, S, k, B;
+    var t, o, s, d, h, S, O, E;
     this.sdk.init({
       environment: this.environment
     });
@@ -4611,12 +4690,12 @@ const se = class se extends q {
     ).origin;
     try {
       await this.featuresReady;
-      const C = document.getElementById(
+      const v = document.getElementById(
         "nn_account_holder"
-      ), j = document.getElementById(
+      ), K = document.getElementById(
         "nn_sepa_account_no"
-      ), ne = (t = this.formContainer) == null ? void 0 : t.querySelector("#nn_sepa_bic"), re = ((o = C == null ? void 0 : C.value) == null ? void 0 : o.trim()) ?? "", N = ((d = (a = j == null ? void 0 : j.value) == null ? void 0 : a.replace(/\s/g, "")) == null ? void 0 : d.trim()) ?? "", A = ((S = (h = ne == null ? void 0 : ne.value) == null ? void 0 : h.replace(/\s/g, "")) == null ? void 0 : S.trim()) ?? "";
-      if (!this.paymentFeatures.savedPaymentId && !re) {
+      ), I = (t = this.formContainer) == null ? void 0 : t.querySelector("#nn_sepa_bic"), x = ((o = v == null ? void 0 : v.value) == null ? void 0 : o.trim()) ?? "", A = ((d = (s = K == null ? void 0 : K.value) == null ? void 0 : s.replace(/\s/g, "")) == null ? void 0 : d.trim()) ?? "", j = ((S = (h = I == null ? void 0 : I.value) == null ? void 0 : h.replace(/\s/g, "")) == null ? void 0 : S.trim()) ?? "";
+      if (!this.paymentFeatures.savedPaymentId && !x) {
         console.warn(
           "[SEPA] Account holder validation failed"
         ), this.onError(
@@ -4624,11 +4703,11 @@ const se = class se extends q {
         );
         return;
       }
-      if (!this.paymentFeatures.savedPaymentId && !Fe(re)) {
+      if (!this.paymentFeatures.savedPaymentId && !Fe(x)) {
         this.onError(He(this.getLanguage()));
         return;
       }
-      if (!this.paymentFeatures.savedPaymentId && !N) {
+      if (!this.paymentFeatures.savedPaymentId && !A) {
         console.warn(
           "[SEPA] IBAN validation failed"
         ), this.onError(
@@ -4636,13 +4715,13 @@ const se = class se extends q {
         );
         return;
       }
-      const O = {
+      const ne = {
         paymentMethod: {
           ...this.paymentFeatures.paymentFields,
           type: "DIRECT_DEBIT_SEPA",
-          accHolder: re,
-          iban: N,
-          bic: A
+          accHolder: x,
+          iban: A,
+          bic: j
         },
         paymentOutcome: F.AUTHORIZED,
         lang: this.getLanguage(),
@@ -4656,7 +4735,7 @@ const se = class se extends q {
             "X-Session-Id": this.sessionId
           },
           body: JSON.stringify(
-            O
+            ne
           )
         }
       );
@@ -4674,7 +4753,7 @@ const se = class se extends q {
       }
       const c = await m.json();
       if (String((c == null ? void 0 : c.transactionStatus) ?? "").toUpperCase() === "FAILURE") {
-        (k = this.onError) == null || k.call(
+        (O = this.onError) == null || O.call(
           this,
           (c == null ? void 0 : c.transactionStatusText) || "Payment failed. Please try again.",
           { paymentReference: c == null ? void 0 : c.paymentReference }
@@ -4682,7 +4761,7 @@ const se = class se extends q {
         return;
       }
       if (c != null && c.paymentReference) {
-        (B = this.onComplete) == null || B.call(this, {
+        (E = this.onComplete) == null || E.call(this, {
           isSuccess: !0,
           paymentReference: c.paymentReference
         });
@@ -4696,13 +4775,13 @@ const se = class se extends q {
       ), this.onError(
         (c == null ? void 0 : c.transactionStatusText) || "Some error occurred. Please try again."
       );
-    } catch (C) {
+    } catch (v) {
       console.error(
         "[SEPA] Submit error",
         {
-          message: C == null ? void 0 : C.message,
-          stack: C == null ? void 0 : C.stack,
-          error: C
+          message: v == null ? void 0 : v.message,
+          stack: v == null ? void 0 : v.stack,
+          error: v
         }
       ), this.onError(
         "Some error occurred. Please try again."
@@ -4713,9 +4792,9 @@ const se = class se extends q {
     const n = this.getLanguage(), e = n === "de", t = n.startsWith("de") ? "Der Betrag wird durch Novalnet von Ihrem Konto abgebucht" : "The amount will be debited from your account by Novalnet", o = this.showPayButton ? `
           <button
             class="
-              ${E.button}
-              ${E.fullWidth}
-              ${v.submitButton}
+              ${C.button}
+              ${C.fullWidth}
+              ${B.submitButton}
             "
             id="sepa-payment-button"
             type="button"
@@ -4725,7 +4804,7 @@ const se = class se extends q {
         ` : "";
     return `
       <div
-        class="${v.wrapper}"
+        class="${B.wrapper}"
         style="
           width:100%;
           display:flex;
@@ -4887,12 +4966,12 @@ const se = class se extends q {
     `;
   }
 };
-g(se, "utilityLoadPromise", null);
+w(se, "utilityLoadPromise", null);
 let Ke = se;
 function Xe(r) {
   return /^[0-9]+$/.test(r);
 }
-function Ne(r) {
+function Re(r) {
   return /^[0-9]*$/.test(r);
 }
 function We(r, l) {
@@ -4902,42 +4981,45 @@ function nt(r, l, n, e) {
   if (!r || r.dataset.novalnetNumericValidation === "1") return;
   r.dataset.novalnetNumericValidation = "1";
   const t = We(l, n);
-  let o = Ne(r.value) ? r.value : "";
-  r.addEventListener("beforeinput", (a) => {
-    a.data && !Ne(a.data) && (a.preventDefault(), e(t));
-  }), r.addEventListener("paste", (a) => {
+  let o = Re(r.value) ? r.value : "";
+  r.addEventListener("beforeinput", (s) => {
+    s.data && !Re(s.data) && (s.preventDefault(), e(t));
+  }), r.addEventListener("paste", (s) => {
     var h;
-    const d = ((h = a.clipboardData) == null ? void 0 : h.getData("text")) ?? "";
-    Ne(d) || (a.preventDefault(), e(t));
+    const d = ((h = s.clipboardData) == null ? void 0 : h.getData("text")) ?? "";
+    Re(d) || (s.preventDefault(), e(t));
   }), r.addEventListener("input", () => {
-    Ne(r.value) ? o = r.value : (r.value = o, e(t));
-  }), r.addEventListener("keydown", (a) => {
-    a.key === "Enter" && !Xe(r.value) && (a.preventDefault(), e(t));
+    Re(r.value) ? o = r.value : (r.value = o, e(t));
+  }), r.addEventListener("keydown", (s) => {
+    s.key === "Enter" && !Xe(r.value) && (s.preventDefault(), e(t));
   });
 }
-class Tn {
+class wn {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
-    return new wn(
+    return new Tn(
       this.baseOptions,
       l
     );
   }
 }
-class wn extends q {
+class Tn extends z {
   constructor(n, e) {
     super(
       D.ach,
       n,
       e
     );
-    g(this, "showPayButton");
+    w(this, "paymentFeatures", new ge());
+    w(this, "featuresReady", Promise.resolve());
+    w(this, "formContainer");
+    w(this, "showPayButton");
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
-  mount(n) {
+  async mount(n) {
     const e = "#" + CSS.escape(
       n.substring(1)
     ), t = document.querySelector(
@@ -4950,40 +5032,57 @@ class wn extends q {
       );
       return;
     }
-    if (t.insertAdjacentHTML(
+    t.insertAdjacentHTML(
       "afterbegin",
       this._getTemplate()
-    ), Ye(
+    ), this.formContainer = t;
+    const o = ["#achForm-accHolder", "#achForm-accountNumber", "#achForm-routingNumber"].map((s) => t.querySelector(s)).filter((s) => !!s).map((s) => ({ input: s, disabled: s.disabled }));
+    if (o.forEach(({ input: s }, d) => {
+      var h;
+      return (h = s.parentElement) == null ? void 0 : h.setAttribute("data-nn-ach-field", String(d));
+    }), this.featuresReady = this.paymentFeatures.mount({
+      container: t,
+      processorUrl: this.processorUrl,
+      sessionId: this.sessionId,
+      type: "DIRECT_DEBIT_ACH",
+      locale: this.getLanguage(),
+      fields: ['[data-nn-ach-field="0"]', '[data-nn-ach-field="1"]', '[data-nn-ach-field="2"]'],
+      onSelectionChange: (s) => {
+        o.forEach(({ input: d, disabled: h }) => {
+          d.disabled = s || h;
+        });
+      }
+    }), await this.featuresReady, Ye(
       t.querySelector("#achForm-accHolder"),
       this.getLanguage(),
-      (o) => this.onError(o)
+      (s) => this.onError(s)
     ), nt(
       t.querySelector("#achForm-accountNumber"),
       this.getLanguage(),
       "account",
-      (o) => this.onError(o)
+      (s) => this.onError(s)
     ), nt(
       t.querySelector("#achForm-routingNumber"),
       this.getLanguage(),
       "routing",
-      (o) => this.onError(o)
+      (s) => this.onError(s)
     ), setTimeout(
       () => {
-        var a;
-        const o = t.querySelector(
+        var d;
+        const s = t.querySelector(
           "label"
         );
-        o && ((a = o.textContent) != null && a.toLowerCase().includes("ach")) && (o.textContent = "Direct Debit ACH");
+        s && ((d = s.textContent) != null && d.toLowerCase().includes("ach")) && (s.textContent = "Direct Debit ACH");
       },
       100
     ), this.showPayButton) {
-      const o = document.querySelector(
+      const s = document.querySelector(
         "#achForm-paymentButton"
       );
-      o ? o.addEventListener(
+      s ? s.addEventListener(
         "click",
-        (a) => {
-          a.preventDefault(), this.submit();
+        (d) => {
+          d.preventDefault(), this.submit();
         }
       ) : console.warn(
         "[ACH] Payment button not found"
@@ -4991,50 +5090,54 @@ class wn extends q {
     }
   }
   async submit() {
-    var e, t, o, a, d, h;
+    var e, t, o, s, d, h, S, O, E;
     this.sdk.init({
       environment: this.environment
     });
     const n = window.location.origin;
     try {
-      const S = document.getElementById(
-        "achForm-accHolder"
-      ), k = document.getElementById(
-        "achForm-accountNumber"
-      ), B = document.getElementById(
-        "achForm-routingNumber"
-      ), C = ((e = S == null ? void 0 : S.value) == null ? void 0 : e.trim()) ?? "", j = ((t = k == null ? void 0 : k.value) == null ? void 0 : t.trim()) ?? "", ne = ((o = B == null ? void 0 : B.value) == null ? void 0 : o.trim()) ?? "";
-      if (!C || !j || !ne) {
+      await this.featuresReady;
+      const v = (e = this.formContainer) == null ? void 0 : e.querySelector(
+        "#achForm-accHolder"
+      ), K = (t = this.formContainer) == null ? void 0 : t.querySelector(
+        "#achForm-accountNumber"
+      ), I = (o = this.formContainer) == null ? void 0 : o.querySelector(
+        "#achForm-routingNumber"
+      ), x = ((s = v == null ? void 0 : v.value) == null ? void 0 : s.trim()) ?? "", A = ((d = K == null ? void 0 : K.value) == null ? void 0 : d.trim()) ?? "", j = ((h = I == null ? void 0 : I.value) == null ? void 0 : h.trim()) ?? "";
+      if (!this.paymentFeatures.savedPaymentId && (!x || !A || !j)) {
         console.warn(
           "[ACH] Required field validation failed"
         ), this.onError(
-          this.getLanguage() === "de" ? "Bitte füllen Sie alle Pflichtfelder aus." : "Please fill all required fields."
+          this.getLanguage() === "de" ? "Ihre Kontodaten sind ungültig" : "Your account details are invalid"
         );
         return;
       }
-      if (!Fe(C)) {
+      if (!this.paymentFeatures.savedPaymentId && !Fe(x)) {
         this.onError(He(this.getLanguage()));
         return;
       }
-      if (!Xe(j)) {
+      if (!this.paymentFeatures.savedPaymentId && !Xe(A)) {
         this.onError(We(this.getLanguage(), "account"));
         return;
       }
-      if (!Xe(ne)) {
+      if (!this.paymentFeatures.savedPaymentId && !Xe(j)) {
         this.onError(We(this.getLanguage(), "routing"));
         return;
       }
-      const re = {
+      const ne = {
         paymentMethod: {
+          ...this.paymentFeatures.paymentFields,
           type: "DIRECT_DEBIT_ACH",
-          accHolder: C,
-          accountNumber: j,
-          routingNumber: ne
+          ...!this.paymentFeatures.savedPaymentId && {
+            accHolder: x,
+            accountNumber: A,
+            routingNumber: j
+          }
         },
         paymentOutcome: F.AUTHORIZED,
         lang: this.getLanguage(),
         path: n
-      }, N = await fetch(
+      }, m = await fetch(
         this.processorUrl + "/directPayment",
         {
           method: "POST",
@@ -5043,65 +5146,65 @@ class wn extends q {
             "X-Session-Id": this.sessionId
           },
           body: JSON.stringify(
-            re
+            ne
           )
         }
       );
-      if (!N.ok) {
-        const O = await N.text();
+      if (!m.ok) {
+        const y = await m.text();
         throw console.error(
           "[ACH] HTTP error response",
           {
-            status: N.status,
-            response: O
+            status: m.status,
+            response: y
           }
         ), new Error(
-          `HTTP error! status: ${N.status}`
+          `HTTP error! status: ${m.status}`
         );
       }
-      const A = await N.json();
-      if (String((A == null ? void 0 : A.transactionStatus) ?? "").toUpperCase() === "FAILURE") {
-        (a = this.onError) == null || a.call(
+      const c = await m.json();
+      if (String((c == null ? void 0 : c.transactionStatus) ?? "").toUpperCase() === "FAILURE") {
+        (S = this.onError) == null || S.call(
           this,
-          (A == null ? void 0 : A.transactionStatusText) || "Payment failed. Please try again.",
-          { paymentReference: A == null ? void 0 : A.paymentReference }
+          (c == null ? void 0 : c.transactionStatusText) || "Payment failed. Please try again.",
+          { paymentReference: c == null ? void 0 : c.paymentReference }
         );
         return;
       }
-      if (A != null && A.paymentReference) {
-        const O = typeof A.paymentReference == "string" ? A.paymentReference : (d = A.paymentReference) == null ? void 0 : d.id;
-        if (!O) {
+      if (c != null && c.paymentReference) {
+        const y = typeof c.paymentReference == "string" ? c.paymentReference : (O = c.paymentReference) == null ? void 0 : O.id;
+        if (!y) {
           console.error(
             "[ACH] Payment reference exists but could not be resolved",
             {
-              paymentReference: A.paymentReference
+              paymentReference: c.paymentReference
             }
           ), this.onError(
             "Payment reference missing."
           );
           return;
         }
-        (h = this.onComplete) == null || h.call(this, {
+        (E = this.onComplete) == null || E.call(this, {
           isSuccess: !0,
-          paymentReference: O
+          paymentReference: y
         });
         return;
       }
       console.error(
         "[ACH] Payment reference missing",
         {
-          transactionStatus: A == null ? void 0 : A.transactionStatus,
-          transactionStatusText: A == null ? void 0 : A.transactionStatusText
+          transactionStatus: c == null ? void 0 : c.transactionStatus,
+          transactionStatusText: c == null ? void 0 : c.transactionStatusText
         }
       ), this.onError(
-        (A == null ? void 0 : A.transactionStatusText) || "Payment reference missing."
+        (c == null ? void 0 : c.transactionStatusText) || "Payment reference missing."
       );
-    } catch (S) {
+    } catch (v) {
       console.error(
         "[ACH] Payment error",
         {
-          message: S instanceof Error ? S.message : String(S),
-          stack: S instanceof Error ? S.stack : void 0
+          message: v instanceof Error ? v.message : String(v),
+          stack: v instanceof Error ? v.stack : void 0
         }
       ), this.onError(
         "Some error occurred. Please try again."
@@ -5112,7 +5215,7 @@ class wn extends q {
     const e = this.getLanguage().toLowerCase().startsWith("de");
     return `
       <div
-        class="${v.wrapper}"
+        class="${B.wrapper}"
         style="
           width:100%;
           display:flex;
@@ -5273,9 +5376,9 @@ class wn extends q {
           ${this.showPayButton ? `
                 <button
                   class="
-                    ${E.button}
-                    ${E.fullWidth}
-                    ${v.submitButton}
+                    ${C.button}
+                    ${C.fullWidth}
+                    ${B.submitButton}
                   "
                   id="achForm-paymentButton"
                   type="button"
@@ -5291,10 +5394,10 @@ class wn extends q {
   }
 }
 const rt = "novalnetPaymentError", Ze = "novalnet-payment-error", at = 8e3;
-let ye, Re = 0, ce, Me;
+let ye, $e = 0, ce, Me;
 function ut(r = !1) {
   var l;
-  !r && Date.now() < Re || (Re = 0, ce == null || ce.disconnect(), ce = void 0, ye !== void 0 && (clearTimeout(ye), ye = void 0), (l = document.getElementById(Ze)) == null || l.remove());
+  !r && Date.now() < $e || ($e = 0, ce == null || ce.disconnect(), ce = void 0, ye !== void 0 && (clearTimeout(ye), ye = void 0), (l = document.getElementById(Ze)) == null || l.remove());
 }
 async function it(r, l) {
   try {
@@ -5307,7 +5410,7 @@ async function it(r, l) {
 function Je(r) {
   const l = r instanceof Error ? r.message : String(r ?? "");
   if (!l.trim()) return;
-  Re = 0;
+  $e = 0;
   let n = document.getElementById(Ze);
   if (n || (n = document.createElement("div"), n.id = Ze, n.setAttribute("role", "alert"), n.style.cssText = "position:fixed;top:16px;right:16px;z-index:2147483647;box-sizing:border-box;width:calc(100% - 32px);max-width:420px;padding:12px 16px;border:1px solid #c62828;border-radius:4px;color:#8e1616;background:#fff4f4;box-shadow:0 3px 12px rgba(0,0,0,.2);"), !document.body) {
     document.addEventListener("DOMContentLoaded", () => Je(l), { once: !0 });
@@ -5317,9 +5420,9 @@ function Je(r) {
     document.body && n && !document.body.contains(n) && document.body.append(n);
   }), ce.observe(document.documentElement, { childList: !0, subtree: !0 })), n.textContent = l.slice(0, 500), ye !== void 0 && clearTimeout(ye), ye = setTimeout(() => ut(!0), at);
 }
-function $e(r = !1) {
+function xe(r = !1) {
   const l = new URL(window.location.href), n = l.searchParams.get(rt) ?? Me;
-  if (n && (Me = n, Je(n), Re = Date.now() + at, r)) {
+  if (n && (Me = n, Je(n), $e = Date.now() + at, r)) {
     l.searchParams.delete(rt), Me = void 0;
     try {
       window.history.replaceState(window.history.state, "", l.toString());
@@ -5329,7 +5432,7 @@ function $e(r = !1) {
 }
 class gn {
   constructor(l) {
-    g(this, "componentHasSubmit", !0);
+    w(this, "componentHasSubmit", !0);
     this.baseOptions = l;
   }
   build(l) {
@@ -5339,20 +5442,20 @@ class gn {
     );
   }
 }
-class Sn extends q {
+class Sn extends z {
   constructor(n, e) {
     super(
       D.creditcard,
       n,
       e
     );
-    g(this, "paymentFeatures", new _e());
-    g(this, "featuresReady", Promise.resolve());
-    g(this, "showPayButton");
-    g(this, "panHashPromise", null);
-    g(this, "panHashResolve", null);
-    g(this, "panHashReject", null);
-    g(this, "isSubmitting", !1);
+    w(this, "paymentFeatures", new ge());
+    w(this, "featuresReady", Promise.resolve());
+    w(this, "showPayButton");
+    w(this, "panHashPromise", null);
+    w(this, "panHashResolve", null);
+    w(this, "panHashReject", null);
+    w(this, "isSubmitting", !1);
     this.showPayButton = (e == null ? void 0 : e.showPayButton) ?? !1;
   }
   async mount(n) {
@@ -5383,12 +5486,12 @@ class Sn extends q {
       );
       return;
     }
-    const a = document.querySelector(
+    const s = document.querySelector(
       "#purchaseOrderForm-paymentButton"
     );
     try {
       await this._loadNovalnetScriptOnce(), await this._initNovalnetCreditCardForm(
-        a
+        s
       );
     } catch (h) {
       console.error(
@@ -5459,66 +5562,50 @@ class Sn extends q {
     }
     this.isSubmitting = !0;
     try {
-      if (await this.featuresReady, this.sdk.init({
+      await this.featuresReady, this.sdk.init({
         environment: this.environment
-      }), this.paymentFeatures.savedPaymentId) {
-        const A = await fetch(this.processorUrl + "/directPayment", {
-          method: "POST",
-          headers: { "Content-Type": "application/json", "X-Session-Id": this.sessionId },
-          body: JSON.stringify({
-            paymentMethod: { type: "CREDITCARD", ...this.paymentFeatures.paymentFields },
-            paymentOutcome: F.AUTHORIZED,
-            lang: this.getLanguage(),
-            path: window.location.origin
-          })
-        }), O = await A.json();
-        if (!A.ok || String(O == null ? void 0 : O.transactionStatus).toUpperCase() === "FAILURE") {
-          this.onError((O == null ? void 0 : O.transactionStatusText) || (this.getLanguage() === "de" ? "Die Zahlung ist fehlgeschlagen." : "Payment failed."), { paymentReference: O == null ? void 0 : O.paymentReference });
-          return;
-        }
-        if (O.txnSecret) {
-          window.location.assign(O.txnSecret);
-          return;
-        }
-        O.paymentReference ? this.onComplete({ isSuccess: !0, paymentReference: O.paymentReference }) : this.onError(this.getLanguage() === "de" ? "Die Zahlung ist fehlgeschlagen." : "Payment failed.");
-        return;
-      }
-      const t = window.location.pathname.split("/")[1], a = new URL(
+      });
+      const t = this.paymentFeatures.savedPaymentId, o = window.location.pathname.split("/")[1], d = new URL(
         window.location.href
-      ).origin, d = document.getElementById(
-        "pan_hash"
-      ), h = document.getElementById(
-        "unique_id"
-      ), S = document.getElementById(
-        "do_redirect"
-      );
-      let k = (d == null ? void 0 : d.value.trim()) ?? "", B = (h == null ? void 0 : h.value.trim()) ?? "", C = (S == null ? void 0 : S.value.trim()) ?? "";
-      if (!k || !B) {
-        const A = await this._getPanHash();
-        k = A.hash, B = A.unique_id, C = String(
-          A.do_redirect ?? ""
-        ), d && (d.value = k), h && (h.value = B), S && (S.value = C);
-      }
-      if (!k || !B)
-        throw new Error(
-          "Credit card tokenization failed. pan_hash or unique_id is missing."
+      ).origin;
+      let h = "", S = "", O = "";
+      if (!t) {
+        const x = document.getElementById(
+          "pan_hash"
+        ), A = document.getElementById(
+          "unique_id"
+        ), j = document.getElementById(
+          "do_redirect"
         );
-      const j = this._isRedirectRequired(
-        C
-      ), ne = {
+        if (h = (x == null ? void 0 : x.value.trim()) ?? "", S = (A == null ? void 0 : A.value.trim()) ?? "", O = (j == null ? void 0 : j.value.trim()) ?? "", !h || !S) {
+          const ne = await this._getPanHash();
+          h = ne.hash, S = ne.unique_id, O = String(
+            ne.do_redirect ?? ""
+          ), x && (x.value = h), A && (A.value = S), j && (j.value = O);
+        }
+        if (!h || !S)
+          throw new Error(
+            "Credit card tokenization failed. pan_hash or unique_id is missing."
+          );
+      }
+      const E = !t && this._isRedirectRequired(
+        O
+      ), v = {
         paymentMethod: {
           ...this.paymentFeatures.paymentFields,
           type: "CREDITCARD",
-          panHash: k,
-          uniqueId: B,
-          doRedirect: C
+          ...!t && {
+            panHash: h,
+            uniqueId: S,
+            doRedirect: O
+          }
         },
         paymentOutcome: F.AUTHORIZED,
-        lang: t ?? "de",
-        path: a
+        lang: t ? this.getLanguage() : o ?? "de",
+        path: d
       };
-      if (j) {
-        const A = await fetch(
+      if (E) {
+        const x = await fetch(
           this.processorUrl + "/redirectPayment",
           {
             method: "POST",
@@ -5527,37 +5614,37 @@ class Sn extends q {
               "X-Session-Id": this.sessionId
             },
             body: JSON.stringify(
-              ne
+              v
             )
           }
         );
-        if (!A.ok)
+        if (!x.ok)
           throw new Error(
-            await it(A, `Redirect payment failed. HTTP ${A.status}`)
+            await it(x, `Redirect payment failed. HTTP ${x.status}`)
           );
-        const O = await A.json();
-        if (String((O == null ? void 0 : O.transactionStatus) ?? "").toUpperCase() === "FAILURE") {
+        const A = await x.json();
+        if (String((A == null ? void 0 : A.transactionStatus) ?? "").toUpperCase() === "FAILURE") {
           this.onError(
-            (O == null ? void 0 : O.transactionStatusText) || "Payment failed. Please try again.",
-            { paymentReference: O == null ? void 0 : O.paymentReference }
+            (A == null ? void 0 : A.transactionStatusText) || "Payment failed. Please try again.",
+            { paymentReference: A == null ? void 0 : A.paymentReference }
           );
           return;
         }
         if (console.log(
           "[CC] Redirect payment response received",
           {
-            hasTxnSecret: !!(O != null && O.txnSecret)
+            hasTxnSecret: !!(A != null && A.txnSecret)
           }
-        ), !(O != null && O.txnSecret))
+        ), !(A != null && A.txnSecret))
           throw new Error(
             "Redirect payment response does not contain txnSecret."
           );
         window.location.assign(
-          O.txnSecret
+          A.txnSecret
         );
         return;
       }
-      const re = await fetch(
+      const K = await fetch(
         this.processorUrl + "/directPayment",
         {
           method: "POST",
@@ -5566,37 +5653,37 @@ class Sn extends q {
             "X-Session-Id": this.sessionId
           },
           body: JSON.stringify(
-            ne
+            v
           )
         }
       );
-      if (!re.ok)
+      if (!K.ok)
         throw new Error(
-          await it(re, `Direct payment failed. HTTP ${re.status}`)
+          await it(K, `Direct payment failed. HTTP ${K.status}`)
         );
-      const N = await re.json();
-      if (String((N == null ? void 0 : N.transactionStatus) ?? "").toUpperCase() === "FAILURE") {
+      const I = await K.json();
+      if (String((I == null ? void 0 : I.transactionStatus) ?? "").toUpperCase() === "FAILURE") {
         (n = this.onError) == null || n.call(
           this,
-          (N == null ? void 0 : N.transactionStatusText) || "Payment failed. Please try again.",
-          { paymentReference: N == null ? void 0 : N.paymentReference }
+          (I == null ? void 0 : I.transactionStatusText) || "Payment failed. Please try again.",
+          { paymentReference: I == null ? void 0 : I.paymentReference }
         );
         return;
       }
-      if (N != null && N.txnSecret) {
-        window.location.assign(N.txnSecret);
+      if (I != null && I.txnSecret) {
+        window.location.assign(I.txnSecret);
         return;
       }
-      if (N != null && N.paymentReference && !(N != null && N.txnSecret)) {
+      if (I != null && I.paymentReference && !(I != null && I.txnSecret)) {
         (e = this.onComplete) == null || e.call(this, {
           isSuccess: !0,
-          paymentReference: N.paymentReference
+          paymentReference: I.paymentReference
         });
         return;
       }
-      if (!(N != null && N.paymentReference) && !(N != null && N.txnSecret)) {
+      if (!(I != null && I.paymentReference) && !(I != null && I.txnSecret)) {
         this.onError(
-          (N == null ? void 0 : N.transactionStatusText) || "Payment failed. Please try again."
+          (I == null ? void 0 : I.transactionStatusText) || "Payment failed. Please try again."
         );
         return;
       }
@@ -5619,9 +5706,9 @@ class Sn extends q {
     const e = (document.documentElement.lang || "en").startsWith("de") ? "Der Betrag wird Ihrer Kredit-/Debitkarte belastet" : "The amount will be debited from your credit/debit card", t = this.showPayButton ? `
           <button
             class="
-              ${E.button}
-              ${E.fullWidth}
-              ${v.submitButton}
+              ${C.button}
+              ${C.fullWidth}
+              ${B.submitButton}
             "
             id="purchaseOrderForm-paymentButton"
             type="button"
@@ -5630,7 +5717,7 @@ class Sn extends q {
           </button>
         ` : "";
     return `
-      <div class="${v.wrapper}">
+      <div class="${B.wrapper}">
         <p>${e}</p>
         
         <iframe
@@ -5676,10 +5763,10 @@ class Sn extends q {
       if (window.NovalnetUtility)
         return;
       await new Promise(
-        (a, d) => {
+        (s, d) => {
           e.addEventListener(
             "load",
-            () => a(),
+            () => s(),
             { once: !0 }
           ), e.addEventListener(
             "error",
@@ -5695,8 +5782,8 @@ class Sn extends q {
     );
     t.src = n, t.crossOrigin = "anonymous";
     const o = new Promise(
-      (a, d) => {
-        t.onload = () => a(), t.onerror = (h) => d(h);
+      (s, d) => {
+        t.onload = () => s(), t.onerror = (h) => d(h);
       }
     );
     document.head.appendChild(
@@ -5744,7 +5831,7 @@ class Sn extends q {
     this.clientKey = String(
       o.paymentReference
     );
-    const a = String(
+    const s = String(
       (o == null ? void 0 : o.inline) ?? "1"
     ) === "1" ? 1 : 0;
     e.setClientKey(
@@ -5753,24 +5840,24 @@ class Sn extends q {
     const d = {
       callback: {
         on_success: async (h) => {
-          var C;
+          var v;
           if (!(h != null && h.hash) || !(h != null && h.unique_id)) {
-            const j = new Error(
+            const K = new Error(
               "Novalnet did not return pan_hash or unique_id."
             );
-            return (C = this.panHashReject) == null || C.call(
+            return (v = this.panHashReject) == null || v.call(
               this,
-              j
+              K
             ), this.panHashPromise = null, this.panHashResolve = null, this.panHashReject = null, n && (n.disabled = !1), !1;
           }
           const S = document.getElementById(
             "pan_hash"
-          ), k = document.getElementById(
+          ), O = document.getElementById(
             "unique_id"
-          ), B = document.getElementById(
+          ), E = document.getElementById(
             "do_redirect"
           );
-          return S && (S.value = h.hash), k && (k.value = h.unique_id), B && (B.value = String(
+          return S && (S.value = h.hash), O && (O.value = h.unique_id), E && (E.value = String(
             h.do_redirect ?? ""
           )), this.panHashResolve && this.panHashResolve({
             hash: h.hash,
@@ -5793,7 +5880,7 @@ class Sn extends q {
       },
       iframe: {
         id: "novalnet_iframe",
-        inline: a,
+        inline: s,
         style: {
           container: "",
           input: "",
@@ -5831,7 +5918,7 @@ class Pn {
    * @param environment - The environment for the SDK.
    */
   constructor({ environment: l }) {
-    g(this, "environment");
+    w(this, "environment");
     this.environment = l, console.log("FakeSdk constructor", this.environment);
   }
   /**
@@ -5842,29 +5929,29 @@ class Pn {
     console.log("FakeSdk init", l);
   }
 }
-const xe = class xe {
+const _e = class _e {
   constructor(l) {
-    g(this, "setupData");
-    this.setupData = xe._Setup(l);
+    w(this, "setupData");
+    this.setupData = _e._Setup(l);
   }
   async createComponentBuilder(l) {
     const { baseOptions: n } = await this.setupData;
-    $e(!0);
+    xe(!0);
     const e = l == null ? void 0 : l.trim().toLowerCase();
     let t = e;
     e.includes("ideal") && (t = "ideal"), (e.includes("direct debit sepa") || e.includes("sepa") || e.includes("Direct Debit SEPA")) && (t = "sepa"), (e.includes("direct debit ach") || e.includes("ach") || e.includes("Direct Debit ACH")) && (t = "ach"), (e.includes("online bank transfer") || e.includes("onlinebanktransfer") || e.includes("Online bank transfer")) && (t = "onlinebanktransfer"), (e.includes("credit/debit cards") || e.includes("creditcard") || e.includes("Credit/Debit Cards")) && (t = "creditcard"), (e.includes("mb way") || e.includes("mbway") || e.includes("MB Way")) && (t = "mbway"), (e.includes("invoice with payment guarantee") || e.includes("guaranteedinvoice") || e.includes("GuaranteedInvoice") || e.includes("Invoice with payment guarantee")) && (t = "guaranteedinvoice"), (e.includes("direct debit sepa with payment guarantee") || e.includes("guaranteedsepa") || e.includes("GuaranteedSepa") || e.includes("Direct Debit SEPA with payment guarantee")) && (t = "guaranteedsepa"), (e.includes("postFinance card") || e.includes("postfinancecard") || e.includes("PostFinance Card")) && (t = "postfinancecard"), (e.includes("postFinance e-finance") || e.includes("postfinance") || e.includes("PostFinance E-Finance")) && (t = "postfinance");
-    const a = {
+    const s = {
       invoice: Pt,
       prepayment: Et,
       guaranteedinvoice: It,
       guaranteedsepa: Lt,
-      ideal: At,
+      ideal: Ot,
       paypal: Nt,
       onlinebanktransfer: $t,
       alipay: _t,
       bancontact: Ht,
       blik: jt,
-      eps: qt,
+      eps: zt,
       mbway: Kt,
       multibanco: Wt,
       postfinance: Yt,
@@ -5883,16 +5970,16 @@ const xe = class xe {
       naverpay: et,
       "naver pay": et,
       sepa: bn,
-      ach: Tn,
+      ach: wn,
       creditcard: gn
     }[t];
-    if (!a)
+    if (!s)
       throw new Error(`Unsupported payment type: ${l}`);
-    return new a(n);
+    return new s(n);
   }
 };
-g(xe, "_Setup", async (l) => {
-  $e();
+w(_e, "_Setup", async (l) => {
+  xe();
   const n = {
     // environment: configJson.environment,
     environment: "test"
@@ -5915,8 +6002,8 @@ g(xe, "_Setup", async (l) => {
     }
   });
 });
-let ot = xe;
-typeof window < "u" && (document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", $e, { once: !0 }) : $e());
+let ot = _e;
+typeof window < "u" && (document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", xe, { once: !0 }) : xe());
 export {
   ot as Enabler
 };
