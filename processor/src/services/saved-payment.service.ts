@@ -9,6 +9,25 @@ const ONE_CLICK = [
   "GUARANTEED_DIRECT_DEBIT_SEPA",
   "DIRECT_DEBIT_ACH",
 ];
+type GuaranteeCompanyCart = {
+  billingAddress?: { company?: unknown; firstName?: unknown; lastName?: unknown } | null;
+  businessUnit?: { key?: unknown } | null;
+  businessUnitKey?: unknown;
+};
+
+export function getGuaranteeCompany(cart: GuaranteeCompanyCart): string {
+  const billing = cart.billingAddress;
+  const company = typeof billing?.company === "string" ? billing.company.trim() : "";
+  if (company) return company;
+
+  const businessUnitKey = (typeof cart.businessUnit?.key === "string" ? cart.businessUnit.key.trim() : "") ||
+    (typeof cart.businessUnitKey === "string" ? cart.businessUnitKey.trim() : "");
+  const firstName = typeof billing?.firstName === "string" ? billing.firstName.trim() : "";
+  if (!businessUnitKey || !firstName) return "";
+  const lastName = typeof billing?.lastName === "string" ? billing.lastName.trim() : "";
+  return [firstName, lastName].filter(Boolean).join(" ");
+}
+
 export function isBusinessGuarantee(
   type: string,
   company: unknown,
