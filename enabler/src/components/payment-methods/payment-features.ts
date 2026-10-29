@@ -111,12 +111,17 @@ export class PaymentFeatures {
         row.style.display = "flex";
         row.style.alignItems = "center";
         row.style.gap = "8px";
-        label.style.flex = "1";
+        row.style.justifyContent = "flex-start";
+        label.style.display = "inline-flex";
+        label.style.alignItems = "center";
+        label.style.flex = "0 1 auto";
+        label.style.width = "auto";
+        label.style.margin = "0";
         const remove = document.createElement("button");
         remove.type = "button";
         remove.title = dictionary.delete;
         remove.setAttribute("aria-label", `${dictionary.delete}: ${payment.label}`);
-        remove.style.cssText = "border:0;background:transparent;cursor:pointer;padding:4px;color:inherit;";
+        remove.style.cssText = "border:0;background:transparent;cursor:pointer;padding:4px;color:inherit;width:auto;flex:0 0 auto;margin:0;display:inline-flex;align-items:center;";
         remove.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 6h18M9 6V3h6v3M5 6l1 15h12l1-15M10 10v7M14 10v7"/></svg>';
         remove.addEventListener("click", async (event) => {
           event.preventDefault();
@@ -135,9 +140,14 @@ export class PaymentFeatures {
             const wasSelected = radio.checked;
             radio.checked = false;
             row.remove();
-            if (wasSelected) {
-              const next = this.radios!.querySelector<HTMLInputElement>('input[type="radio"]');
-              if (next) next.checked = true;
+            const remaining = this.radios!.querySelector<HTMLInputElement>(
+              'input[type="radio"]:not([value=""])',
+            );
+            if (!remaining) {
+              this.radios!.remove();
+              this.radios = undefined;
+            } else if (wasSelected) {
+              remaining.checked = true;
             }
             this.toggle();
           } catch {
