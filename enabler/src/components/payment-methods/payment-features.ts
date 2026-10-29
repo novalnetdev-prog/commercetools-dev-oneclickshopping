@@ -63,20 +63,74 @@ export class PaymentFeatures {
         : {};
   }
   private async loadFeatures(options: FeatureOptions): Promise<Features> {
-    const response = await fetch(
-      `${options.processorUrl}/paymentFeatures?paymentMethod=${encodeURIComponent(options.type)}`,
-      { headers: { "X-Session-Id": options.sessionId }, cache: "no-store" },
-    );
-    if (!response.ok) throw new Error("Unable to load payment settings.");
-    return response.json();
+    if (options.dob) {
+      console.log("[B2B-DOB][enabler:v1] Feature request", {
+        paymentType: options.type,
+        processorUrl: options.processorUrl,
+        sessionHeaderPresent: Boolean(options.sessionId),
+        dobSelector: options.dob,
+      });
+    }
+    try {
+      const response = await fetch(
+        `${options.processorUrl}/paymentFeatures?paymentMethod=${encodeURIComponent(options.type)}`,
+        { headers: { "X-Session-Id": options.sessionId }, cache: "no-store" },
+      );
+      if (options.dob) {
+        console.log("[B2B-DOB][enabler:v1] Feature HTTP result", {
+          paymentType: options.type, status: response.status, ok: response.ok,
+        });
+      }
+      if (!response.ok) throw new Error("Unable to load payment settings.");
+      const data = await response.json();
+      if (options.dob) {
+        console.log("[B2B-DOB][enabler:v1] Feature response", {
+          paymentType: options.type,
+          business: data.business,
+          businessValueType: typeof data.business,
+        });
+      }
+      return data;
+    } catch (error) {
+      if (options.dob) {
+        console.error("[B2B-DOB][enabler:v1] Feature request failed", {
+          paymentType: options.type,
+          message: error instanceof Error ? error.message : String(error),
+        });
+      }
+      throw error;
+    }
   }
   private applyBusiness(business: boolean): void {
     this.business = business;
     const dob = this.dobState;
-    if (!dob) return;
+    if (!dob) {
+      if (this.businessOptions?.dob) {
+        console.warn("[B2B-DOB][enabler:v1] DOB input not found", {
+          paymentType: this.businessOptions.type,
+          dobSelector: this.businessOptions.dob,
+          business,
+        });
+      }
+      return;
+    }
     if (dob.field) dob.field.style.display = business ? "none" : dob.display;
     dob.input.disabled = business ? true : dob.disabled;
     dob.input.required = business ? false : dob.required;
+    console.log("[B2B-DOB][enabler:v1] DOB visibility applied", {
+      paymentType: this.businessOptions?.type,
+      business,
+      dobSelector: this.businessOptions?.dob,
+      inputFound: true,
+      wrapperFound: Boolean(dob.field),
+      containerConnected: this.businessOptions?.container.isConnected,
+      inputConnected: dob.input.isConnected,
+      wrapperInlineDisplay: dob.field?.style.display,
+      wrapperComputedDisplay: dob.field && typeof window !== "undefined" && typeof window.getComputedStyle === "function"
+        ? window.getComputedStyle(dob.field).display : undefined,
+      disabled: dob.input.disabled,
+      required: dob.input.required,
+    });
   }
   public async refreshBusiness(): Promise<void> {
     const options = this.businessOptions;
@@ -124,6 +178,16 @@ export class PaymentFeatures {
       input, field: input.parentElement, display: input.parentElement?.style.display ?? "",
       disabled: input.disabled, required: input.required,
     } : undefined;
+    if (options.dob) {
+      console.log("[B2B-DOB][enabler:v1] Form mounted", {
+        paymentType: options.type,
+        dobSelector: options.dob,
+        inputFound: Boolean(input),
+        wrapperFound: Boolean(input?.parentElement),
+        matchingInputsInContainer: options.container.querySelectorAll?.(options.dob).length,
+        matchingInputsInDocument: typeof document !== "undefined" ? document.querySelectorAll?.(options.dob).length : undefined,
+      });
+    }
     const data = await this.loadFeatures(options);
     if (this.businessOptions !== options) return;
     this.applyBusiness(data.business === true);
