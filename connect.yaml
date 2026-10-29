@@ -61,11 +61,12 @@ deployAs:
           required: false
           default: "payment"
         - key: NOVALNET_INVOICE_PAYMENT_ACTION_MINIMUM_AMOUNT
+          required: false
           description: In case the order amount exceeds the mentioned limit, the transaction will be set on-hold till your confirmation of the transaction. Configure Authorize as payment action and leave the field empty if you wish to process all the transactions as on-hold. (in minimum unit of currency. E.g. enter 100 which is equal to 1.00)
         - key: NOVALNET_GUARANTEED_INVOICE_TEST_MODE
           description: The payment will be processed in the test mode therefore amount for this transaction will not be charged (1=Test, 0=Live)
-          default: "0"
           required: false
+          default: "0"
         - key: NOVALNET_GUARANTEED_INVOICE_FORCE_NON_GUARANTEED_PAYMENT
           description: Even if payment guarantee is enabled, payments will still be processed as non-guarantee payments if the payment guarantee requirements are not met. Review the requirements under "Enable Payment Guarantee" in the Installation Guide. (1=Enable, 0=Disable)
           required: false
