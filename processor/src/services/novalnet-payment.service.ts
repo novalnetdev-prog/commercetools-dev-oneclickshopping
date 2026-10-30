@@ -550,46 +550,9 @@ export class NovalnetPaymentService extends AbstractPaymentService {
     if (!["CREDITCARD", "DIRECT_DEBIT_SEPA", "GUARANTEED_DIRECT_DEBIT_SEPA", "DIRECT_DEBIT_ACH", "GUARANTEED_INVOICE"].includes(type)) {
       throw new CheckoutPaymentError("Unsupported payment method.");
     }
-    const contextCartId = getCartIdFromContext();
-    const isGuarantee = ["GUARANTEED_INVOICE", "GUARANTEED_DIRECT_DEBIT_SEPA"].includes(type);
-    const b2bConfigKey = `novalnet_${type}_Allowb2bCustomers`;
-    if (isGuarantee) {
-      log.info("[B2B-DOB][processor] Feature lookup started", {
-        paymentType: type,
-        contextCartId,
-        b2bConfigKey,
-        allowB2BValue: String((getConfig() as Record<string, any>)[b2bConfigKey] ?? ""),
-      });
-    }
-    const cart = await this.ctCartService.getCart({ id: contextCartId });
+    const cart = await this.ctCartService.getCart({ id: getCartIdFromContext() });
     const resolvedCompany = getGuaranteeCompany(cart);
     const business = isBusinessGuarantee(type, resolvedCompany);
-    if (isGuarantee) {
-      const company = cart.billingAddress?.company;
-      log.info("[B2B-DOB][processor] Feature decision", {
-        paymentType: type,
-        contextCartId,
-        cartId: cart.id,
-        cartVersion: cart.version,
-        billingAddressPresent: Boolean(cart.billingAddress),
-        billingAddressKeys: Object.keys(cart.billingAddress ?? {}),
-        billingCompanyType: typeof company,
-        billingCompanyPresent: typeof company === "string" && Boolean(company.trim()),
-        billingCompanyLength: typeof company === "string" ? company.length : 0,
-        billingCompanyTrimmedLength: typeof company === "string" ? company.trim().length : 0,
-        billingCustomFieldNames: Object.keys(cart.billingAddress?.custom?.fields ?? {}),
-        shippingCompanyPresent: typeof cart.shippingAddress?.company === "string" && Boolean(cart.shippingAddress.company.trim()),
-        businessUnitPresent: Boolean(cart.businessUnit),
-        businessUnitKeyPresent: Boolean(cart.businessUnit?.key?.trim() || (typeof (cart as any).businessUnitKey === "string" && (cart as any).businessUnitKey.trim())),
-        billingFirstNamePresent: typeof cart.billingAddress?.firstName === "string" && Boolean(cart.billingAddress.firstName.trim()),
-        billingLastNamePresent: typeof cart.billingAddress?.lastName === "string" && Boolean(cart.billingAddress.lastName.trim()),
-        resolvedCompanySource: typeof company === "string" && company.trim()
-          ? "billingAddress.company" : resolvedCompany ? "billingAddress.firstName+lastName" : "none",
-        resolvedCompanyPresent: Boolean(resolvedCompany),
-        resolvedCompanyLength: resolvedCompany.length,
-        business,
-      });
-    }
     return {
       business,
       oneClick: Boolean(cart.customerId) && oneClickEnabled(type),
@@ -695,15 +658,15 @@ export class NovalnetPaymentService extends AbstractPaymentService {
         ? Math.max(999, configuredMinimum) : 999;
       const amountValid = orderTotal >= guaranteeMinimum;
 
-      const countryAllowed =
-        billingCountry &&
-        ["DE", "AT", "CH"].includes(billingCountry);
+      const allowedCountries = businessGuarantee
+        ? this.getEuropeanRegionCountryCodes()
+        : ["DE", "AT", "CH"];
 
       const guaranteePayment =
         Boolean(sameAddress) &&
         Boolean(isEur) &&
         Boolean(amountValid) &&
-        Boolean(countryAllowed);
+        Boolean(allowedCountries);
 
       const isForceNonGuarantee =
         forceNonGuarantee !== undefined &&
@@ -1128,7 +1091,18 @@ export class NovalnetPaymentService extends AbstractPaymentService {
         parsedResponse?.transaction?.status_text,
     };
   }
-
+	
+ private getEuropeanRegionCountryCodes(): string[] {
+		  return [
+		    "AT", "BE", "BG", "CY", "CZ",
+		    "DE", "DK", "EE", "ES", "FI",
+		    "FR", "GR", "HR", "HU", "IE",
+		    "IT", "LT", "LU", "LV", "MT",
+		    "NL", "PL", "PT", "RO", "SE",
+		    "SI", "SK", "UK", "CH",
+		  ];
+  }
+	
   private formatBirthDateToYMD(dateStr: string): string | undefined {
     if (!dateStr) return undefined;
   
