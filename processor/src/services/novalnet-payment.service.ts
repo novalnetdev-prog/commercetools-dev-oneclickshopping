@@ -903,7 +903,7 @@ export class NovalnetPaymentService extends AbstractPaymentService {
     if (savedToken) transaction.payment_data = { token: savedToken };
     if (!savedToken && request.data.paymentMethod.savePayment === true && ctCart.customerId && oneClickEnabled(type.toUpperCase())) {
       transaction.create_token = 1;
-      await savedPaymentService.consent(ctPayment.id, pspReference, ctCart.customerId, type.toUpperCase(), true);
+      await savedPaymentService.consent(ctPayment.id, pspReference, ctCart.customerId, type.toUpperCase(), true, lang);
     }
 
     if (["GUARANTEED_INVOICE", "GUARANTEED_DIRECT_DEBIT_SEPA"].includes(type.toUpperCase())) {
@@ -3668,7 +3668,7 @@ private async getModificationFlags(paymentId: string, eventType: string, status?
 
     if (type.toUpperCase() === "CREDITCARD" && request.data.paymentMethod.savePayment === true && ctCart.customerId && oneClickEnabled("CREDITCARD")) {
       transaction.create_token = 1;
-      await savedPaymentService.consent(ctPayment.id, pspReference, ctCart.customerId, "CREDITCARD", true);
+      await savedPaymentService.consent(ctPayment.id, pspReference, ctCart.customerId, "CREDITCARD", true, lang);
     }
 
     const authorizationMinimum = Number(minimumAmount);
