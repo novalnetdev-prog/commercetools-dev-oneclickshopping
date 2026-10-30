@@ -60,6 +60,7 @@ type Consent = {
   type: string;
   scope: string;
   pspReference: string;
+  language?: string;
   pending?: SavedPayment & { tid: string };
   savedId?: string;
   createdAt?: string;
@@ -159,6 +160,7 @@ export class SavedPaymentService {
     customerId: string | undefined,
     type: string,
     requested: unknown,
+    language = "en",
   ): Promise<void> {
     if (!customerId || !oneClickEnabled(type) || requested !== true) return;
     const value: Consent = {
@@ -166,6 +168,7 @@ export class SavedPaymentService {
       type,
       scope: this.scope(customerId, type),
       pspReference,
+      language: String(language).toLowerCase().startsWith("de") ? "de" : "en",
       createdAt: new Date().toISOString(),
     };
     await this.api
@@ -176,13 +179,30 @@ export class SavedPaymentService {
   private tokenDetails(consent: Consent, data: any): SavedPayment {
     const token = String(data.token);
     const id = hash(consent.scope + ":" + token);
-    const label = String(
-      consent.type === "CREDITCARD"
-        ? (data.card_number ?? "")
-        : consent.type === "DIRECT_DEBIT_ACH"
-          ? (data.account_number ?? "")
-          : (data.iban ?? ""),
-    );
+    const isGerman = String(consent.language ?? "en").toLowerCase().startsWith("de");
+    let label = "";
+
+    if (consent.type === "CREDITCARD") {
+      const brand = String(data.card_brand ?? "").trim();
+      const lastFour = String(
+        data.last_four ?? String(data.card_number ?? "").slice(-4),
+      ).trim();
+      const expiryMonth = data.card_expiry_month;
+      const expiryYear = data.card_expiry_year;
+      const cardName = [brand, isGerman ? "mit Endziffern" : "ending in", lastFour]
+        .filter(Boolean)
+        .join(" ");
+      label = expiryMonth && expiryYear
+        ? `${cardName} (${isGerman ? "gültig bis" : "expires"} ${expiryMonth}/${expiryYear})`
+        : cardName;
+    } else if (consent.type === "DIRECT_DEBIT_ACH") {
+      const accountNumber = String(data.account_number ?? "").trim();
+      label = `${isGerman ? "Kontonummer" : "ACCOUNT NO"}${accountNumber ? ` ${accountNumber}` : ""}`;
+    } else {
+      const iban = String(data.iban ?? "").trim();
+      label = `IBAN${iban ? ` ${iban}` : ""}`;
+    }
+
     return { id, token, label, createdAt: new Date().toISOString() };
   }
   async rememberRedirect(
