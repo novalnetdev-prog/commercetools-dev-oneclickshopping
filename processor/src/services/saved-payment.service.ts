@@ -187,7 +187,7 @@ export class SavedPaymentService {
       const lastFour = String(
         data.last_four ?? String(data.card_number ?? "").slice(-4),
       ).trim();
-      const expiryMonth = data.card_expiry_month;
+      const expiryMonth = String(data.card_expiry_month ?? "").padStart(2, "0");
       const expiryYear = data.card_expiry_year;
       const cardName = [brand, isGerman ? "mit Endziffern" : "ending in", lastFour]
         .filter(Boolean)
