@@ -64,7 +64,7 @@ export class PaymentFeatures {
   }
   private async loadFeatures(options: FeatureOptions): Promise<Features> {
     const response = await fetch(
-      `${options.processorUrl}/paymentFeatures?paymentMethod=${encodeURIComponent(options.type)}`,
+      `${options.processorUrl}/paymentFeatures?paymentMethod=${encodeURIComponent(options.type)}&lang=${encodeURIComponent(options.locale)}`,
       { headers: { "X-Session-Id": options.sessionId }, cache: "no-store" },
     );
     if (!response.ok) throw new Error("Unable to load payment settings.");
@@ -141,6 +141,11 @@ export class PaymentFeatures {
       this.radios = document.createElement("fieldset");
       this.radios.style.border = "0";
       this.radios.style.padding = "0";
+      const legend = document.createElement("legend");
+      legend.textContent =
+        options.type === "CREDITCARD" ? "Credit/Debit Cards"
+          : options.type === "DIRECT_DEBIT_ACH" ? dictionary.accountNumber : "IBAN";
+      this.radios.appendChild(legend);
       [
         ...payments,
         {
