@@ -546,17 +546,54 @@ export class NovalnetPaymentService extends AbstractPaymentService {
     }
   }
 
-  public async getPaymentFeatures(type: string) {
+  public async getPaymentFeatures(type: string, language = "en") {
     if (!["CREDITCARD", "DIRECT_DEBIT_SEPA", "GUARANTEED_DIRECT_DEBIT_SEPA", "DIRECT_DEBIT_ACH", "GUARANTEED_INVOICE"].includes(type)) {
       throw new CheckoutPaymentError("Unsupported payment method.");
     }
-    const cart = await this.ctCartService.getCart({ id: getCartIdFromContext() });
+    const contextCartId = getCartIdFromContext();
+    const isGuarantee = ["GUARANTEED_INVOICE", "GUARANTEED_DIRECT_DEBIT_SEPA"].includes(type);
+    const b2bConfigKey = `novalnet_${type}_Allowb2bCustomers`;
+    if (isGuarantee) {
+      log.info("[B2B-DOB][processor] Feature lookup started", {
+        paymentType: type,
+        contextCartId,
+        b2bConfigKey,
+        allowB2BValue: String((getConfig() as Record<string, any>)[b2bConfigKey] ?? ""),
+      });
+    }
+    const cart = await this.ctCartService.getCart({ id: contextCartId });
     const resolvedCompany = getGuaranteeCompany(cart);
     const business = isBusinessGuarantee(type, resolvedCompany);
+    if (isGuarantee) {
+      const company = cart.billingAddress?.company;
+      log.info("[B2B-DOB][processor] Feature decision", {
+        paymentType: type,
+        contextCartId,
+        cartId: cart.id,
+        cartVersion: cart.version,
+        billingAddressPresent: Boolean(cart.billingAddress),
+        billingAddressKeys: Object.keys(cart.billingAddress ?? {}),
+        billingCompanyType: typeof company,
+        billingCompanyPresent: typeof company === "string" && Boolean(company.trim()),
+        billingCompanyLength: typeof company === "string" ? company.length : 0,
+        billingCompanyTrimmedLength: typeof company === "string" ? company.trim().length : 0,
+        billingCustomFieldNames: Object.keys(cart.billingAddress?.custom?.fields ?? {}),
+        shippingCompanyPresent: typeof cart.shippingAddress?.company === "string" && Boolean(cart.shippingAddress.company.trim()),
+        businessUnitPresent: Boolean(cart.businessUnit),
+        businessUnitKeyPresent: Boolean(cart.businessUnit?.key?.trim() || (typeof (cart as any).businessUnitKey === "string" && (cart as any).businessUnitKey.trim())),
+        billingFirstNamePresent: typeof cart.billingAddress?.firstName === "string" && Boolean(cart.billingAddress.firstName.trim()),
+        billingLastNamePresent: typeof cart.billingAddress?.lastName === "string" && Boolean(cart.billingAddress.lastName.trim()),
+        resolvedCompanySource: typeof company === "string" && company.trim()
+          ? "billingAddress.company" : resolvedCompany ? "billingAddress.firstName+lastName" : "none",
+        resolvedCompanyPresent: Boolean(resolvedCompany),
+        resolvedCompanyLength: resolvedCompany.length,
+        business,
+      });
+    }
     return {
       business,
       oneClick: Boolean(cart.customerId) && oneClickEnabled(type),
-      savedPayments: await savedPaymentService.list(cart.customerId, type),
+      savedPayments: await savedPaymentService.list(cart.customerId, type, language),
     };
   }
 
@@ -867,6 +904,27 @@ export class NovalnetPaymentService extends AbstractPaymentService {
     if (!savedToken && request.data.paymentMethod.savePayment === true && ctCart.customerId && oneClickEnabled(type.toUpperCase())) {
       transaction.create_token = 1;
       await savedPaymentService.consent(ctPayment.id, pspReference, ctCart.customerId, type.toUpperCase(), true, lang);
+    }
+
+    if (["GUARANTEED_INVOICE", "GUARANTEED_DIRECT_DEBIT_SEPA"].includes(type.toUpperCase())) {
+      log.info("[B2B-DOB][processor] Direct payment payload decision", {
+        requestedPaymentType: type,
+        novalnetPaymentType: transaction.payment_type,
+        cartId: ctCart.id,
+        cartVersion: ctCart.version,
+        allowB2BValue: String((config as Record<string, any>)[`novalnet_${type.toUpperCase()}_Allowb2bCustomers`] ?? ""),
+        billingCompanyPresent: typeof billingAddress?.company === "string" && Boolean(billingAddress.company.trim()),
+        business: businessGuarantee,
+        businessUnitKeyPresent: Boolean(ctCart.businessUnit?.key?.trim() || (typeof (ctCart as any).businessUnitKey === "string" && (ctCart as any).businessUnitKey.trim())),
+        billingFirstNamePresent: typeof billingAddress?.firstName === "string" && Boolean(billingAddress.firstName.trim()),
+        billingLastNamePresent: typeof billingAddress?.lastName === "string" && Boolean(billingAddress.lastName.trim()),
+        resolvedCompanySource: typeof billingAddress?.company === "string" && billingAddress.company.trim()
+          ? "billingAddress.company" : resolvedBusinessCompany ? "billingAddress.firstName+lastName" : "none",
+        resolvedCompanyLength: resolvedBusinessCompany.length,
+        submittedDobPresent: typeof rawBirthDate === "string" && Boolean(rawBirthDate.trim()),
+        outgoingCompanyPresent: Boolean(novalnetPayload.customer.billing.company),
+        outgoingDobPresent: Boolean(novalnetPayload.customer.birth_date),
+      });
     }
 
     let paymentActionUrl = "payment";
